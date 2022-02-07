@@ -26,14 +26,15 @@ function Thumb (props) {
 }
 
 function ModalElement (props) {
-  const { name, show, filePath } = props
+  const { name, show, filePath/*, device */ } = props
 
   return (
-    <div className={classNames('modal fade', { show })}>
+    <div className={classNames('modal fade', styles.modal, { show })}>
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
-          <div className="modal-body">
-            <Image src={`https://destinyemblemwallpapers.com/fullres/${filePath}`} alt={name} unoptimized layout='fill' />
+          <div className={classNames('modal-body p-0')}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img className='w-100' src={`https://destinyemblemwallpapers.com/fullres/${filePath}`} alt={name}/>
           </div>
           <div className="modal-footer">
           <div className='mx-auto'>{name}</div>
@@ -49,7 +50,7 @@ function ModalElement (props) {
 }
 
 export default function Gallery (props) {
-  const { device = 'desktop', images = [], parent, modal: modalInput } = props
+  const { device = 'Desktop', images = [], parent, modal: modalInput } = props
   const [modal/*, setModal */] = useState(modalInput)
 
   /* useEffect(async () => {
@@ -65,7 +66,7 @@ export default function Gallery (props) {
 
   return (
     <div className={classNames('container-fluid flex-fill px-0', styles.root)}>
-      <ModalElement {...modal} show={!!modal} />
+      <ModalElement {...modal} device={device} show={!!modal} />
       <div className="col">
         <div className="row">
           {images.map(i => <Thumb key={i.filePath} device={device} parent={parent} {...i}/>)}
