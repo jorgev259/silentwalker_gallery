@@ -25,7 +25,7 @@ function Thumb (props) {
 }
 
 function ModalElement (props) {
-  const { name, show, filePath/*, device */, parent } = props
+  const { name, show, filePath, parent } = props
   const fullres = `https://destinyemblemwallpapers.com/fullres/${filePath}`
 
   return (
@@ -54,14 +54,21 @@ function ModalElement (props) {
 }
 
 export default function Gallery (props) {
-  const { device = 'Desktop', images = [], parent, modal, popup } = props
+  const { device = 'Desktop', images = [], parent, modal, popup, sort } = props
+  const imageList = sort === 'new'
+    ? images.sort((a, b) => a.mtimeMs - b.mtimeMs).reverse()
+    : images.sort((a, b) => {
+      if (a.name < b.name) return -1
+      if (a.name > b.name) return 1
+      return 0
+    })
 
   return (
     <div className={classNames('container-fluid flex-fill px-0', styles.root)} style={{ paddingTop: popup ? '130px' : '60px' }}>
       <ModalElement {...modal} device={device} show={!!modal} parent={parent} />
       <div className="col">
         <div className="row">
-          {images.map(i => <Thumb key={i.filePath} device={device} parent={parent} {...i} />)}
+          {imageList.map(i => <Thumb key={i.filePath} device={device} parent={parent} {...i} />)}
         </div>
       </div>
     </div>

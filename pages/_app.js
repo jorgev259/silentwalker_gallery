@@ -9,6 +9,7 @@ import { getWithExpiry, setWithExpiry } from '../components/utilsClient'
 
 function MyApp ({ Component, pageProps }) {
   const [popup, setPopup] = useState()
+  const [sort, setSort] = useState('new')
 
   useEffect(() => {
     if (process.env.NODE_ENV === 'development') return setPopup(true)
@@ -23,16 +24,14 @@ function MyApp ({ Component, pageProps }) {
     setWithExpiry('donate', false, 1 * 7 * 24 * 60 * 60 * 1000)
   }
 
-  useEffect(() => {
-    import('bootstrap/dist/js/bootstrap.bundle')
-  }, [])
+  useEffect(() => import('bootstrap/dist/js/bootstrap.bundle'), [])
 
-  const props = { popup, donateClose }
+  const props = { sort, setSort, popup, donateClose }
 
   return (
     <>
       <Navbar {...props} />
-      <Component {...pageProps} {...props} />
+      <Component {...pageProps} sort={sort} popup={popup} />
       <Footer />
     </>
   )

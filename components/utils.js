@@ -37,5 +37,5 @@ export async function getImages (galleryPath) {
   const fileList = await globAsync(path.join(baseFolder, galleryPath, '**'), { nodir: true })
   const imageList = await Promise.all(fileList.map(f => readImage(f)))
 
-  return imageList.sort((a, b) => a.mtimeMs - b.mtimeMs).reverse()
+  return imageList
 }
