@@ -1,9 +1,6 @@
-import Gallery from '../components/Gallery'
-
-export default function Home () {
+export default function Home (props) {
   return (
     <>
-      <Gallery />
     </>
   )
 }
