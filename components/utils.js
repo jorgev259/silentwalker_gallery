@@ -2,8 +2,6 @@ import path from 'path'
 import glob from 'glob'
 import fs from 'fs-extra'
 
-const baseFolder = process.env.baseFolder
-
 export const dictionary = {
   destiny1: 'Destiny 1',
   destiny2: 'Destiny 2'
@@ -29,12 +27,12 @@ export async function readImage (filePath) {
   return {
     name,
     mtimeMs,
-    filePath: path.relative(baseFolder, filePath).replaceAll(path.sep, '/')
+    filePath: path.relative('images', filePath).replaceAll(path.sep, '/')
   }
 }
 
 export async function getImages (galleryPath) {
-  const fileList = await globAsync(path.join(baseFolder, galleryPath, '**'), { nodir: true })
+  const fileList = await globAsync(path.join('images', galleryPath, '**'), { nodir: true })
   const imageList = await Promise.all(fileList.map(f => readImage(f)))
 
   return imageList

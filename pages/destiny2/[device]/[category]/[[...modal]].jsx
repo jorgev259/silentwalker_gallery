@@ -15,7 +15,7 @@ export async function getServerSideProps (context) {
 
   if (modalInput) {
     const [modalName] = modalInput
-    const filePath = path.join(process.env.baseFolder, galleryPath, `${modalName}.jpg`)
+    const filePath = path.join('images', galleryPath, `${modalName}.jpg`)
     const exists = await fs.pathExists(filePath)
 
     if (exists) modal = await readImage(filePath)
