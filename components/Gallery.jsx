@@ -50,7 +50,7 @@ function ModalElement (props) {
 }
 
 export default function Gallery (props) {
-  const { device = 'Desktop', images = [], parent, modal: modalInput } = props
+  const { device = 'Desktop', images = [], parent, modal: modalInput, popup } = props
   const [modal/*, setModal */] = useState(modalInput)
 
   /* useEffect(async () => {
@@ -65,7 +65,7 @@ export default function Gallery (props) {
   }, [modal]) */
 
   return (
-    <div className={classNames('container-fluid flex-fill px-0', styles.root)}>
+    <div className={classNames('container-fluid flex-fill px-0', styles.root)} style={{ paddingTop: popup ? '130px' : '60px' }}>
       <ModalElement {...modal} device={device} show={!!modal} />
       <div className="col">
         <div className="row">

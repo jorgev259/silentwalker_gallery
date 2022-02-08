@@ -1,3 +1,5 @@
+import Popup from './Popup'
+
 function DeviceToggle (props) {
   const { active } = props
   function handleToggle () {
@@ -32,8 +34,9 @@ function SortToggle (props) {
   )
 }
 
-export default function Navbar () {
+export default function Navbar (props) {
   return (
+    <>
     <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
   <div className="container-fluid">
     <a className="navbar-brand">
@@ -88,5 +91,7 @@ export default function Navbar () {
     </div>
   </div>
 </nav>
+<Popup {...props} />
+</>
   )
 }
