@@ -8,9 +8,9 @@ export async function getServerSideProps (context) {
   const { params } = context
   const { device: deviceInput, category: categoryInput, modal: modalInput } = params
 
-  const device = capitalize(deviceInput)
-  const category = capitalize(categoryInput)
-  const galleryPath = path.join('Destiny 2', device, category)
+  const device = deviceInput
+  const category = categoryInput
+  const galleryPath = path.join('Destiny 2', capitalize(device), capitalize(category))
   let modal = null
 
   if (modalInput) {

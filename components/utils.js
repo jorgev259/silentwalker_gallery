@@ -26,7 +26,11 @@ export async function readImage (filePath) {
   const { mtimeMs } = await fs.stat(filePath)
   const { name } = path.parse(filePath)
 
-  return { mtimeMs, filePath: path.relative(baseFolder, filePath).replaceAll(path.sep, '/'), name }
+  return {
+    name,
+    mtimeMs,
+    filePath: path.relative(baseFolder, filePath).replaceAll(path.sep, '/')
+  }
 }
 
 export async function getImages (galleryPath) {

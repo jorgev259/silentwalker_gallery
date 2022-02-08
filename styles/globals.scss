@@ -412,7 +412,10 @@ footer {
 }
 
 .modal {
-  display:none;
+  pointer-events: none;
+  display: block;
+  opacity: 0;
+  transition: opacity .20s linear;
   background-color: rgba(0, 0, 0, 0.5);
 
   .modal-btn{
@@ -428,5 +431,6 @@ footer {
 }
 
 .modal.show {
-  display: block;
+  pointer-events: all;
+  opacity: 1;
 }
