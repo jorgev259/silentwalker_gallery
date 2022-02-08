@@ -21,7 +21,7 @@ function MyApp ({ Component, pageProps }) {
 
   function donateClose () {
     setPopup(false)
-    setWithExpiry('donate', false, 1 * 7 * 24 * 60 * 60 * 1000)
+    setWithExpiry('donate', false, 24 * 60 * 60 * 1000)
   }
 
   useEffect(() => import('bootstrap/dist/js/bootstrap.bundle'), [])
