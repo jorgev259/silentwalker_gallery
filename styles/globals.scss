@@ -13,14 +13,14 @@ body{
 .navbar {
   z-index: 3;
   height: 60px;
-  background-image: url('../public/img/assets/bar_bg.png');
+  background-image: url('../img/assets/bar_bg.png');
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.72);
   background-color: #9B9A9A;
 
   text-transform: uppercase;
 
   .dropdown-menu {
-    background-image: url('../public/img/assets/bar_bg.png');
+    background-image: url('../img/assets/bar_bg.png');
     background-position: center;
     background-size: cover;
 

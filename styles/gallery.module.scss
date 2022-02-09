@@ -17,7 +17,7 @@
 
   .desktop {
     height: calc(100vw / 1 * 9 / 16);
-    background-image: url('../public/img/assets/loading_Desktop.gif');
+    background-image: url('../img/assets/loading_Desktop.gif');
 
     @media (min-width: 576px) { height: calc(100vw / 2 * 9 / 16); }
     @media (min-width: 768px) { height: calc(100vw / 4 * 9 / 16); }
@@ -25,7 +25,7 @@
 
   .mobile {
     height: calc(100vw / 2 * 16 / 9);
-    background-image: url('../public/img/assets/loading_Mobile.gif');
+    background-image: url('../img/assets/loading_Mobile.gif');
 
     @media (min-width: 576px) { height: calc(100vw / 3 * 16 / 9); }
     @media (min-width: 768px) { height: calc(100vw / 6 * 16 / 9); }
