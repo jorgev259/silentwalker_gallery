@@ -88,6 +88,15 @@ export default function Navbar (props) {
           <a className="navbar-brand d-flex align-items-center">
             <Image src={tricorn} alt='' height='32px' width='32px' />
           </a>
+
+          <div className="d-flex d-md-none nav-item my-auto align-items-center mx-2" style={{ height: '30px' }}>
+            <DeviceToggle router={router} />
+          </div>
+
+          <div className="d-flex d-md-none nav-item my-auto align-items-center mx-2" style={{ height: '30px' }}>
+            <SortToggle {...sortProps} />
+          </div>
+
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -123,11 +132,11 @@ export default function Navbar (props) {
                 <a className="nav-link" aria-current="page" href="#">Info</a>
               </li>
 
-              <li className="nav-item my-auto d-flex align-items-center mx-2" style={{ height: '30px' }}>
+              <li className="d-none d-md-flex nav-item my-auto align-items-center mx-2" style={{ height: '30px' }}>
                 <DeviceToggle router={router} />
               </li>
 
-              <li className="nav-item my-auto d-flex align-items-center mx-2" style={{ height: '30px' }}>
+              <li className="d-none d-md-flex nav-item my-auto align-items-center mx-2" style={{ height: '30px' }}>
                 <SortToggle {...sortProps} />
               </li>
             </ul>
