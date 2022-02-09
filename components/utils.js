@@ -20,7 +20,7 @@ function globAsync (pattern, options = {}) {
   })
 }
 
-export async function readImage (filePath) {
+async function readImage (filePath) {
   const { mtimeMs } = await fs.stat(filePath)
   const { name } = path.parse(filePath)
 
@@ -36,4 +36,15 @@ export async function getImages (galleryPath) {
   const imageList = await Promise.all(fileList.map(f => readImage(f)))
 
   return imageList
+}
+
+export async function getModal (modalInput, galleryPath) {
+  if (!modalInput) return null
+
+  const [modalName] = modalInput
+  const filePath = path.join('images', galleryPath, `${modalName}.jpg`)
+  const exists = await fs.pathExists(filePath)
+
+  if (exists) return await readImage(filePath)
+  return null
 }

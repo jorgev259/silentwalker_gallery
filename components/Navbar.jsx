@@ -98,8 +98,8 @@ export default function Navbar (props) {
                   Destiny 1
                 </a>
                 <ul className="dropdown-menu py-0" aria-labelledby="navbarDropdown">
-                  <li><a className="dropdown-item" href="#">Wallpapers</a></li>
-                  <li><a className="dropdown-item" href="#">Download All</a></li>
+                  <DropdownItem href={`/destiny1/${device}`} name='Wallpapers' currentUrl={router.asPath} />
+                  <li><a className="dropdown-item" href="https://drive.google.com/drive/folders/1drejXFUS5JIKP2WgqqdM0wSa0kY60cuI" rel="noopener noreferrer" target="_blank">Download All</a></li>
                 </ul>
               </li>
 

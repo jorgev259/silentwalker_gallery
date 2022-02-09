@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { getWithExpiry, setWithExpiry } from '../components/utilsClient'
 
-function MyApp ({ Component, pageProps }) {
+export default function App ({ Component, pageProps }) {
   const [popup, setPopup] = useState()
   const [sort, setSort] = useState('new')
 
@@ -36,5 +36,3 @@ function MyApp ({ Component, pageProps }) {
     </>
   )
 }
-
-export default MyApp

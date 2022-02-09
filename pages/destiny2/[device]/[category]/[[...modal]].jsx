@@ -1,8 +1,7 @@
 import path from 'path'
-import fs from 'fs-extra'
 
 import Gallery from '../../../../components/Gallery'
-import { getImages, readImage, capitalize } from '../../../../components/utils'
+import { getImages, capitalize, getModal } from '../../../../components/utils'
 
 export async function getServerSideProps (context) {
   const { params } = context
@@ -11,15 +10,8 @@ export async function getServerSideProps (context) {
   const device = deviceInput
   const category = categoryInput
   const galleryPath = path.join('Destiny 2', capitalize(device), capitalize(category))
-  let modal = null
 
-  if (modalInput) {
-    const [modalName] = modalInput
-    const filePath = path.join('images', galleryPath, `${modalName}.jpg`)
-    const exists = await fs.pathExists(filePath)
-
-    if (exists) modal = await readImage(filePath)
-  }
+  const modal = await getModal(modalInput, galleryPath)
 
   return {
     props: {
@@ -31,7 +23,7 @@ export async function getServerSideProps (context) {
   }
 }
 
-export default function Page (props) {
+export default function Destiny2 (props) {
   return (
     <Gallery {...props} />
   )
