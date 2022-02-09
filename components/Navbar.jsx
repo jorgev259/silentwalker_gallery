@@ -4,9 +4,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import Popup from './Popup'
+import laptop from '../img/assets/laptop.png'
+import phone from '../img/assets/phone.png'
+import clock from '../img/assets/clock.png'
+import nameImg from '../img/assets/name.png'
+import tricorn from '../img/assets/tricorn.png'
 
-function DeviceToggle () {
-  const router = useRouter()
+function DeviceToggle (props) {
+  const { router } = props
   const { query } = router
   const { device = 'desktop' } = query
 
@@ -16,7 +21,7 @@ function DeviceToggle () {
   return (
     <>
       <div className='d-inline-block'>
-        <Image src='/img/assets/laptop.png' alt='' height='30px' width='40px' />
+        <Image src={laptop} alt='' height='30px' width='40px' />
       </div>
 
       <Link href={router.asPath.replace(device, nextDevice)}>
@@ -28,7 +33,7 @@ function DeviceToggle () {
       </Link>
 
       <div className='d-inline-block'>
-        <Image src='/img/assets/phone.png' alt='' height='30px' width='22px' />
+        <Image src={phone} alt='' height='30px' width='22px' />
       </div>
     </>
   )
@@ -44,7 +49,7 @@ function SortToggle (props) {
   return (
     <>
       <div className='d-inline-block'>
-        <Image src='/img/assets/clock.png' alt='' height='27px' width='27px' />
+        <Image src={clock} alt='' height='27px' width='27px' />
       </div>
 
       <div className='toggle d-flex align-items-center' onClick={handleToggle}>
@@ -52,9 +57,18 @@ function SortToggle (props) {
       </div>
 
       <div className='d-inline-block'>
-        <Image src='/img/assets/name.png' alt='' height='25px' width='25px' />
+        <Image src={nameImg} alt='' height='25px' width='25px' />
       </div>
     </>
+  )
+}
+
+function DropdownItem (props) {
+  const { href, name, currentUrl } = props
+  const active = href === currentUrl
+
+  return (
+    <li><Link href={href}><a className={classNames('dropdown-item', { active })}>{name}</a></Link></li>
   )
 }
 
@@ -63,12 +77,16 @@ export default function Navbar (props) {
   const sortProps = { sort, setSort }
   const donateProps = { popup, donateClose }
 
+  const router = useRouter()
+  const { query } = router
+  const { device = 'desktop' } = query
+
   return (
     <>
       <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand d-flex align-items-center">
-            <Image src='/img/assets/tricorn.png' alt='' height='32px' width='32px' />
+            <Image src={tricorn} alt='' height='32px' width='32px' />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -79,7 +97,7 @@ export default function Navbar (props) {
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Destiny 1
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul className="dropdown-menu py-0" aria-labelledby="navbarDropdown">
                   <li><a className="dropdown-item" href="#">Wallpapers</a></li>
                   <li><a className="dropdown-item" href="#">Download All</a></li>
                 </ul>
@@ -89,16 +107,16 @@ export default function Navbar (props) {
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Destiny 2
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a className="dropdown-item" href="#">Emblems</a></li>
-                  <li><a className="dropdown-item" href="#">Seals</a></li>
-                  <li><a className="dropdown-item" href="#">Bonus</a></li>
-                  <li><a className="dropdown-item" href="#">Download All</a></li>
+                <ul className="dropdown-menu py-0" aria-labelledby="navbarDropdown">
+                  <DropdownItem href={`/destiny2/${device}/emblems`} name='Emblems' currentUrl={router.asPath} />
+                  <DropdownItem href={`/destiny2/${device}/seals`} name='Seals' currentUrl={router.asPath} />
+                  <DropdownItem href={`/destiny2/${device}/bonus`} name='Bonus' currentUrl={router.asPath} />
+                  <li><a className="dropdown-item" href="https://drive.google.com/drive/folders/1__8jBXGy14tL12ciEoqBepwxWeqJaD_7" rel="noopener noreferrer" target="_blank">Download All</a></li>
                 </ul>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Clan Banners</a>
+                <a className="nav-link" aria-current="page" href="#">Clan Banners</a>
               </li>
 
               <li className="nav-item">
@@ -106,7 +124,7 @@ export default function Navbar (props) {
               </li>
 
               <li className="nav-item my-auto d-flex align-items-center mx-2" style={{ height: '30px' }}>
-                <DeviceToggle />
+                <DeviceToggle router={router} />
               </li>
 
               <li className="nav-item my-auto d-flex align-items-center mx-2" style={{ height: '30px' }}>

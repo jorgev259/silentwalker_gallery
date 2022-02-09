@@ -35,6 +35,10 @@ body{
     .dropdown-item, .dropdown-item:hover {
       background-color: none !important;
     }
+
+    .dropdown-item.active {
+      background-color: #5b5b5b !important;
+    }
   }
 
   .navbar-text {
