@@ -23,12 +23,21 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@master
+        with:
+            fetch-depth: 0
+      - uses: fregante/setup-git-user@v1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'yarn'
       - name: rclone
         uses: wei/rclone@v1
         env:
           RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
         with:
-          args: sync -v 'drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers' drive_gallery
+          args: copy -v 'drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers' img/drive_gallery
       - run: |
-          dir
+          git add -A
+          git diff-index --quiet HEAD || git commit -m 'Deploy ${{ github.sha }}'
+          git push
 
