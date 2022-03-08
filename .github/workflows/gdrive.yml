@@ -37,6 +37,7 @@ jobs:
         with:
           args: copy -v 'drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers' img/drive_gallery
       - run: |
+          git config --global http.postBuffer 157286400
           git add -A
           git diff-index --quiet HEAD || git commit -m 'Deploy ${{ github.sha }}'
           git push
