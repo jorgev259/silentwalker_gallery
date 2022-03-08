@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Test Gdrive
+name: GDrive Sync
 
 # Controls when the workflow will run
 on:
@@ -35,12 +35,9 @@ jobs:
         env:
           RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
         with:
-          args: copy -v 'drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers' img/drive_gallery
+          args: sync -v 'drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers' img/drive_gallery
       - run: |
-          git config --global http.postBuffer 1048576000
-          git config --global http.maxRequestBuffer 500M
-          git config --global core.compression 0
           git add -A
-          git diff-index --quiet HEAD || git commit -m 'Deploy ${{ github.sha }}'
+          git diff-index --quiet HEAD || git commit -m 'Synced with Google Drive'
           git push
 
