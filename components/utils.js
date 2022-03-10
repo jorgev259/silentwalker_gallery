@@ -4,7 +4,9 @@ import fs from 'fs-extra'
 
 export const dictionary = {
   destiny1: 'Destiny 1',
-  destiny2: 'Destiny 2'
+  destiny2: 'Destiny 2',
+  desktop: 'Desktop',
+  mobile: 'Mobile'
 }
 
 export function capitalize ([first, ...rest]) {
@@ -27,12 +29,12 @@ async function readImage (filePath) {
   return {
     name,
     mtimeMs,
-    filePath: path.relative('images', filePath).replaceAll(path.sep, '/')
+    filePath: path.relative('img/drive_gallery', filePath).replaceAll(path.sep, '/')
   }
 }
 
 export async function getImages (galleryPath) {
-  const fileList = await globAsync(path.join('images', galleryPath, '**'), { nodir: true })
+  const fileList = await globAsync(path.join('img/drive_gallery', galleryPath, '**'), { nodir: true })
   const imageList = await Promise.all(fileList.map(f => readImage(f)))
 
   return imageList
@@ -42,7 +44,7 @@ export async function getModal (modalInput, galleryPath) {
   if (!modalInput) return null
 
   const [modalName] = modalInput
-  const filePath = path.join('images', galleryPath, `${modalName}.jpg`)
+  const filePath = path.join('img/drive_gallery', galleryPath, `${modalName}.jpg`)
   const exists = await fs.pathExists(filePath)
 
   if (exists) return await readImage(filePath)

@@ -21,5 +21,6 @@ module.exports = {
     'react'
   ],
   rules: {
+    '@next/next/no-img-element': 'off'
   }
 }

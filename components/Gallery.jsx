@@ -1,6 +1,5 @@
 
 import classNames from 'classnames'
-import Image from 'next/image'
 import Link from 'next/link'
 
 import styles from '../styles/gallery.module.scss'
@@ -17,23 +16,23 @@ function Thumb (props) {
     <div className={classNames('px-0', styles.thumb, styles[device], deviceStyles[device])}>
       <Link href={`${parent}/${name}`} >
         <a className='position-relative w-100 h-100 d-block'>
-          <Image layout='fill' src={`https://destinyemblemwallpapers.com/fullres/${filePath}`} alt={name} quality={20} />
+          <img src={require(`../img/drive_gallery/${filePath}?resize&size=300`)} alt={name} />
         </a>
       </Link>
     </div>
   )
 }
 
-function ModalElement (props) {
+/* function ModalElement (props) {
   const { name, show, filePath, parent } = props
-  const fullres = `https://destinyemblemwallpapers.com/fullres/${filePath}`
+  const fullres = filePath ? require(`../img/drive_gallery/${filePath}?original`) : ''
 
   return (
     <div className={classNames('modal fade', styles.modal, { show })}>
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
           <div className={classNames('modal-body p-0')}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
+            {/* eslint-disable-next-line @next/next/no-img-element *//* }
             {show && <img className='w-100' src={fullres} alt={name}/>}
           </div>
           <div className="modal-footer">
@@ -51,10 +50,10 @@ function ModalElement (props) {
       </div>
     </div>
   )
-}
+} */
 
 export default function Gallery (props) {
-  const { device = 'Desktop', images = [], parent, modal, popup, sort } = props
+  const { device = 'Desktop', images = [], parent, /* modal, */ popup, sort } = props
   const imageList = sort === 'new'
     ? images.sort((a, b) => a.mtimeMs - b.mtimeMs).reverse()
     : images.sort((a, b) => {
@@ -65,7 +64,7 @@ export default function Gallery (props) {
 
   return (
     <div className={classNames('container-fluid flex-fill px-0', styles.root)} style={{ paddingTop: popup ? '130px' : '60px' }}>
-      <ModalElement {...modal} device={device} show={!!modal} parent={parent} />
+      {/* <ModalElement {...modal} device={device} show={!!modal} parent={parent} /> */}
       <div className="col">
         <div className="row">
           {imageList.map(i => <Thumb key={i.filePath} device={device} parent={parent} {...i} />)}

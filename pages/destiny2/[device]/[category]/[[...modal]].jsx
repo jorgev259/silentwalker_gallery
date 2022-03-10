@@ -1,9 +1,9 @@
-import path from 'path'
+/* import path from 'path'
 
 import Gallery from '../../../../components/Gallery'
-import { getImages, capitalize, getModal } from '../../../../components/utils'
+import { getImages, capitalize, getModal } from '../../../../components/utils' */
 
-export async function getServerSideProps (context) {
+/* export async function getServerSideProps (context) {
   const { params } = context
   const { device: deviceInput, category: categoryInput, modal: modalInput } = params
 
@@ -21,10 +21,11 @@ export async function getServerSideProps (context) {
       modal
     }
   }
-}
+} */
 
 export default function Destiny2 (props) {
   return (
-    <Gallery {...props} />
+    /* <Gallery {...props} /> */
+    123
   )
 }

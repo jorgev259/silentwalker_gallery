@@ -30,14 +30,19 @@ jobs:
         with:
           node-version: '16'
           cache: 'yarn'
-      - run: |
-          git checkout -b dist origin/dist
-          git merge main
-      - run: |
-          yarn install --production --pure-lockfile
-          node prepareCI
+
+      - name: Install dependencies
+        run: yarn install --production --pure-lockfile         
+
+      - name: Build website
+        run: |
           yarn build
-      - run: |
-          git add -A
-          git diff-index --quiet HEAD || git commit -m 'Deploy ${{ github.sha }}'
-          git push
+          yarn export
+
+      - name: Deploy
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: dist
+          FOLDER: out
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -3,7 +3,19 @@ import path from 'path'
 import Gallery from '../../../components/Gallery'
 import { getImages, capitalize, getModal } from '../../../components/utils'
 
-export async function getServerSideProps (context) {
+export async function getStaticPaths () {
+  // const images = await getImages('Destiny 1')
+
+  return {
+    paths: [
+      { params: { device: 'desktop', modal: [] } },
+      { params: { device: 'mobile', modal: [] } }
+    ],
+    fallback: true // false or 'blocking'
+  }
+}
+
+export async function getStaticProps (context) {
   const { params } = context
   const { device: deviceInput, modal: modalInput } = params
 

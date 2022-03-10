@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 import logo from '../img/assets/logo.png'
 
 export default function Footer () {
@@ -8,7 +6,7 @@ export default function Footer () {
       <div className='container-fluid'>
         <div className='row'>
           <div className='col d-flex align-items-center'>
-              <Image alt='logo' src={logo} height={'25px'} width={'112px'}/>
+              <img alt='logo' src={logo} style={{ height: '25px', width: '112px' }} />
           </div>
           <div className='col d-none d-md-block '>
             <div style={{ fontSize: '13.5px', textAlign: 'right' }}>

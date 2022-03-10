@@ -1,6 +1,5 @@
 import classNames from 'classnames'
 import { useRouter } from 'next/router'
-import Image from 'next/image'
 import Link from 'next/link'
 
 import Popup from './Popup'
@@ -21,7 +20,7 @@ function DeviceToggle (props) {
   return (
     <>
       <div className='d-inline-block'>
-        <Image src={laptop} alt='' height='30px' width='40px' />
+        <img src={laptop} alt='' style={{ height: '30px', width: '40px' }}/>
       </div>
 
       <Link href={router.asPath.replace(device, nextDevice)}>
@@ -33,7 +32,7 @@ function DeviceToggle (props) {
       </Link>
 
       <div className='d-inline-block'>
-        <Image src={phone} alt='' height='30px' width='22px' />
+        <img src={phone} alt='' style={{ height: '30px', width: '22px' }} />
       </div>
     </>
   )
@@ -49,7 +48,7 @@ function SortToggle (props) {
   return (
     <>
       <div className='d-inline-block'>
-        <Image src={clock} alt='' height='27px' width='27px' />
+        <img src={clock} alt='' style={{ height: '27px', width: '27px' }} />
       </div>
 
       <div className='toggle d-flex align-items-center' onClick={handleToggle}>
@@ -57,7 +56,7 @@ function SortToggle (props) {
       </div>
 
       <div className='d-inline-block'>
-        <Image src={nameImg} alt='' height='25px' width='25px' />
+        <img src={nameImg} alt='' style={{ height: '25px', width: '25px' }} />
       </div>
     </>
   )
@@ -86,7 +85,7 @@ export default function Navbar (props) {
       <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand d-flex align-items-center">
-            <Image src={tricorn} alt='' height='32px' width='32px' />
+            <img src={tricorn} alt='' style={{ height: '32px', width: '32px' }} />
           </a>
 
           <div className="d-flex d-md-none nav-item my-auto align-items-center mx-2" style={{ height: '30px' }}>
