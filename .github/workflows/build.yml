@@ -32,7 +32,7 @@ jobs:
           cache: 'yarn'
 
       - name: Install dependencies
-        run: yarn install --production --pure-lockfile         
+        run: yarn install --pure-lockfile         
 
       - name: Build website
         run: |
