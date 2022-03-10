@@ -15,8 +15,7 @@ module.exports = withPlugins(
     compress: false,
     images: {
       loader: 'custom',
-      disableStaticImages: true,
-      domains: ['destinyemblemwallpapers.com']
+      disableStaticImages: true
     },
     sassOptions: {
       includePaths: [path.join(__dirname, 'styles')]
