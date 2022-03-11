@@ -27,6 +27,11 @@ jobs:
         with:
           node-version: '16'
           cache: 'yarn'
+      
+      - name: Set Swap Space
+        uses: pierotofy/set-swap-space@master
+        with:
+          swap-size-gb: 16
 
       - name: Install dependencies
         run: yarn install --pure-lockfile         
