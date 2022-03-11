@@ -39,13 +39,11 @@ jobs:
       - name: Build website
         run: |
           yarn build
-          yarn export
-          touch out/.nojekyll
-
-      - name: Deploy
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: dist
-          FOLDER: out
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          yarn export -o docs
+          touch docs/.nojekyll
+          touch .nojekyll
+      
+      - run: |
+          git add -A
+          git diff-index --quiet HEAD || git commit -m 'Deploy {{ github.sha }}'
+          git push
