@@ -11,6 +11,7 @@ module.exports = withPlugins(
     }]
   ],
   {
+    assetPrefix: process.env.NODE_ENV === 'production' ? 'https://jorgev259.github.io/silentwalker_gallery_rework/' : '',
     reactStrictMode: true,
     compress: false,
     images: {

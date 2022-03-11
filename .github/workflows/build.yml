@@ -43,7 +43,8 @@ jobs:
           yarn export -o docs
           touch docs/.nojekyll
       
-      - run: |
+      - name: Commit
+        run: |
           git add -A
-          git diff-index --quiet HEAD || git commit -m 'Deploy {{ github.sha }}'
+          git diff-index --quiet HEAD || git commit -m 'Deploy ${{ github.sha }}'
           git push
