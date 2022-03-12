@@ -22,9 +22,12 @@ async function readImage (filePath) {
   const parentUrl = path.relative('img/drive_gallery', dir)
     .replaceAll(' ', '').toLowerCase().replaceAll(path.sep, '/')
 
+  const urlName = encodeURI(name)
+
   return {
     name,
-    urlPath: `/${parentUrl}/${encodeURI(name)}`,
+    urlName,
+    urlPath: `/${parentUrl}/${urlName}`,
     imgPath: `https://raw.githubusercontent.com/jorgev259/silentwalker_gallery_rework/main/${filePath}`,
     mtimeMs,
     filePath
@@ -38,15 +41,4 @@ export async function getImages (galleryPath) {
   return imageList
 }
 
-export async function getModal (modalInput, galleryPath) {
-  if (!modalInput) return null
-
-  const [modalNameInput] = modalInput
-  const modalName = decodeURI(modalNameInput)
-
-  const filePath = path.join('img/drive_gallery', galleryPath, `${modalName}.jpg`)
-  const exists = await fs.pathExists(filePath)
-
-  if (exists) return await readImage(filePath)
-  return null
-}
+export const getModal = (image, images) => images.find(i => i.urlName === image || i.name === image)
