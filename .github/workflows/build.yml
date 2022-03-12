@@ -34,14 +34,14 @@ jobs:
         with:
           swap-size-gb: 10
 
-      - name: Install dependencies
-        run: yarn install --pure-lockfile         
+      # - name: Install dependencies
+      #   run: yarn install --pure-lockfile         
 
-      - name: Build website
-        run: |
-          yarn build
-          yarn export -o docs
-          touch docs/.nojekyll
+      # - name: Build website
+      #  run: |
+      #    yarn build
+      #    yarn export -o docs
+      #    touch docs/.nojekyll
       
       - name: Deploy
         uses: s0/git-publish-subdir-action@develop
