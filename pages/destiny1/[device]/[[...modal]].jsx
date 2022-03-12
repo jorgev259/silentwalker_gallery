@@ -4,12 +4,17 @@ import Gallery from '../../../components/Gallery'
 import { getImages, capitalize, getModal } from '../../../components/utils'
 
 export async function getStaticPaths () {
-  // const images = await getImages('Destiny 1')
+  const images = await getImages('Destiny 1')
+  const imagePaths = images.map(i => {
+    const [, device, modal] = i.urlPath.split('/')
+    return { params: { device, modal: [modal] } }
+  })
 
   return {
     paths: [
       { params: { device: 'desktop', modal: [] } },
-      { params: { device: 'mobile', modal: [] } }
+      { params: { device: 'mobile', modal: [] } },
+      ...imagePaths
     ],
     fallback: true // false or 'blocking'
   }
@@ -27,7 +32,6 @@ export async function getStaticProps (context) {
   return {
     props: {
       images: await getImages(galleryPath),
-      parent: `/destiny1/${device}`,
       device,
       modal
     }

@@ -10,36 +10,35 @@ const deviceStyles = {
 }
 
 function Thumb (props) {
-  const { filePath, name, device, parent } = props
+  const { filePath, name, device, urlPath = '' } = props
 
   return (
     <div className={classNames('px-0', styles.thumb, styles[device], deviceStyles[device])}>
-      <Link href={`${parent}/${name}`} >
+      <Link href={urlPath} >
         <a className='position-relative w-100 h-100 d-block'>
-          <img src={require(`../img/drive_gallery/${filePath}?resize&size=300`)} alt={name} />
+        <img src={require(`../img/drive_gallery/${filePath.replace('img/drive_gallery/', '')}?resize&size=300`)} alt={name} />
         </a>
       </Link>
     </div>
   )
 }
 
-/* function ModalElement (props) {
-  const { name, show, filePath, parent } = props
-  const fullres = filePath ? require(`../img/drive_gallery/${filePath}?original`) : ''
+function ModalElement (props) {
+  const { name, show, imgPath, urlPath = '' } = props
+  const parent = urlPath.split('/').slice(0, -1).join('/')
 
   return (
     <div className={classNames('modal fade', styles.modal, { show })}>
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
           <div className={classNames('modal-body p-0')}>
-            {/* eslint-disable-next-line @next/next/no-img-element *//* }
-            {show && <img className='w-100' src={fullres} alt={name}/>}
+            {show && <img className='w-100' src={imgPath} alt={name}/>}
           </div>
           <div className="modal-footer">
           <div className='mx-auto'>{name}</div>
           <div className='mx-auto'>
-            <a href={fullres} className='modal-btn btn btn-outline-secondary' download>Download</a>
-            <Link href={parent}>
+            <a href={imgPath} className='modal-btn btn btn-outline-secondary' download>Download</a>
+            <Link href={parent || '/'}>
               <a>
                 <button type="button" className='btn btn-outline-secondary ms-2 modal-btn'>Close</button>
               </a>
@@ -50,10 +49,10 @@ function Thumb (props) {
       </div>
     </div>
   )
-} */
+}
 
 export default function Gallery (props) {
-  const { device = 'Desktop', images = [], parent, /* modal, */ popup, sort } = props
+  const { device = 'Desktop', images = [], parent, modal, popup, sort } = props
   const imageList = sort === 'new'
     ? images.sort((a, b) => a.mtimeMs - b.mtimeMs).reverse()
     : images.sort((a, b) => {
@@ -64,10 +63,10 @@ export default function Gallery (props) {
 
   return (
     <div className={classNames('container-fluid flex-fill px-0', styles.root)} style={{ paddingTop: popup ? '130px' : '60px' }}>
-      {/* <ModalElement {...modal} device={device} show={!!modal} parent={parent} /> */}
+      <ModalElement {...(modal || {})} device={device} show={!!modal} parent={parent} />
       <div className="col">
         <div className="row">
-          {imageList.map(i => <Thumb key={i.filePath} device={device} parent={parent} {...i} />)}
+          {imageList.map(i => <Thumb key={i.urlPath} device={device} parent={parent} {...i} />)}
         </div>
       </div>
     </div>

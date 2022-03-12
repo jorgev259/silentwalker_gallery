@@ -2,13 +2,6 @@ import path from 'path'
 import glob from 'glob'
 import fs from 'fs-extra'
 
-export const dictionary = {
-  destiny1: 'Destiny 1',
-  destiny2: 'Destiny 2',
-  desktop: 'Desktop',
-  mobile: 'Mobile'
-}
-
 export function capitalize ([first, ...rest]) {
   return first.toUpperCase() + rest.join('').toLowerCase()
 }
@@ -24,12 +17,17 @@ function globAsync (pattern, options = {}) {
 
 async function readImage (filePath) {
   const { mtimeMs } = await fs.stat(filePath)
-  const { name } = path.parse(filePath)
+  const { name, dir } = path.parse(filePath)
+
+  const parentUrl = path.relative('img/drive_gallery', dir)
+    .replaceAll(' ', '').toLowerCase().replaceAll(path.sep, '/')
 
   return {
     name,
+    urlPath: `/${parentUrl}/${encodeURI(name)}`,
+    imgPath: `https://raw.githubusercontent.com/jorgev259/silentwalker_gallery_rework/main/${filePath}`,
     mtimeMs,
-    filePath: path.relative('img/drive_gallery', filePath).replaceAll(path.sep, '/')
+    filePath
   }
 }
 
@@ -43,7 +41,9 @@ export async function getImages (galleryPath) {
 export async function getModal (modalInput, galleryPath) {
   if (!modalInput) return null
 
-  const [modalName] = modalInput
+  const [modalNameInput] = modalInput
+  const modalName = decodeURI(modalNameInput)
+
   const filePath = path.join('img/drive_gallery', galleryPath, `${modalName}.jpg`)
   const exists = await fs.pathExists(filePath)
 
