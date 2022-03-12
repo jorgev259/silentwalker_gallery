@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Build Website
+name: Build Website (Docs)
 
 # Controls when the workflow will run
 on:
@@ -34,19 +34,17 @@ jobs:
         with:
           swap-size-gb: 10
 
-      # - name: Install dependencies
-      #   run: yarn install --pure-lockfile         
+      - name: Install dependencies
+        run: yarn install --pure-lockfile         
 
-      # - name: Build website
-      #  run: |
-      #    yarn build
-      #    yarn export -o docs
-      #    touch docs/.nojekyll
+      - name: Build website
+        run: |
+          yarn build
+          yarn export -o docs
+          touch docs/.nojekyll
       
-      - name: Deploy
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: gh-pages
-          FOLDER: docs
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit
+        run: |
+          git add -A
+          git diff-index --quiet HEAD || git commit -m 'Deploy ${{ github.sha }}'
+          git push
