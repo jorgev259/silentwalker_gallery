@@ -58,7 +58,7 @@ jobs:
           git remote add origin git@github.com:jorgev259/silentwalker_gallery_rework.git
           git add -A
           git commit -m "Deploy"
-          git push -u origin master
+          git push -u origin gh-pages
       
       #- name: Deploy
       #  uses: s0/git-publish-subdir-action@develop
