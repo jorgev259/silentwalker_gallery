@@ -21,6 +21,8 @@ export async function getStaticProps (context) {
   const images = await getImages(galleryPath)
   const modal = await getModal(image, images)
 
+  console.log(modal)
+
   return {
     props: {
       modal,

@@ -22,7 +22,7 @@ async function readImage (filePath) {
   const parentUrl = path.relative('img/drive_gallery', dir)
     .replaceAll(' ', '').toLowerCase().replaceAll(path.sep, '/')
 
-  const urlName = encodeURI(name)
+  const urlName = encodeURI(name.replaceAll(' ', '').toLowerCase())
 
   return {
     name,
@@ -41,4 +41,4 @@ export async function getImages (galleryPath) {
   return imageList
 }
 
-export const getModal = (image, images) => images.find(i => i.urlName === image || i.name === image)
+export const getModal = (image, images) => images.find(i => i.urlName === image) || null
