@@ -51,7 +51,8 @@ jobs:
           yarn export -o docs
           touch docs/.nojekyll
 
-      - name: Deploy (provisionary)
+      - uses: fregante/setup-git-user@v1
+      - name: Deploy (provisionary      
         run: |
           cd docs
           git init
