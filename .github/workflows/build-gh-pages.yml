@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Build Website (GH Pages)
+name: Build Website
 
 # Controls when the workflow will run
 on:
@@ -47,12 +47,12 @@ jobs:
       - name: Build website
         run: |
           yarn build
-          yarn export -o docs
-          touch docs/.nojekyll
+          yarn export
+          touch build/.nojekyll
 
       - name: Deploy (provisionary)     
         run: |
-          cd docs
+          cd build
           git config --global user.email "jorgev259@outlook.es"
           git config --global user.name "jorgev259"
           git init
