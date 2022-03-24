@@ -23,7 +23,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v2
-      - uses: fregante/setup-git-user@v1
       - uses: actions/setup-node@v2
         with:
           node-version: '16'
@@ -32,10 +31,6 @@ jobs:
         with:
           path: |
             ${{ github.workspace }}/.next/cache
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.png', '**/*.jpg') }}
-          # If source files changed but packages didn't, rebuild from a prior cache. 
-          restore-keys: |
-            ${{ runner.os }}-nextjs-${{ hashFiles('**/yarn.lock') }}-
       
       - name: Set Swap Space
         uses: pierotofy/set-swap-space@master
@@ -51,9 +46,11 @@ jobs:
           yarn export -o docs
           touch docs/.nojekyll
 
-      - name: Deploy (provisionary      
+      - name: Deploy (provisionary)     
         run: |
           cd docs
+          git config --global user.email "jorgev259@outlook.es"
+          git config --global user.name "jorgev259"
           git init
           git add .
           git commit -m "Deploy"
