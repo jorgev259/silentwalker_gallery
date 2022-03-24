@@ -55,11 +55,9 @@ jobs:
         run: |
           cd docs
           git init
-          git config --global user.email "jorgev259@outlook.es"
-          git config --global user.name "jorgev259"
           git add .
           git commit -m "Deploy"
-          git remote add origin git@github.com:jorgev259/silentwalker_gallery_rework.git  
+          git remote add origin https://github.com/jorgev259/silentwalker_gallery_rework.git
           git push --force origin master:gh-pages
       
       #- name: Deploy
