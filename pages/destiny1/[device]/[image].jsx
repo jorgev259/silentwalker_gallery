@@ -6,7 +6,7 @@ import { getImages, capitalize, getModal } from '../../../components/utils'
 export async function getStaticPaths () {
   const images = await getImages('Destiny 1')
   const paths = images.map(i => {
-    const [, device] = i.urlPath.split('/')
+    const [, device] = i.urlPath.split('/').filter(i => i.length > 0)
     return { params: { device, image: i.urlName } }
   })
 
@@ -20,8 +20,6 @@ export async function getStaticProps (context) {
   const galleryPath = path.join('Destiny 1', capitalize(device))
   const images = await getImages(galleryPath)
   const modal = await getModal(image, images)
-
-  console.log(modal)
 
   return {
     props: {
