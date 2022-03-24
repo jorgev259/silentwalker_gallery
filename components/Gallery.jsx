@@ -14,7 +14,7 @@ function Thumb (props) {
 
   return (
     <div className={classNames('px-0', styles.thumb, styles[device], deviceStyles[device])}>
-      <Link href={urlPath} >
+      <Link href={urlPath} scroll={false}>
         <a className='position-relative w-100 h-100 d-block'>
         <img src={require(`../img/drive_gallery/${filePath.replace('img/drive_gallery/', '')}?resize&size=300`)} alt={name} />
         </a>
@@ -38,7 +38,7 @@ function ModalElement (props) {
           <div className='mx-auto'>{name}</div>
           <div className='mx-auto'>
             <a href={imgPath} className='modal-btn btn btn-outline-secondary' download>Download</a>
-            <Link href={parent || '/'}>
+            <Link href={parent || '/'} scroll={false}>
               <a>
                 <button type="button" className='btn btn-outline-secondary ms-2 modal-btn'>Close</button>
               </a>
