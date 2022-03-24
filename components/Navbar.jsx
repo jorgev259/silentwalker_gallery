@@ -124,11 +124,11 @@ export default function Navbar (props) {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/clanbanners">Clan Banners</a>
+                <Link href="/clanbanners"><a className="nav-link">Clan Banners</a></Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/info">Info</a>
+                <Link href="/info"><a className="nav-link">Info</a></Link>
               </li>
 
               <li className="d-none d-md-flex nav-item my-auto align-items-center mx-2" style={{ height: '30px' }}>
