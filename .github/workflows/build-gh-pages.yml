@@ -42,9 +42,6 @@ jobs:
       - name: Install dependencies
         run: yarn install --pure-lockfile 
 
-      - name: Clone repo
-        run:  git clone -b gh-pages --single-branch https://github.com/jorgev259/silentwalker_gallery_rework.git out        
-
       - name: Build website
         run: |
           yarn build
