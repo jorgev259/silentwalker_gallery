@@ -23,7 +23,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: fregante/setup-git-user@v1
+      - uses: actions/setup-node@v2     
         with:
           node-version: '16'
           cache: 'yarn'
@@ -42,7 +43,10 @@ jobs:
           swap-size-gb: 10
 
       - name: Install dependencies
-        run: yarn install --pure-lockfile         
+        run: yarn install --pure-lockfile 
+
+      - name: Clone repo
+        run:  git clone -b gh-pages --single-branch https://github.com/jorgev259/silentwalker_gallery_rework.git out        
 
       - name: Build website
         run: |
@@ -52,14 +56,9 @@ jobs:
 
       - name: Deploy (provisionary)     
         run: |
-          cd build
-          git config --global user.email "jorgev259@outlook.es"
-          git config --global user.name "jorgev259"
-          git init
           git add .
           git commit -m "Deploy"
-          git remote add origin https://github.com/jorgev259/silentwalker_gallery_rework.git
-          git push --force origin master:gh-pages
+          git push
       
       #- name: Deploy
       #  uses: s0/git-publish-subdir-action@develop
