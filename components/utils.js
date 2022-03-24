@@ -2,6 +2,9 @@ import path from 'path'
 import glob from 'glob'
 import fs from 'fs-extra'
 
+export const d2categories = ['emblems', 'seals', 'bonus']
+export const devices = ['desktop', 'mobile']
+
 export function capitalize ([first, ...rest]) {
   return first.toUpperCase() + rest.join('').toLowerCase()
 }

@@ -30,7 +30,7 @@ export async function getStaticProps (context) {
   }
 }
 
-export default function Destiny1 (props) {
+export default function Destiny1Image (props) {
   return (
     <Gallery {...props} />
   )
