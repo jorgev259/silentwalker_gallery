@@ -67,7 +67,7 @@ function DropdownItem (props) {
   const active = href === currentUrl
 
   return (
-    <li><Link href={href}><a className={classNames('dropdown-item', { active })}>{name}</a></Link></li>
+    <li><Link href={href} prefetch={false}><a className={classNames('dropdown-item', { active })}>{name}</a></Link></li>
   )
 }
 
@@ -124,11 +124,11 @@ export default function Navbar (props) {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Clan Banners</a>
+                <a className="nav-link" aria-current="page" href="/clanbanners">Clan Banners</a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Info</a>
+                <a className="nav-link" aria-current="page" href="/info">Info</a>
               </li>
 
               <li className="d-none d-md-flex nav-item my-auto align-items-center mx-2" style={{ height: '30px' }}>
