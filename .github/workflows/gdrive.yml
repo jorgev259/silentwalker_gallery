@@ -54,6 +54,7 @@ jobs:
           
       - name: Update repository
         run: |
+          mv  "img/drive_gallery/Destiny 2/Mobile/Emblems/Aurora Clash"  "img/drive_gallery/Destiny 2/Mobile/Emblems/Aurora Clash.jpg"
           git add -A
           git diff-index --quiet HEAD || git commit -m 'Synced with Google Drive'
           git push
