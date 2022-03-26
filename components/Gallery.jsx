@@ -52,10 +52,12 @@ function ModalElement (props) {
 }
 
 export default function Gallery (props) {
-  const { device = 'Desktop', images = [], parent, modal, popup, sort } = props
+  const { device = 'Desktop', images = [], parent, modal, popup, sort, search } = props
+
+  const filteredImages = images.filter(i => i.name.toLowerCase().includes(search))
   const imageList = sort === 'new'
-    ? images.sort((a, b) => a.mtimeMs - b.mtimeMs).reverse()
-    : images.sort((a, b) => {
+    ? filteredImages.sort((a, b) => a.mtimeMs - b.mtimeMs).reverse()
+    : filteredImages.sort((a, b) => {
       if (a.name < b.name) return -1
       if (a.name > b.name) return 1
       return 0

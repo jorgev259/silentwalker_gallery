@@ -72,7 +72,7 @@ function DropdownItem (props) {
 }
 
 export default function Navbar (props) {
-  const { popup, donateClose, sort, setSort } = props
+  const { popup, donateClose, sort, setSort, setSearch } = props
   const sortProps = { sort, setSort }
   const donateProps = { popup, donateClose }
 
@@ -140,7 +140,7 @@ export default function Navbar (props) {
               </li>
             </ul>
             <form className="d-flex">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+              <input className="form-control me-2" type="search" placeholder="Search" onChange={ev => setSearch(ev.target.value.toLowerCase())} />
             </form>
           </div>
         </div>

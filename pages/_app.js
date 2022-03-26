@@ -10,6 +10,7 @@ import { getWithExpiry, setWithExpiry } from '../components/utilsClient'
 export default function App ({ Component, pageProps }) {
   const [popup, setPopup] = useState()
   const [sort, setSort] = useState('new')
+  const [search, setSearch] = useState('')
 
   useEffect(() => {
     if (process.env.NODE_ENV === 'development') return setPopup(true)
@@ -30,8 +31,8 @@ export default function App ({ Component, pageProps }) {
 
   return (
     <>
-      <Navbar {...props} />
-      <Component {...pageProps} sort={sort} popup={popup} />
+      <Navbar {...props} setSearch={setSearch} />
+      <Component {...pageProps} sort={sort} popup={popup} search={search} />
       <Footer />
     </>
   )
