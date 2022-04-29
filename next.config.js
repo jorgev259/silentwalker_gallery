@@ -13,8 +13,6 @@ module.exports = withPlugins(
     }]
   ],
   {
-    basePath: isProd ? '/silentwalker_gallery_rework' : '',
-    assetPrefix: isProd ? '/silentwalker_gallery_rework/' : '',
     reactStrictMode: true,
     compress: false,
     images: {
