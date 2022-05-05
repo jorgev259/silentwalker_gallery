@@ -20,11 +20,16 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/checkout@v2
       - uses: actions/setup-node@v2     
         with:
           node-version: '16'
           cache: 'yarn'
+
+      - name: Checkout
+        uses: meetup/express-checkout@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: actions/cache@v2
         with:
           path: |
