@@ -5,7 +5,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "sync": "rclone sync -v 'drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers' /root/drive_gallery"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
