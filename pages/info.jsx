@@ -1,12 +1,12 @@
 const Banner = () => (
   <>
-    <img alt='' src={require('../img/assets/info_banner.png')} style={{ height: '350px' }} />
+    <img alt='' src='/images/assets/info_banner.png' style={{ height: '350px' }} />
     <div style={{ height: '35px', width: '100%', justifyContent: 'space-evenly', display: 'flex', marginTop: '10px' }}>
       <a href='https://www.instagram.com/silentwalker___/'>
-        <img alt='instagram' src={require('../img/assets/insta.png')} style={{ height: '100%', width: 'auto' }} />
+        <img alt='instagram' src='/images/assets/insta.png' style={{ height: '100%', width: 'auto' }} />
       </a>
       <a href='https://twitter.com/silentwalker__'>
-        <img alt='twitter' src={require('../img/assets/twitter.png')} style={{ height: '100%', width: 'auto' }}/>
+        <img alt='twitter' src='/images/assets/twitter.png' style={{ height: '100%', width: 'auto' }}/>
       </a>
     </div>
   </>

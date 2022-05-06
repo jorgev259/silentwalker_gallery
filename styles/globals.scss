@@ -13,19 +13,19 @@ body{
 .navbar {
   z-index: 3;
   height: 60px;
-  background-image: url('../img/assets/bar_bg.png');
+  background-image: url('/images/assets/bar_bg.png');
   box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.72);
   background-color: #9B9A9A;
   text-transform: uppercase;
 
   .container-fluid {
     @media (max-width: 767.98px) {
-      background-image: url('../img/assets/bar_bg.png');
+      background-image: url('/images/assets/bar_bg.png');
     }
   }
 
   .dropdown-menu {
-    background-image: url('../img/assets/bar_bg.png');
+    background-image: url('/images/assets/bar_bg.png');
     background-position: center;
     background-size: cover;
 

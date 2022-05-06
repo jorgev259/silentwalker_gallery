@@ -1,12 +1,10 @@
-import logo from '../img/assets/logo.png'
-
 export default function Footer () {
   return (
     <footer>
       <div className='container-fluid'>
         <div className='row'>
           <div className='col d-flex align-items-center'>
-              <img alt='logo' src={logo} style={{ height: '25px', width: '112px' }} />
+              <img alt='logo' src='/images/assets/logo.png' style={{ height: '25px', width: '112px' }} />
           </div>
           <div className='col d-none d-md-block '>
             <div style={{ fontSize: '13.5px', textAlign: 'right' }}>

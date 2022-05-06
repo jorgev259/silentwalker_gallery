@@ -1,6 +1,7 @@
 
 import classNames from 'classnames'
 import Link from 'next/link'
+import ExportedImage from 'next-image-export-optimizer'
 
 import styles from '../styles/gallery.module.scss'
 
@@ -16,7 +17,7 @@ function Thumb (props) {
     <div className={classNames('px-0', styles.thumb, styles[device], deviceStyles[device])}>
       <Link href={urlPath} scroll={false}>
         <a className='position-relative w-100 h-100 d-block'>
-        <img src={require(`../img/drive_gallery/${filePath.replace('img/drive_gallery/', '')}?resize&size=300`)} alt={name} />
+        <ExportedImage quality={50} src={`/images/drive_gallery/${filePath.replace('public/images/drive_gallery/', '')}`} alt={name} layout='fill' />
         </a>
       </Link>
     </div>

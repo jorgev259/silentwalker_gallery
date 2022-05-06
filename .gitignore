@@ -14,6 +14,8 @@
 
 # production
 /build
+/public/images/drive_gallery/
+public/images/assets/nextImageExportOptimizer/
 
 # misc
 .DS_Store

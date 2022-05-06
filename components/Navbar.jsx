@@ -3,11 +3,6 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 import Popup from './Popup'
-import laptop from '../img/assets/laptop.png'
-import phone from '../img/assets/phone.png'
-import clock from '../img/assets/clock.png'
-import nameImg from '../img/assets/name.png'
-import tricorn from '../img/assets/tricorn.png'
 
 function DeviceToggle (props) {
   const { router } = props
@@ -20,7 +15,7 @@ function DeviceToggle (props) {
   return (
     <>
       <div className='d-inline-block'>
-        <img src={laptop} alt='' style={{ height: '30px', width: '40px' }}/>
+        <img src='/images/assets/laptop.png' alt='' style={{ height: '30px', width: '40px' }}/>
       </div>
 
       <Link href={router.asPath.replace(device, nextDevice)}>
@@ -32,7 +27,7 @@ function DeviceToggle (props) {
       </Link>
 
       <div className='d-inline-block'>
-        <img src={phone} alt='' style={{ height: '30px', width: '22px' }} />
+        <img src='/images/assets/phone.png' alt='' style={{ height: '30px', width: '22px' }} />
       </div>
     </>
   )
@@ -48,7 +43,7 @@ function SortToggle (props) {
   return (
     <>
       <div className='d-inline-block'>
-        <img src={clock} alt='' style={{ height: '27px', width: '27px' }} />
+        <img src='/images/assets/clock.png' alt='' style={{ height: '27px', width: '27px' }} />
       </div>
 
       <div className='toggle d-flex align-items-center' onClick={handleToggle}>
@@ -56,7 +51,7 @@ function SortToggle (props) {
       </div>
 
       <div className='d-inline-block'>
-        <img src={nameImg} alt='' style={{ height: '25px', width: '25px' }} />
+        <img src='/images/assets/name.png' alt='' style={{ height: '25px', width: '25px' }} />
       </div>
     </>
   )
@@ -85,7 +80,7 @@ export default function Navbar (props) {
       <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand d-flex align-items-center">
-            <img src={tricorn} alt='' style={{ height: '32px', width: '32px' }} />
+            <img src='/images/assets/tricorn.png' alt='' style={{ height: '32px', width: '32px' }} />
           </a>
 
           <div className="d-flex d-md-none nav-item my-auto align-items-center mx-2" style={{ height: '30px' }}>

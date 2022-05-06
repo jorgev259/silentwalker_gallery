@@ -15,12 +15,12 @@ export default function ClanBanners (props) {
                 <span>Here are some examples:</span><br /><br />
                 <div className='d-none d-md-block'>
                   {
-                    [1, 2, 3, 4].map(n => <img alt='' src={require(`../img/assets/clan${n}.png`)} key={n} style={{ width: '25%', height: 'auto', paddingRight: '10px' }} />)
+                    [1, 2, 3, 4].map(n => <img alt='' src={`/images/assets/clan${n}.png`} key={n} style={{ width: '25%', height: 'auto', paddingRight: '10px' }} />)
                   }
                 </div>
                 <div className='d-md-none'>
                 {
-                  [1, 2, 3, 4].map(n => <img alt='' src={require(`../img/assets/clan${n}.png`)} key={n} style={{ width: '50%', height: 'auto', paddingRight: '10px', paddingTop: '10px' }} />)
+                  [1, 2, 3, 4].map(n => <img alt='' src={`/images/assets/clan${n}.png`} key={n} style={{ width: '50%', height: 'auto', paddingRight: '10px', paddingTop: '10px' }} />)
                 }
                 </div>
               </div>
