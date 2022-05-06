@@ -7,7 +7,7 @@
     "lint": "next lint",
     "export": "next build && next export && next-image-export-optimizer",
     "sync": "rclone sync -v 'drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers' public/images/drive_gallery",
-    "update": "git pull && yarn run sync && yarn run export"
+    "update": "git pull && npm run sync && npm run export"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
