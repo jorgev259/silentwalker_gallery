@@ -22,7 +22,7 @@ async function readImage (filePath) {
   const { mtimeMs } = await fs.stat(filePath)
   const { name, dir } = path.parse(filePath)
 
-  const parentUrl = path.relative('public/images/drive_gallery', dir)
+  const parentUrl = path.relative('wallpapers', dir)
     .replaceAll(' ', '').toLowerCase().replaceAll(path.sep, '/')
 
   const urlName = encodeURI(name.replaceAll(' ', '').toLowerCase())
@@ -38,7 +38,7 @@ async function readImage (filePath) {
 }
 
 export async function getImages (galleryPath) {
-  const unfilteredfileList = await globAsync(path.join('public/images/drive_gallery', galleryPath, '**'), { nodir: true })
+  const unfilteredfileList = await globAsync(path.join('wallpapers', galleryPath, '**/*.{jpg,jpeg,png}'), { nodir: true })
   const fileList = unfilteredfileList.filter(p => !p.includes('nextImageExportOptimizer'))
   const imageList = await Promise.all(fileList.map(f => readImage(f)))
 

@@ -14,9 +14,8 @@
 
 # production
 /build
-public/images/drive_gallery/Destiny 2/Clan Banners DM or tweet me @silentwalker__ for more info
-public/images/next-image-export-optimizer-hashes.json
-public/images/**/nextImageExportOptimizer/**
+/wallpapers/Destiny 2/Clan Banners DM or tweet me @silentwalker__ for more info
+thumbCache.json
 
 # misc
 .DS_Store

@@ -1,7 +1,6 @@
 
 import classNames from 'classnames'
 import Link from 'next/link'
-import ExportedImage from 'next-image-export-optimizer'
 
 import styles from '../styles/gallery.module.scss'
 
@@ -12,12 +11,16 @@ const deviceStyles = {
 
 function Thumb (props) {
   const { filePath, name, device, urlPath = '' } = props
+  const imgUrl = `/images/thumbs/${filePath.replace('wallpapers/', '')}`
 
   return (
     <div className={classNames('px-0', styles.thumb, styles[device], deviceStyles[device])}>
       <Link href={urlPath} scroll={false}>
         <a className='position-relative w-100 h-100 d-block'>
-        <ExportedImage quality={50} src={`/images/drive_gallery/${filePath.replace('public/images/drive_gallery/', '')}`} alt={name} layout='fill' />
+          <picture>
+            <source srcSet={imgUrl.replace('.jpg', '.webp')} alt={name} type="image/webp" />
+            <img src={imgUrl} alt={name} />
+          </picture>
         </a>
       </Link>
     </div>
