@@ -38,7 +38,8 @@ async function readImage (filePath) {
 }
 
 export async function getImages (galleryPath) {
-  const fileList = await globAsync(path.join('public/images/drive_gallery', galleryPath, '**'), { nodir: true })
+  const unfilteredfileList = await globAsync(path.join('public/images/drive_gallery', galleryPath, '**'), { nodir: true })
+  const fileList = unfilteredfileList.filter(p => !p.includes('nextImageExportOptimizer'))
   const imageList = await Promise.all(fileList.map(f => readImage(f)))
 
   return imageList
