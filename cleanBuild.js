@@ -12,4 +12,6 @@ async function main () {
 
   await Promise.all(files.map(p => fs.remove(p)))
   console.log('Source images deleted from out folder')
+
+  process.exit()
 }
