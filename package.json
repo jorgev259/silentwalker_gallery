@@ -9,7 +9,7 @@
     "optimize": "next-image-export-optimizer",
     "sync": "rclone copy -v \"drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers\" public/images/drive_gallery && npm run sync_git", 
     "sync_git": "git add public/images/drive_gallery/** && (git diff --quiet && git diff --staged --quiet || git commit -am 'Update images') && git push",
-    "deploy": "node cleanBuild.js && gh-pages -d out",
+    "deploy": "node cleanBuild.js && touch ./out/.nojekyll && gh-pages -d out",
 
     "export": "next build && next export && npm run optimize",
     "update": "git pull && npm run sync && npm run export && npm run deploy"
