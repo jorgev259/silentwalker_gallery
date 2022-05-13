@@ -3,9 +3,7 @@ const path = require('path')
 module.exports = {
   images: {
     loader: 'custom',
-    deviceSizes: [640],
-    imageSizes: [],
-    formats: ['image/webp', 'image/jpeg'],
+    formats: ['image/webp'],
     nextImageExportOptimizer: {
       imageFolderPath: 'public/images',
       exportFolderPath: 'out',
