@@ -6,10 +6,10 @@
     "start": "next start",
     "lint": "next lint",
   
-    "optimize": "next-image-export-optimizer && node cleanBuild",
+    "optimize": "next-image-export-optimizer",
     "sync": "rclone copy -v \"drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers\" public/images/drive_gallery && npm run sync_git", 
     "sync_git": "git add public/images/drive_gallery/** && (git diff-index --quiet HEAD || git commit -m 'Update images') && git push",
-    "deploy": "gh-pages -d out",
+    "deploy": "node cleanBuild.js && gh-pages -d out",
 
     "export": "next build && next export && npm run optimize",
     "update": "git pull && npm run sync && npm run export && npm run deploy"
