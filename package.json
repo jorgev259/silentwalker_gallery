@@ -7,7 +7,8 @@
     "lint": "next lint",
   
     "optimize": "next-image-export-optimizer && node cleanBuild",
-    "sync": "rclone copy -v -p \"drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers\" public/images/drive_gallery", 
+    "sync": "rclone copy -v -p \"drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers\" public/images/drive_gallery && npm run sync_git", 
+    "sync_git": "git add public/images/drive_gallery/** && (git diff-index --quiet HEAD || git commit -m 'Update images') && git push",
     "deploy": "gh-pages -d out",
 
     "export": "next build && next export && npm run optimize",
