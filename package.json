@@ -6,7 +6,7 @@
     "start": "next start",
     "lint": "next lint",
   
-    "optimize": "next-image-export-optimizer",
+    "optimize": "next-image-export-optimizer ** node cleanBuild",
     "sync": "rclone sync -v \"drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers\" public/images/drive_gallery", 
     "deploy": "gh-pages -d out",
 
