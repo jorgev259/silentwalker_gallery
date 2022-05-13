@@ -5,6 +5,7 @@ module.exports = {
     loader: 'custom',
     deviceSizes: [640],
     imageSizes: [],
+    formats: ['image/webp', 'image/jpeg'],
     nextImageExportOptimizer: {
       imageFolderPath: 'public/images',
       exportFolderPath: 'out',
