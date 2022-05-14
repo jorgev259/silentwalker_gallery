@@ -7,10 +7,11 @@
     "lint": "next lint",
 
     "sync": "rclone sync -v \"drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers\" wallpapers && node createThumbs.js && npm run sync-git",
-    "sync-git": "git add public/images/thumbs/** && git add wallpapers/** && (git diff --quiet && git diff --staged --quiet || git commit -m \"Update images\") && git push",
+    "sync-git": "git add public/images/thumbs/** && git add wallpapers/** && (git diff --staged --quiet || npm run sync-commit)",
+    "sync-commit": "git commit -m \"Update images\" && git push",
     
-    "export": "next build && next export",
-    "deploy": "touch ./out/.nojekyll && node publish.js",
+    "export": "next build && next export -o docs",
+    "deploy": "touch ./docs/.nojekyll && git add docs/** && git commit -m \"Update docs folder\" && git push",
     "update": "git pull && npm run sync && npm run export && npm run deploy"
   },
   "dependencies": {
@@ -19,7 +20,6 @@
     "classnames": "^2.3.1",
     "cookie-cutter": "^0.2.0",
     "fs-extra": "^10.0.0",
-    "gh-pages": "^4.0.0",
     "glob": "^7.2.0",
     "next": "^12.1.0",
     "react": "17.0.2",
