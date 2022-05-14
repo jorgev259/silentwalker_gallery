@@ -5,8 +5,8 @@ import Link from 'next/link'
 import styles from '../styles/gallery.module.scss'
 
 const deviceStyles = {
-  desktop: 'col-xs-12 col-sm-6 col-md-3',
-  mobile: 'col-xs-6 col-sm-4 col-md-2'
+  desktop: 'col-12 col-sm-6 col-md-3',
+  mobile: 'col-6 col-sm-4 col-md-2'
 }
 
 function Thumb (props) {
