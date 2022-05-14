@@ -38,8 +38,7 @@ async function readImage (filePath) {
 }
 
 export async function getImages (galleryPath) {
-  const unfilteredfileList = await globAsync(path.join('wallpapers', galleryPath, '**/*.{jpg,jpeg,png}'), { nodir: true })
-  const fileList = unfilteredfileList.filter(p => !p.includes('nextImageExportOptimizer'))
+  const fileList = await globAsync(path.join('wallpapers', galleryPath, '**/*.{jpg,jpeg,png}'), { nodir: true })
   const imageList = await Promise.all(fileList.map(f => readImage(f)))
 
   return imageList
