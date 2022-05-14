@@ -23,10 +23,16 @@ async function optimiseFile (filePath) {
     return console.log(`Skipped "${fileName}" (${current}/${max})`)
   }
 
-  cache[filePath] = check
-
   const outputDir = parentDir.replace('wallpapers/', 'public/images/thumbs/')
   const outputPath = `${outputDir}/${fileName}`
+
+  if (!cache[filePath] && fs.existsSync(`${outputPath}.jpg`) && fs.existsSync(`${outputPath}.webp`)) {
+    cache[filePath] = check
+    current++
+    return console.log(`Skipped "${fileName}" (${current}/${max})`)
+  }
+
+  cache[filePath] = check
 
   await fs.ensureDir(outputDir)
   const image = sharp(filePath)
