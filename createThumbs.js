@@ -3,7 +3,7 @@ const glob = require('glob')
 const fs = require('fs-extra')
 const checksum = require('checksum')
 
-const clanFolder = 'wallpapers/Destiny 2/Clan Banners DM or tweet me @silentwalker__ for more info'
+const clanFolder = 'wallpapers/images/Destiny 2/Clan Banners DM or tweet me @silentwalker__ for more info'
 const quality = 30
 const cache = fs.readJSONSync('./thumbCache.json', { throws: false }) || {}
 
@@ -19,9 +19,9 @@ async function optimiseFile (filePath) {
   let parentDir = filePath.split('/')
   const fileName = parentDir.pop().split('.').shift()
   parentDir = parentDir.join('/')
-  const outFilePath = filePath.replace('wallpapers/', '')
+  const outFilePath = filePath.replace('wallpapers/images/', '')
 
-  const outputDir = parentDir.replace('wallpapers/', 'thumbs/')
+  const outputDir = parentDir.replace('wallpapers/images/', 'thumbs/')
   const outputPath = `${outputDir}/${fileName}`
 
   if (filePath.startsWith(clanFolder)) return skipFile(outFilePath, false)
@@ -48,7 +48,7 @@ async function optimiseFile (filePath) {
 }
 
 async function main () {
-  const files = glob.sync('wallpapers/**/*.{jpg,jpeg,png}')
+  const files = glob.sync('wallpapers/images/**/*.{jpg,jpeg,png}')
   max = files.length
 
   await Promise.all(files.map(f => optimiseFile(f)))
