@@ -7,7 +7,7 @@
     "lint": "next lint",
 
     "sync": "rclone sync -v \"drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers\" wallpapers && node createThumbs.js && npm run sync-git",
-    "sync-git": "git add public/images/thumbs/** && git add wallpapers/** && git add thumbCache.json && (git diff --staged --quiet || npm run sync-commit)",
+    "sync-git": "git add thumbs/** && git add wallpapers/** && git add thumbCache.json && (git diff --staged --quiet || npm run sync-commit)",
     "sync-commit": "git commit -m \"Update images\" && git push",
     
     "export": "next build && next export -o docs",
