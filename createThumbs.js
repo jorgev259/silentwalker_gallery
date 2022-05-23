@@ -22,7 +22,7 @@ async function optimiseFile (filePath) {
   parentDir = parentDir.join('/')
   const outFilePath = filePath.replace('wallpapers/', '')
 
-  const outputDir = parentDir.replace('wallpapers/', 'public/images/thumbs/')
+  const outputDir = parentDir.replace('wallpapers/', 'thumbs/')
   const outputPath = `${outputDir}/${fileName}`
 
   if (

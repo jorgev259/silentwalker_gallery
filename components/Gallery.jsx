@@ -10,8 +10,8 @@ const deviceStyles = {
 }
 
 function Thumb (props) {
-  const { filePath, name, device, urlPath = '' } = props
-  const imgUrl = `/images/thumbs/${filePath.replace('wallpapers/', '')}`
+  const { name, device, urlPath = '', imgPath } = props
+  const imgUrl = imgPath.replace('/wallpapers/', '/thumbs/')
 
   return (
     <div className={classNames('px-0', styles.thumb, styles[device], deviceStyles[device])}>
