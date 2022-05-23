@@ -6,13 +6,13 @@ const checksum = require('checksum')
 const clanFolder = 'wallpapers/images/Destiny 2/Clan Banners DM or tweet me @silentwalker__ for more info'
 const quality = 30
 const cache = fs.readJSONSync('./thumbCache.json', { throws: false }) || {}
-
+const noLog = false
 let max
 let current = 0
 
 function skipFile (outFilePath, log = true) {
   current++
-  if (log) console.log(`Skipped "${outFilePath}" (${current}/${max})`)
+  if (log && !noLog) console.log(`Skipped "${outFilePath}" (${current}/${max})`)
 }
 
 async function optimiseFile (filePath) {
@@ -44,7 +44,7 @@ async function optimiseFile (filePath) {
   ])
 
   current++
-  console.log(`Created thumbnail for "${outFilePath}" (${current}/${max})`)
+  if (!noLog) console.log(`Created thumbnail for "${outFilePath}" (${current}/${max})`)
 }
 
 async function main () {

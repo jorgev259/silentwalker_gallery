@@ -7,10 +7,8 @@
     "lint": "next lint",
 
     "sync": "rclone sync -v \"drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers\" wallpapers/images && npm run sync-wallpapers && node createThumbs.js && npm run sync-git",
-    "sync-diff": "git diff --staged --quiet || npm run sync-commit",
-    "sync-wallpapers": "cd wallpapers && git add -A && npm run sync-diff && cd ..",
-    "sync-git": "git add thumbs/** && git add thumbCache.json && npm run sync-diff ",
-    "sync-commit": "git commit -m \"Update images\" && git push",
+    "sync-wallpapers": "cd wallpapers && git add -A && (git diff --staged --quiet || (git commit -m \"Update images\" && git push)) && cd ..",
+    "sync-git": "git add thumbs/** && git add thumbCache.json && (git diff --staged --quiet || (git commit -m \"Update images\" && git push)) ",
     
     "export": "next build && next export -o docs",
     "deploy": "touch ./docs/.nojekyll && git add docs/** && git commit -m \"Update docs folder\" && git push",
