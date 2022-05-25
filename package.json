@@ -5,8 +5,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-
-    "sync": "cd wallpapers && git pull && npm run sync && cd ..",   
+    
+    "sync": "cd wallpapers && git pull && npm run sync && cd ..",
     "export": "next build && next export -o docs",
     "deploy": "touch ./docs/.nojekyll && git add docs/** && git commit -m \"Update docs folder\" && git push",
     "update": "git pull && npm run sync && npm run export && npm run deploy"
@@ -18,7 +18,7 @@
     "cookie-cutter": "^0.2.0",
     "fs-extra": "^10.0.0",
     "glob": "^7.2.0",
-    "next": "^12.1.0",
+    "next": "^12.1.6",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "sass": "^1.49.7",
