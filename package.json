@@ -13,7 +13,7 @@
     "export": "next build && next export -o docs",
     "deploy": "touch ./docs/.nojekyll && git add docs/** && git commit -m \"Update docs folder\" && git push",
 
-    "update": "git pull && npm run sync && npm run update-cache && npm run update-images && npm run export && npm run deploy"
+    "update": "git pull && npm run sync && npm run update-cache && npm run update-images && npm run update-files && npm run export && npm run deploy"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
