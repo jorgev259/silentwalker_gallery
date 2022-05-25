@@ -11,15 +11,15 @@ const deviceStyles = {
 
 function Thumb (props) {
   const { name, device, urlPath = '', imgPath } = props
-  const imgUrl = imgPath.replace('/images/', '/thumbs/')
+  const imgUrl = `https://raw.githubusercontent.com/jorgev259/silentwalker_wallpapers/main/thumbs${imgPath}`
 
   return (
     <div className={classNames('px-0', styles.thumb, styles[device], deviceStyles[device])}>
       <Link href={urlPath} scroll={false}>
         <a className='position-relative w-100 h-100 d-block'>
           <picture>
-            <source srcSet={imgUrl.replace('.jpg', '.webp')} alt={name} type="image/webp" />
-            <img src={imgUrl} alt={name} />
+            <source srcSet={`${imgUrl}.webp`} alt={name} type="image/webp" />
+            <img src={`${imgUrl}.jpg`} alt={name} />
           </picture>
         </a>
       </Link>
@@ -28,21 +28,22 @@ function Thumb (props) {
 }
 
 function ModalElement (props) {
-  const { name, show, imgPath, urlPath = '' } = props
-  const parent = urlPath.split('/').slice(0, -1).join('/')
+  const { name, show, imgPath, ext, urlPath = '' } = props
+  const imgUrl = `https://raw.githubusercontent.com/jorgev259/silentwalker_wallpapers/main/images${imgPath}${ext}`
+  const parentUrl = urlPath.split('/').slice(0, -1).join('/')
 
   return (
     <div className={classNames('modal fade', styles.modal, { show })}>
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
           <div className={classNames('modal-body p-0')}>
-            {show && <img className='w-100' src={imgPath} alt={name}/>}
+            {show && <img className='w-100' src={imgUrl} alt={name}/>}
           </div>
           <div className="modal-footer">
           <div className='mx-auto'>{name}</div>
           <div className='mx-auto'>
-            <a href={imgPath} className='modal-btn btn btn-outline-secondary' download>Download</a>
-            <Link href={parent || '/'} scroll={false}>
+            <a href={imgUrl} className='modal-btn btn btn-outline-secondary' download>Download</a>
+            <Link href={parentUrl} scroll={false} shallow>
               <a>
                 <button type="button" className='btn btn-outline-secondary ms-2 modal-btn'>Close</button>
               </a>
@@ -56,7 +57,7 @@ function ModalElement (props) {
 }
 
 export default function Gallery (props) {
-  const { device = 'Desktop', images = [], parent, modal, popup, sort, search } = props
+  const { device = 'desktop', images = [], modal, popup, search, sort } = props
 
   const filteredImages = images.filter(i => i.name.toLowerCase().includes(search))
   const imageList = sort === 'new'
@@ -69,10 +70,10 @@ export default function Gallery (props) {
 
   return (
     <div className={classNames('container-fluid flex-fill px-0', styles.root)} style={{ paddingTop: popup ? '130px' : '60px' }}>
-      <ModalElement {...(modal || {})} device={device} show={!!modal} parent={parent} />
+      <ModalElement {...(modal || {})} device={device} show={!!modal} p />
       <div className="col">
         <div className="row">
-          {imageList.map(i => <Thumb key={i.urlPath} device={device} parent={parent} {...i} />)}
+          {imageList.map(i => <Thumb key={i.urlPath} device={device} {...i} />)}
         </div>
       </div>
     </div>

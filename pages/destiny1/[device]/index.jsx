@@ -1,5 +1,3 @@
-import path from 'path'
-
 import Gallery from '../../../components/Gallery'
 import { getImages, capitalize } from '../../../components/utils'
 
@@ -16,15 +14,9 @@ export async function getStaticPaths () {
 export async function getStaticProps (context) {
   const { params } = context
   const { device } = params
+  const images = getImages('Destiny 1', capitalize(device))
 
-  const galleryPath = path.join('Destiny 1', capitalize(device))
-
-  return {
-    props: {
-      images: await getImages(galleryPath),
-      device
-    }
-  }
+  return { props: { images, device } }
 }
 
 export default function Destiny1 (props) {
