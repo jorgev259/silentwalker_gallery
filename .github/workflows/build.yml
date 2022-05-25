@@ -16,8 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0
-          submodules: true
+          fetch-depth: 1
 
       - uses: fregante/setup-git-user@v1
       - uses: actions/setup-node@v2
