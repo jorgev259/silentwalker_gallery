@@ -1,4 +1,5 @@
 import path from 'path'
+import Head from 'next/head'
 
 import Gallery from '../../../../components/Gallery'
 import { getImages, capitalize, getModal, d2categories } from '../../../../components/utils'
@@ -31,7 +32,18 @@ export async function getStaticProps (context) {
 }
 
 export default function Destiny2Image (props) {
+  const { modal } = props
+  const { name, urlPath, imgPath } = modal
+
   return (
-    <Gallery {...props} />
+    <>
+      <Head>
+        <meta property="og:site_name" content="SiLeNtWaLkEr Wallpapers" />
+        <meta key='url' property='og:url' content={urlPath} />
+        <meta key='title' property='og:title' content={name} />
+        <meta key='image' property='og:image' content={ imgPath.replace('/images/', '/discord/')} />
+      </Head>
+      <Gallery {...props} />
+    </>
   )
 }

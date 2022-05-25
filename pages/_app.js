@@ -35,13 +35,12 @@ export default function App ({ Component, pageProps }) {
       <Head>
         <title>SiLeNtWaLkEr Wallpapers</title>
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="SiLeNtWaLkEr Wallpapers" />
 
         <meta key='color' name="theme-color" content="#d4ce2a"></meta>
         <meta key='url' property='og:url' content='/' />
         <meta key='title' property='og:title' content='SiLeNtWaLkEr Wallpapers' />
         <meta key='desc' property='og:description' content='The biggest collection of Destiny emblem wallpapers. Made by SiLeNtWaLkEr' />
-        <meta key='image' property='og:image' content='/img/assets/logo_only.png' />
+        <meta key='image' property='og:image' content='/images/assets/logo_only.png' />
       </Head>
       <Navbar {...props} setSearch={setSearch} />
       <Component {...pageProps} sort={sort} popup={popup} search={search} />
