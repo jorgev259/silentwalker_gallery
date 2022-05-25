@@ -9,11 +9,10 @@
     "sync": "rclone sync -v \"drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers\" wallpapers/images",
     "update-cache": "node updateCache.js",
     "update-images": "cd wallpapers && git add -A && (git diff --staged --quiet || (git commit -m \"Update images\" && git push))",
-    "update-files": "git add **.json && (git diff --staged --quiet || (git commit -m \"Update cache\" && git push))",
     "export": "next build && next export -o docs",
-    "deploy": "touch ./docs/.nojekyll && git add docs/** && git commit -m \"Update docs folder\" && git push",
+    "deploy": "touch ./docs/.nojekyll && git add docs/** && git add **.json && git commit -m \"Update docs folder\" && git push",
 
-    "update": "git pull && npm run sync && npm run update-cache && npm run update-images && npm run update-files && npm run export && npm run deploy"
+    "update": "git pull && npm run sync && npm run update-cache && npm run update-images && git add **.json && npm run export && npm run deploy"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
