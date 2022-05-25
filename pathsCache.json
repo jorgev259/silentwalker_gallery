@@ -8687,14 +8687,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "lightofthedarksun"
+                "image": "lensoffate"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "lensoffate"
+                "image": "lightofthedarksun"
             }
         },
         {
@@ -10381,6 +10381,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "wolvesunleashed"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "youareworthy"
             }
         },
@@ -10389,13 +10396,6 @@
                 "device": "mobile",
                 "category": "emblems",
                 "image": "youngwolf"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "wolvesunleashed"
             }
         },
         {

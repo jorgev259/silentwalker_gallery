@@ -869,7 +869,7 @@
                 "name": "1280x800-Häkke",
                 "ext": ".jpg",
                 "urlName": "1280x800-h%C3%A4kke",
-                "mtimeMs": 1653332134845.0986,
+                "mtimeMs": 1653455982315.936,
                 "imgPath": "/Destiny 2/Desktop/1280x800-Häkke",
                 "urlPath": "/destiny2/desktop/1280x800-h%c3%a4kke",
                 "checksum": "c9e6b3f8c357746d692256cd49a0d1afa54f03b9"
@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 2/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 2/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny2/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -3283,7 +3283,7 @@
                 "name": "1440x2560-Häkke",
                 "ext": ".jpg",
                 "urlName": "1440x2560-h%C3%A4kke",
-                "mtimeMs": 1653332136760.045,
+                "mtimeMs": 1653455988776.292,
                 "imgPath": "/Destiny 2/Mobile/1440x2560-Häkke",
                 "urlPath": "/destiny2/mobile/1440x2560-h%c3%a4kke",
                 "checksum": "ea0f62d41db469fe0de3eaac6a45d6f822e212db"
@@ -8015,7 +8015,7 @@
                     "name": "Savathûn's Song",
                     "ext": ".jpg",
                     "urlName": "savath%C3%BBn'ssong",
-                    "mtimeMs": 1653332144018.6511,
+                    "mtimeMs": 1653456017937.8987,
                     "imgPath": "/Destiny 2/Desktop/Emblems/Savathûn's Song",
                     "urlPath": "/destiny2/desktop/emblems/savath%c3%bbn'ssong",
                     "checksum": "d477d401f3d1414d081fc56ba0d364d7ee968872"
@@ -12775,7 +12775,7 @@
                     "name": "Savathûn's Song",
                     "ext": ".jpg",
                     "urlName": "savath%C3%BBn'ssong",
-                    "mtimeMs": 1653332161279.117,
+                    "mtimeMs": 1653456070684.8047,
                     "imgPath": "/Destiny 2/Mobile/Emblems/Savathûn's Song",
                     "urlPath": "/destiny2/mobile/emblems/savath%c3%bbn'ssong",
                     "checksum": "cd257f586ccafc7ecac46e61f6465a33c8e3e2f8"
