@@ -24,8 +24,7 @@ jobs:
 
       - name: Build website
         run: |
-          next build
-          next export -o docs
+          yarn run export
 
       # - name: Push from main to dist branch.
       #  run: |
