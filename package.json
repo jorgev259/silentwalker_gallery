@@ -6,7 +6,7 @@
     "start": "next start",
     "lint": "next lint",
 
-    "export": "next build && next export -o docs && touch ./docs/.nojekyll",
+    "export": "next build && next export && touch ./out/.nojekyll",
     
     "sync": "rclone sync -v \"drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers\" wallpapers/images && node updateCache.js",
     "update-images": "cd wallpapers && git add -A && (git diff --staged --quiet || (git commit -m \"Update images\" && git push))",
