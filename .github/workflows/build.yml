@@ -12,9 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
-
       - uses: fregante/setup-git-user@v1
       - uses: actions/setup-node@v2
         with:
