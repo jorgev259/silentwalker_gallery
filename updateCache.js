@@ -95,7 +95,7 @@ async function readFile (filePath) {
     case 'Destiny 1': {
       if (!imagesCache[game][device][urlName] || imagesCache[game][device][urlName].checksum !== check) await optimiseFile(filePath, device)
 
-      const parentDir = `/Destiny 2/${device}`
+      const parentDir = `/Destiny 1/${device}`
 
       imagesCache[game][device][urlName] = {
         name,
