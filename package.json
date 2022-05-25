@@ -5,14 +5,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    
-    "sync": "rclone sync -v \"drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers\" wallpapers/images",
-    "update-cache": "node updateCache.js",
-    "update-images": "cd wallpapers && git add -A && (git diff --staged --quiet || (git commit -m \"Update images\" && git push))",
-    "export": "next build && next export -o docs",
-    "deploy": "touch ./docs/.nojekyll && git add docs/** && git add **.json && git commit -m \"Update docs folder\" && git push",
 
-    "update": "git pull && npm run sync && npm run update-cache && npm run update-images && git add **.json && npm run export && npm run deploy"
+    "export": "next build && next export -o docs && touch ./docs/.nojekyll",
+    
+    "sync": "rclone sync -v \"drive_gallery:SiLeNtWaLkEr Destiny Emblem Wallpapers\" wallpapers/images && node updateCache.js",
+    "update-images": "cd wallpapers && git add -A && (git diff --staged --quiet || (git commit -m \"Update images\" && git push))",
+    "push": "git add -A && git commit -m \"Update cache\" && git push",
+
+    "update": "git pull && npm run sync && npm run update-images && npm run push"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
