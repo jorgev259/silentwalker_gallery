@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Fdestiny1\u002F[device]\u002F[image]","\u002Fdestiny2\u002F[device]\u002F[category]\u002F[image]","\u002Fdestiny2\u002F[device]\u002F[category]","\u002Fdestiny1\u002F[device]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
