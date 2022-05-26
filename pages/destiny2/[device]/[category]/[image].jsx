@@ -28,7 +28,7 @@ export default function Destiny2Image (props) {
         <meta property="og:site_name" content="SiLeNtWaLkEr Wallpapers" />
         <meta key='url' property='og:url' content={urlPath} />
         <meta key='title' property='og:title' content={name} />
-        <meta key='image' property='og:image' content={ imgPath.replace('/images/', '/discord/')} />
+        <meta key='image' property='og:image' content={`https://raw.githubusercontent.com/jorgev259/silentwalker_wallpapers/main/discord${imgPath}.jpg`} />
       </Head>
       <Gallery {...props} />
     </>
