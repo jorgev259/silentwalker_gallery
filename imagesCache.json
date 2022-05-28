@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9311,7 +9311,7 @@
                     "name": "Thoughtstealer",
                     "ext": ".jpg",
                     "urlName": "thoughtstealer",
-                    "mtimeMs": 1653695662000,
+                    "mtimeMs": 1653749324159,
                     "imgPath": "/Destiny 2/Desktop/Emblems/Thoughtstealer",
                     "urlPath": "/destiny2/desktop/emblems/thoughtstealer",
                     "checksum": "43248ba4bb5a3c9cc0c159bf8a63e5009d79b55f"
@@ -14089,7 +14089,7 @@
                     "name": "Thoughtstealer",
                     "ext": ".jpg",
                     "urlName": "thoughtstealer",
-                    "mtimeMs": 1653695662000,
+                    "mtimeMs": 1653749298644,
                     "imgPath": "/Destiny 2/Mobile/Emblems/Thoughtstealer",
                     "urlPath": "/destiny2/mobile/emblems/thoughtstealer",
                     "checksum": "69aa4c8b9bc72e272ee3731a8f623dd205d6cada"
