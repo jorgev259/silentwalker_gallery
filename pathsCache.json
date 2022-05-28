@@ -1923,13 +1923,13 @@
         {
             "params": {
                 "device": "mobile",
-                "image": "1440x2560-crownofthesovereign"
+                "image": "1440x2560-crownofthenewmonarchy"
             }
         },
         {
             "params": {
                 "device": "mobile",
-                "image": "1440x2560-crownofthenewmonarchy"
+                "image": "1440x2560-crownofthesovereign"
             }
         },
         {
@@ -8414,13 +8414,6 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "grizzledwolf"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
                 "image": "greasypalms"
             }
         },
@@ -8428,7 +8421,7 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "hakkeupgrade"
+                "image": "grizzledwolf"
             }
         },
         {
@@ -8436,6 +8429,13 @@
                 "device": "mobile",
                 "category": "emblems",
                 "image": "guardiansoath"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "hakkeupgrade"
             }
         },
         {
@@ -9023,14 +9023,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "odysseus'soffspring"
+                "image": "obsidiandreams"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "obsidiandreams"
+                "image": "odysseus'soffspring"
             }
         },
         {
@@ -9989,14 +9989,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "thepyramidion"
+                "image": "thenextchapter"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "thenextchapter"
+                "image": "thepyramidion"
             }
         },
         {
@@ -10606,6 +10606,20 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "thoughtstealer"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "thoughtstealer"
             }
         }
     ]

@@ -869,7 +869,7 @@
                 "name": "1280x800-Häkke",
                 "ext": ".jpg",
                 "urlName": "1280x800-h%C3%A4kke",
-                "mtimeMs": 1653332134845.0986,
+                "mtimeMs": 1653455982315.936,
                 "imgPath": "/Destiny 1/Desktop/1280x800-Häkke",
                 "urlPath": "/destiny1/desktop/1280x800-h%c3%a4kke",
                 "checksum": "c9e6b3f8c357746d692256cd49a0d1afa54f03b9"
@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -3283,7 +3283,7 @@
                 "name": "1440x2560-Häkke",
                 "ext": ".jpg",
                 "urlName": "1440x2560-h%C3%A4kke",
-                "mtimeMs": 1653332136760.045,
+                "mtimeMs": 1653455988776.292,
                 "imgPath": "/Destiny 1/Mobile/1440x2560-Häkke",
                 "urlPath": "/destiny1/mobile/1440x2560-h%c3%a4kke",
                 "checksum": "ea0f62d41db469fe0de3eaac6a45d6f822e212db"
@@ -9306,6 +9306,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Zero Future",
                     "urlPath": "/destiny2/desktop/emblems/zerofuture",
                     "checksum": "cfbe7de1a314ae0c993498510a99e0eae0cf5a6b"
+                },
+                "thoughtstealer": {
+                    "name": "Thoughtstealer",
+                    "ext": ".jpg",
+                    "urlName": "thoughtstealer",
+                    "mtimeMs": 1653695662000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Thoughtstealer",
+                    "urlPath": "/destiny2/desktop/emblems/thoughtstealer",
+                    "checksum": "43248ba4bb5a3c9cc0c159bf8a63e5009d79b55f"
                 }
             },
             "Seals": {
@@ -14075,6 +14084,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Zero Future",
                     "urlPath": "/destiny2/mobile/emblems/zerofuture",
                     "checksum": "d032b2206e07698e461212b60712f6373c45e08e"
+                },
+                "thoughtstealer": {
+                    "name": "Thoughtstealer",
+                    "ext": ".jpg",
+                    "urlName": "thoughtstealer",
+                    "mtimeMs": 1653695662000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Thoughtstealer",
+                    "urlPath": "/destiny2/mobile/emblems/thoughtstealer",
+                    "checksum": "69aa4c8b9bc72e272ee3731a8f623dd205d6cada"
                 }
             },
             "Seals": {
