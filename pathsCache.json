@@ -10621,6 +10621,20 @@
                 "category": "seals",
                 "image": "wayfarer"
             }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "ironlord"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "ironlord"
+            }
         }
     ]
 }
