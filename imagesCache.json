@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9315,6 +9315,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Thoughtstealer",
                     "urlPath": "/destiny2/desktop/emblems/thoughtstealer",
                     "checksum": "43248ba4bb5a3c9cc0c159bf8a63e5009d79b55f"
+                },
+                "terminalvelocity": {
+                    "name": "Terminal Velocity",
+                    "ext": ".jpg",
+                    "urlName": "terminalvelocity",
+                    "mtimeMs": 1654251090000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Terminal Velocity",
+                    "urlPath": "/destiny2/desktop/emblems/terminalvelocity",
+                    "checksum": "31a0c6ae06358c212889050849e1438f27636233"
                 }
             },
             "Seals": {
@@ -14102,6 +14111,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Thoughtstealer",
                     "urlPath": "/destiny2/mobile/emblems/thoughtstealer",
                     "checksum": "69aa4c8b9bc72e272ee3731a8f623dd205d6cada"
+                },
+                "terminalvelocity": {
+                    "name": "Terminal Velocity",
+                    "ext": ".jpg",
+                    "urlName": "terminalvelocity",
+                    "mtimeMs": 1654251105542,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Terminal Velocity",
+                    "urlPath": "/destiny2/mobile/emblems/terminalvelocity",
+                    "checksum": "e36b3ff923fbc93bad03a83b94c14681567babda"
                 }
             },
             "Seals": {

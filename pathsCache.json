@@ -6811,6 +6811,13 @@
             "params": {
                 "device": "desktop",
                 "category": "seals",
+                "image": "ironlord"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
                 "image": "mmxix"
             }
         },
@@ -10521,6 +10528,13 @@
             "params": {
                 "device": "mobile",
                 "category": "seals",
+                "image": "ironlord"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
                 "image": "mmxix"
             }
         },
@@ -10624,16 +10638,16 @@
         },
         {
             "params": {
-                "device": "mobile",
-                "category": "seals",
-                "image": "ironlord"
+                "device": "desktop",
+                "category": "emblems",
+                "image": "terminalvelocity"
             }
         },
         {
             "params": {
-                "device": "desktop",
-                "category": "seals",
-                "image": "ironlord"
+                "device": "mobile",
+                "category": "emblems",
+                "image": "terminalvelocity"
             }
         }
     ]
