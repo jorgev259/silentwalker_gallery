@@ -6174,6 +6174,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "terminalvelocity"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "terror'send"
             }
         },
@@ -9884,6 +9891,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "terminalvelocity"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "terror'send"
             }
         },
@@ -10640,14 +10654,28 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "terminalvelocity"
+                "image": "ironcore"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "theinfiniteprismatic"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "terminalvelocity"
+                "image": "ironcore"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "theinfiniteprismatic"
             }
         }
     ]

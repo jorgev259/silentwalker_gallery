@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9320,10 +9320,28 @@
                     "name": "Terminal Velocity",
                     "ext": ".jpg",
                     "urlName": "terminalvelocity",
-                    "mtimeMs": 1654251090000,
+                    "mtimeMs": 1654682568957,
                     "imgPath": "/Destiny 2/Desktop/Emblems/Terminal Velocity",
                     "urlPath": "/destiny2/desktop/emblems/terminalvelocity",
                     "checksum": "31a0c6ae06358c212889050849e1438f27636233"
+                },
+                "ironcore": {
+                    "name": "Iron Core",
+                    "ext": ".jpg",
+                    "urlName": "ironcore",
+                    "mtimeMs": 1654682573000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Iron Core",
+                    "urlPath": "/destiny2/desktop/emblems/ironcore",
+                    "checksum": "eb2a538baea7eb52f4bd8728efa7ff267690313a"
+                },
+                "theinfiniteprismatic": {
+                    "name": "The Infinite Prismatic",
+                    "ext": ".jpg",
+                    "urlName": "theinfiniteprismatic",
+                    "mtimeMs": 1654682572000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/The Infinite Prismatic",
+                    "urlPath": "/destiny2/desktop/emblems/theinfiniteprismatic",
+                    "checksum": "b570f6c3e5f4f3611a92d1080b5d92a83579b290"
                 }
             },
             "Seals": {
@@ -14116,10 +14134,28 @@
                     "name": "Terminal Velocity",
                     "ext": ".jpg",
                     "urlName": "terminalvelocity",
-                    "mtimeMs": 1654251105542,
+                    "mtimeMs": 1654682556171,
                     "imgPath": "/Destiny 2/Mobile/Emblems/Terminal Velocity",
                     "urlPath": "/destiny2/mobile/emblems/terminalvelocity",
                     "checksum": "e36b3ff923fbc93bad03a83b94c14681567babda"
+                },
+                "ironcore": {
+                    "name": "Iron Core",
+                    "ext": ".jpg",
+                    "urlName": "ironcore",
+                    "mtimeMs": 1654682572000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Iron Core",
+                    "urlPath": "/destiny2/mobile/emblems/ironcore",
+                    "checksum": "d0ed85d8d5b21948455d532b065138b383a9cdbf"
+                },
+                "theinfiniteprismatic": {
+                    "name": "The Infinite Prismatic",
+                    "ext": ".jpg",
+                    "urlName": "theinfiniteprismatic",
+                    "mtimeMs": 1654682571000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/The Infinite Prismatic",
+                    "urlPath": "/destiny2/mobile/emblems/theinfiniteprismatic",
+                    "checksum": "d9dd1c49f5274a457f7a007429e15be142be4363"
                 }
             },
             "Seals": {
