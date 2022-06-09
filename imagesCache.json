@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9320,7 +9320,7 @@
                     "name": "Terminal Velocity",
                     "ext": ".jpg",
                     "urlName": "terminalvelocity",
-                    "mtimeMs": 1654682568957,
+                    "mtimeMs": 1654683436660,
                     "imgPath": "/Destiny 2/Desktop/Emblems/Terminal Velocity",
                     "urlPath": "/destiny2/desktop/emblems/terminalvelocity",
                     "checksum": "31a0c6ae06358c212889050849e1438f27636233"
@@ -9342,6 +9342,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/The Infinite Prismatic",
                     "urlPath": "/destiny2/desktop/emblems/theinfiniteprismatic",
                     "checksum": "b570f6c3e5f4f3611a92d1080b5d92a83579b290"
+                },
+                "stag'sspirit": {
+                    "name": "Stag's Spirit",
+                    "ext": ".jpg",
+                    "urlName": "stag'sspirit",
+                    "mtimeMs": 1654805295000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Stag's Spirit",
+                    "urlPath": "/destiny2/desktop/emblems/stag'sspirit",
+                    "checksum": "b3a2798621dfa21fa96e097d711b7b4282e22e63"
                 }
             },
             "Seals": {
@@ -14134,7 +14143,7 @@
                     "name": "Terminal Velocity",
                     "ext": ".jpg",
                     "urlName": "terminalvelocity",
-                    "mtimeMs": 1654682556171,
+                    "mtimeMs": 1654683448231,
                     "imgPath": "/Destiny 2/Mobile/Emblems/Terminal Velocity",
                     "urlPath": "/destiny2/mobile/emblems/terminalvelocity",
                     "checksum": "e36b3ff923fbc93bad03a83b94c14681567babda"
@@ -14156,6 +14165,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/The Infinite Prismatic",
                     "urlPath": "/destiny2/mobile/emblems/theinfiniteprismatic",
                     "checksum": "d9dd1c49f5274a457f7a007429e15be142be4363"
+                },
+                "stag'sspirit": {
+                    "name": "Stag's Spirit",
+                    "ext": ".jpg",
+                    "urlName": "stag'sspirit",
+                    "mtimeMs": 1654805294000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Stag's Spirit",
+                    "urlPath": "/destiny2/mobile/emblems/stag'sspirit",
+                    "checksum": "50090ab25bb97ae3ed1b3b8d66b8c5ee2741b05a"
                 }
             },
             "Seals": {

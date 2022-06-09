@@ -4907,6 +4907,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "ironcore"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "ironherosigil"
             }
         },
@@ -6259,6 +6266,13 @@
                 "device": "desktop",
                 "category": "emblems",
                 "image": "theimperialmenagerie"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "theinfiniteprismatic"
             }
         },
         {
@@ -8631,6 +8645,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "ironcore"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "ironherosigil"
             }
         },
@@ -9982,6 +10003,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "theinfiniteprismatic"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "theinvader"
             }
         },
@@ -10654,28 +10682,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "ironcore"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "theinfiniteprismatic"
+                "image": "stag'sspirit"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "ironcore"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "theinfiniteprismatic"
+                "image": "stag'sspirit"
             }
         }
     ]
