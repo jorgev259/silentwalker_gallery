@@ -5999,6 +5999,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "stag'sspirit"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "stalker'sshot"
             }
         },
@@ -9730,6 +9737,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "stag'sspirit"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "stalker'sshot"
             }
         },
@@ -10682,14 +10696,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "stag'sspirit"
+                "image": "sunwardordeal"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "stag'sspirit"
+                "image": "sunwardordeal"
             }
         }
     ]

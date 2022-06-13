@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9351,6 +9351,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Stag's Spirit",
                     "urlPath": "/destiny2/desktop/emblems/stag'sspirit",
                     "checksum": "b3a2798621dfa21fa96e097d711b7b4282e22e63"
+                },
+                "sunwardordeal": {
+                    "name": "Sunward Ordeal",
+                    "ext": ".jpg",
+                    "urlName": "sunwardordeal",
+                    "mtimeMs": 1655138972000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Sunward Ordeal",
+                    "urlPath": "/destiny2/desktop/emblems/sunwardordeal",
+                    "checksum": "5fc948ce671d150dc8198090c8f77f8a416584f1"
                 }
             },
             "Seals": {
@@ -14174,6 +14183,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Stag's Spirit",
                     "urlPath": "/destiny2/mobile/emblems/stag'sspirit",
                     "checksum": "50090ab25bb97ae3ed1b3b8d66b8c5ee2741b05a"
+                },
+                "sunwardordeal": {
+                    "name": "Sunward Ordeal",
+                    "ext": ".jpg",
+                    "urlName": "sunwardordeal",
+                    "mtimeMs": 1655138699000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Sunward Ordeal",
+                    "urlPath": "/destiny2/mobile/emblems/sunwardordeal",
+                    "checksum": "e5c9d000df2d4760ae7b47fd52be4b10e34c468a"
                 }
             },
             "Seals": {
