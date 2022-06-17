@@ -6104,6 +6104,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "sunwardordeal"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "surosupgrade"
             }
         },
@@ -9842,6 +9849,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "sunwardordeal"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "surosupgrade"
             }
         },
@@ -10696,14 +10710,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "sunwardordeal"
+                "image": "untouchedbyopulence"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "sunwardordeal"
+                "image": "untouchedbyopulence"
             }
         }
     ]
