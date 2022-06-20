@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9369,6 +9369,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Untouched by Opulence",
                     "urlPath": "/destiny2/desktop/emblems/untouchedbyopulence",
                     "checksum": "28d42f4f5b3b842d00f58de9c77b2b35de50dbdf"
+                },
+                "leviathan'sgiftshop": {
+                    "name": "Leviathan's Gift Shop",
+                    "ext": ".jpg",
+                    "urlName": "leviathan'sgiftshop",
+                    "mtimeMs": 1655745611000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Leviathan's Gift Shop",
+                    "urlPath": "/destiny2/desktop/emblems/leviathan'sgiftshop",
+                    "checksum": "38b42fb0ba9140f4fbde3df009024e22db9eff7b"
                 }
             },
             "Seals": {
@@ -14210,6 +14219,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Untouched by Opulence",
                     "urlPath": "/destiny2/mobile/emblems/untouchedbyopulence",
                     "checksum": "d49a9dc0aa3822d3af6e5486b0dab7d7e790f242"
+                },
+                "leviathan'sgiftshop": {
+                    "name": "Leviathan's Gift Shop",
+                    "ext": ".jpg",
+                    "urlName": "leviathan'sgiftshop",
+                    "mtimeMs": 1655745610000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Leviathan's Gift Shop",
+                    "urlPath": "/destiny2/mobile/emblems/leviathan'sgiftshop",
+                    "checksum": "f2ecba5019c74263397acfdc9da1c7576ccd6593"
                 }
             },
             "Seals": {
