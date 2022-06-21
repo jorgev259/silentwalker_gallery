@@ -6587,6 +6587,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "venn'spulsar"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "veteranofthehunt"
             }
         },
@@ -10346,6 +10353,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "venn'spulsar"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "veteranofthehunt"
             }
         },
@@ -10732,20 +10746,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "venn'spulsar"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "venn'spulsar"
             }
         }
     ]
