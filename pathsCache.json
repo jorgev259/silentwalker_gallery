@@ -4998,6 +4998,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "leviathan'sgiftshop"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "lightofthedarksun"
             }
         },
@@ -8757,6 +8764,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "leviathan'sgiftshop"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "lightofthedarksun"
             }
         },
@@ -10724,14 +10738,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "leviathan'sgiftshop"
+                "image": "venn'spulsar"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "leviathan'sgiftshop"
+                "image": "venn'spulsar"
             }
         }
     ]
