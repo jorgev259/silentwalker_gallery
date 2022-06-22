@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9387,6 +9387,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Venn's Pulsar",
                     "urlPath": "/destiny2/desktop/emblems/venn'spulsar",
                     "checksum": "c89d694b81926ac24c61e3ff908074b75b75c387"
+                },
+                "g-type": {
+                    "name": "G-Type",
+                    "ext": ".jpg",
+                    "urlName": "g-type",
+                    "mtimeMs": 1655907330000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/G-Type",
+                    "urlPath": "/destiny2/desktop/emblems/g-type",
+                    "checksum": "be9f36769cf37491301c5a897b141d0ac152a2f1"
                 }
             },
             "Seals": {
@@ -14246,6 +14255,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Venn's Pulsar",
                     "urlPath": "/destiny2/mobile/emblems/venn'spulsar",
                     "checksum": "a3e2cd32ec253db64e152f3352bd438a0d156c28"
+                },
+                "g-type": {
+                    "name": "G-Type",
+                    "ext": ".jpg",
+                    "urlName": "g-type",
+                    "mtimeMs": 1655907330000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/G-Type",
+                    "urlPath": "/destiny2/mobile/emblems/g-type",
+                    "checksum": "748fd845a971982f09ac20008cc912a041542349"
                 }
             },
             "Seals": {
