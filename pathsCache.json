@@ -4606,6 +4606,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "g-type"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "galacticmagpie"
             }
         },
@@ -8379,6 +8386,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "g-type"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "galacticmagpie"
             }
         },
@@ -10746,20 +10760,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "g-type"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "g-type"
             }
         }
     ]
