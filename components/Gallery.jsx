@@ -2,6 +2,7 @@
 import classNames from 'classnames'
 import Link from 'next/link'
 
+import Footer from './Footer'
 import styles from '../styles/gallery.module.scss'
 
 const deviceStyles = {
@@ -57,7 +58,7 @@ function ModalElement (props) {
 }
 
 export default function Gallery (props) {
-  const { device = 'desktop', images = [], modal, popup, search, sort } = props
+  const { device = 'desktop', images = [], modal, search, sort } = props
 
   const filteredImages = images.filter(i => i.name.toLowerCase().includes(search))
   const imageList = sort === 'new'
@@ -69,12 +70,13 @@ export default function Gallery (props) {
     })
 
   return (
-    <div className={classNames('container-fluid flex-fill px-0', styles.root)} style={{ paddingTop: popup ? '130px' : '60px' }}>
+    <div className={classNames('container-fluid flex-fill px-0', styles.root)} style={{ paddingTop: '60px' }}>
       <ModalElement {...(modal || {})} device={device} show={!!modal} p />
       <div className="col">
         <div className="row">
           {imageList.map(i => <Thumb key={i.urlPath} device={device} {...i} />)}
         </div>
+        <Footer />
       </div>
     </div>
   )

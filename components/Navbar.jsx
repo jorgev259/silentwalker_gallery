@@ -2,8 +2,6 @@ import classNames from 'classnames'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-import Popup from './Popup'
-
 function DeviceToggle (props) {
   const { router } = props
   const { query } = router
@@ -67,9 +65,8 @@ function DropdownItem (props) {
 }
 
 export default function Navbar (props) {
-  const { popup, donateClose, sort, setSort, setSearch } = props
+  const { sort, setSort, setSearch } = props
   const sortProps = { sort, setSort }
-  const donateProps = { popup, donateClose }
 
   const router = useRouter()
   const { query } = router
@@ -134,13 +131,11 @@ export default function Navbar (props) {
                 <SortToggle {...sortProps} />
               </li>
             </ul>
-            <form className="d-flex">
-              <input className="form-control me-2" type="search" placeholder="Search" onChange={ev => setSearch(ev.target.value.toLowerCase())} />
-            </form>
+
+            <input className="form-control me-2 my-2 mx-md-5" type="search" placeholder="Search" onChange={ev => setSearch(ev.target.value.toLowerCase())} />
           </div>
         </div>
       </nav>
-      <Popup {...donateProps} />
     </>
   )
 }
