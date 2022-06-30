@@ -4781,6 +4781,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "heimdallrsholler"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "helioscrown"
             }
         },
@@ -8561,6 +8568,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "heimdallrsholler"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "helioscrown"
             }
         },
@@ -10760,20 +10774,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "heimdallrsholler"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "heimdallrsholler"
             }
         }
     ]
