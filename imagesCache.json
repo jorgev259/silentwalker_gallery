@@ -9396,6 +9396,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/G-Type",
                     "urlPath": "/destiny2/desktop/emblems/g-type",
                     "checksum": "be9f36769cf37491301c5a897b141d0ac152a2f1"
+                },
+                "heimdallrsholler": {
+                    "name": "Heimdallrs Holler",
+                    "ext": ".jpg",
+                    "urlName": "heimdallrsholler",
+                    "mtimeMs": 1656605412464,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Heimdallrs Holler",
+                    "urlPath": "/destiny2/desktop/emblems/heimdallrsholler",
+                    "checksum": "a7f4180a5b18b8946386861b6a398c26e8539224"
                 }
             },
             "Seals": {
@@ -14264,6 +14273,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/G-Type",
                     "urlPath": "/destiny2/mobile/emblems/g-type",
                     "checksum": "748fd845a971982f09ac20008cc912a041542349"
+                },
+                "heimdallrsholler": {
+                    "name": "Heimdallrs Holler",
+                    "ext": ".jpg",
+                    "urlName": "heimdallrsholler",
+                    "mtimeMs": 1656605429852,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Heimdallrs Holler",
+                    "urlPath": "/destiny2/mobile/emblems/heimdallrsholler",
+                    "checksum": "bca6728bf8d9ce8b8282b38f918b5fbd9ac3df05"
                 }
             },
             "Seals": {
