@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9405,6 +9405,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Heimdallrs Holler",
                     "urlPath": "/destiny2/desktop/emblems/heimdallrsholler",
                     "checksum": "a7f4180a5b18b8946386861b6a398c26e8539224"
+                },
+                "interconnected": {
+                    "name": "Interconnected",
+                    "ext": ".jpg",
+                    "urlName": "interconnected",
+                    "mtimeMs": 1657018793000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Interconnected",
+                    "urlPath": "/destiny2/desktop/emblems/interconnected",
+                    "checksum": "c848f19f631d5bb8dd31736d024e45f574d9a767"
                 }
             },
             "Seals": {
@@ -14282,6 +14291,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Heimdallrs Holler",
                     "urlPath": "/destiny2/mobile/emblems/heimdallrsholler",
                     "checksum": "bca6728bf8d9ce8b8282b38f918b5fbd9ac3df05"
+                },
+                "interconnected": {
+                    "name": "Interconnected",
+                    "ext": ".jpg",
+                    "urlName": "interconnected",
+                    "mtimeMs": 1657018776000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Interconnected",
+                    "urlPath": "/destiny2/mobile/emblems/interconnected",
+                    "checksum": "74aedd83d2e737fd995b17c7416cb2556e5142fa"
                 }
             },
             "Seals": {
