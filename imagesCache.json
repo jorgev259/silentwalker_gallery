@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9423,6 +9423,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Seven of Seven",
                     "urlPath": "/destiny2/desktop/emblems/sevenofseven",
                     "checksum": "4803186e3c68c2a556513377d1a836e3559f5a5a"
+                },
+                "heritageeternal": {
+                    "name": "Heritage Eternal",
+                    "ext": ".jpg",
+                    "urlName": "heritageeternal",
+                    "mtimeMs": 1657213840000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Heritage Eternal",
+                    "urlPath": "/destiny2/desktop/emblems/heritageeternal",
+                    "checksum": "5d567ede310f0e5da79fb10b6ecec499eda5178a"
                 }
             },
             "Seals": {
@@ -14318,6 +14327,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Seven of Seven",
                     "urlPath": "/destiny2/mobile/emblems/sevenofseven",
                     "checksum": "eb38b94f57311d6e4d998f57d82e5d6350f56594"
+                },
+                "heritageeternal": {
+                    "name": "Heritage Eternal",
+                    "ext": ".jpg",
+                    "urlName": "heritageeternal",
+                    "mtimeMs": 1657213888000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Heritage Eternal",
+                    "urlPath": "/destiny2/mobile/emblems/heritageeternal",
+                    "checksum": "01041cc5bc5a665b653fdd710cca8408dadc24a4"
                 }
             },
             "Seals": {

@@ -5852,6 +5852,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "sevenofseven"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "shadehallow"
             }
         },
@@ -9639,6 +9646,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "sevenofseven"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "shadehallow"
             }
         },
@@ -10794,14 +10808,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "sevenofseven"
+                "image": "heritageeternal"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "sevenofseven"
+                "image": "heritageeternal"
             }
         }
     ]
