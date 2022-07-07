@@ -4921,6 +4921,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "interconnected"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "ironcore"
             }
         },
@@ -8708,6 +8715,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "interconnected"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "ironcore"
             }
         },
@@ -10780,14 +10794,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "interconnected"
+                "image": "sevenofseven"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "interconnected"
+                "image": "sevenofseven"
             }
         }
     ]

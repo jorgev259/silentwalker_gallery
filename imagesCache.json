@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9414,6 +9414,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Interconnected",
                     "urlPath": "/destiny2/desktop/emblems/interconnected",
                     "checksum": "c848f19f631d5bb8dd31736d024e45f574d9a767"
+                },
+                "sevenofseven": {
+                    "name": "Seven of Seven",
+                    "ext": ".jpg",
+                    "urlName": "sevenofseven",
+                    "mtimeMs": 1657208231000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Seven of Seven",
+                    "urlPath": "/destiny2/desktop/emblems/sevenofseven",
+                    "checksum": "4803186e3c68c2a556513377d1a836e3559f5a5a"
                 }
             },
             "Seals": {
@@ -14300,6 +14309,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Interconnected",
                     "urlPath": "/destiny2/mobile/emblems/interconnected",
                     "checksum": "74aedd83d2e737fd995b17c7416cb2556e5142fa"
+                },
+                "sevenofseven": {
+                    "name": "Seven of Seven",
+                    "ext": ".jpg",
+                    "urlName": "sevenofseven",
+                    "mtimeMs": 1657208230000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Seven of Seven",
+                    "urlPath": "/destiny2/mobile/emblems/sevenofseven",
+                    "checksum": "eb38b94f57311d6e4d998f57d82e5d6350f56594"
                 }
             },
             "Seals": {
