@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9432,6 +9432,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Heritage Eternal",
                     "urlPath": "/destiny2/desktop/emblems/heritageeternal",
                     "checksum": "5d567ede310f0e5da79fb10b6ecec499eda5178a"
+                },
+                "functionofgrace": {
+                    "name": "Function of Grace",
+                    "ext": ".jpg",
+                    "urlName": "functionofgrace",
+                    "mtimeMs": 1657897395000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Function of Grace",
+                    "urlPath": "/destiny2/desktop/emblems/functionofgrace",
+                    "checksum": "7e3bc5a6ecc3b3d9ee6500fd5fbbdd8b50fc1440"
                 }
             },
             "Seals": {
@@ -14336,6 +14345,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Heritage Eternal",
                     "urlPath": "/destiny2/mobile/emblems/heritageeternal",
                     "checksum": "01041cc5bc5a665b653fdd710cca8408dadc24a4"
+                },
+                "functionofgrace": {
+                    "name": "Function of Grace",
+                    "ext": ".jpg",
+                    "urlName": "functionofgrace",
+                    "mtimeMs": 1657897395000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Function of Grace",
+                    "urlPath": "/destiny2/mobile/emblems/functionofgrace",
+                    "checksum": "74ed5899cbb1912206ae09b6644a30aa3a59cbde"
                 }
             },
             "Seals": {
