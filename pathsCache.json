@@ -4431,13 +4431,6 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "eternallytriumph"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
                 "image": "everyonecanplay"
             }
         },
@@ -4593,6 +4586,13 @@
                 "device": "desktop",
                 "category": "emblems",
                 "image": "fromtheashes"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "functionofgrace"
             }
         },
         {
@@ -8239,13 +8239,6 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "eternallytriumph"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
                 "image": "everyonecanplay"
             }
         },
@@ -8401,6 +8394,13 @@
                 "device": "mobile",
                 "category": "emblems",
                 "image": "fromtheashes"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "functionofgrace"
             }
         },
         {
@@ -10822,14 +10822,28 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "functionofgrace"
+                "image": "asinglespark"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "eternallytriumphant"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "functionofgrace"
+                "image": "eternallytriumphant"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "asinglespark"
             }
         }
     ]

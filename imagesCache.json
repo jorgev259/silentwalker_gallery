@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9441,6 +9441,24 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Function of Grace",
                     "urlPath": "/destiny2/desktop/emblems/functionofgrace",
                     "checksum": "7e3bc5a6ecc3b3d9ee6500fd5fbbdd8b50fc1440"
+                },
+                "asinglespark": {
+                    "name": "A Single Spark",
+                    "ext": ".jpg",
+                    "urlName": "asinglespark",
+                    "mtimeMs": 1658328964000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/A Single Spark",
+                    "urlPath": "/destiny2/desktop/emblems/asinglespark",
+                    "checksum": "79b3c2a549617d7d58981eb01ec31e16b99ae458"
+                },
+                "eternallytriumphant": {
+                    "name": "Eternally Triumphant",
+                    "ext": ".jpg",
+                    "urlName": "eternallytriumphant",
+                    "mtimeMs": 1658252507613,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Eternally Triumphant",
+                    "urlPath": "/destiny2/desktop/emblems/eternallytriumphant",
+                    "checksum": "d5356aa980d8f9a398847352eda4faf1f019c021"
                 }
             },
             "Seals": {
@@ -14354,6 +14372,24 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Function of Grace",
                     "urlPath": "/destiny2/mobile/emblems/functionofgrace",
                     "checksum": "74ed5899cbb1912206ae09b6644a30aa3a59cbde"
+                },
+                "eternallytriumphant": {
+                    "name": "Eternally Triumphant",
+                    "ext": ".jpg",
+                    "urlName": "eternallytriumphant",
+                    "mtimeMs": 1658252480999,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Eternally Triumphant",
+                    "urlPath": "/destiny2/mobile/emblems/eternallytriumphant",
+                    "checksum": "f16a59a5959354010c942a59371034c04523767a"
+                },
+                "asinglespark": {
+                    "name": "A Single Spark",
+                    "ext": ".jpg",
+                    "urlName": "asinglespark",
+                    "mtimeMs": 1658328963000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/A Single Spark",
+                    "urlPath": "/destiny2/mobile/emblems/asinglespark",
+                    "checksum": "0145f9d5e1b2506eca1bdcf76d21fe43e6a53ceb"
                 }
             },
             "Seals": {
