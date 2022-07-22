@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9459,6 +9459,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Eternally Triumphant",
                     "urlPath": "/destiny2/desktop/emblems/eternallytriumphant",
                     "checksum": "d5356aa980d8f9a398847352eda4faf1f019c021"
+                },
+                "gravityaxle": {
+                    "name": "Gravity Axle",
+                    "ext": ".jpg",
+                    "urlName": "gravityaxle",
+                    "mtimeMs": 1658330591000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Gravity Axle",
+                    "urlPath": "/destiny2/desktop/emblems/gravityaxle",
+                    "checksum": "462244b5878db5e5f2eccf420405c403f5a7606b"
                 }
             },
             "Seals": {
@@ -14390,6 +14399,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/A Single Spark",
                     "urlPath": "/destiny2/mobile/emblems/asinglespark",
                     "checksum": "0145f9d5e1b2506eca1bdcf76d21fe43e6a53ceb"
+                },
+                "gravityaxle": {
+                    "name": "Gravity Axle",
+                    "ext": ".jpg",
+                    "urlName": "gravityaxle",
+                    "mtimeMs": 1658330590000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Gravity Axle",
+                    "urlPath": "/destiny2/mobile/emblems/gravityaxle",
+                    "checksum": "695a323df7d6ff79cbcf669bab19e5f4a82f7d3e"
                 }
             },
             "Seals": {

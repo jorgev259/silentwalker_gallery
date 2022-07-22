@@ -3591,6 +3591,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "asinglespark"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "absolutezero"
             }
         },
@@ -4425,6 +4432,13 @@
                 "device": "desktop",
                 "category": "emblems",
                 "image": "escapethisdeadorbit"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "eternallytriumphant"
             }
         },
         {
@@ -7399,6 +7413,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "asinglespark"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "absolutezero"
             }
         },
@@ -8233,6 +8254,13 @@
                 "device": "mobile",
                 "category": "emblems",
                 "image": "escapethisdeadorbit"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "eternallytriumphant"
             }
         },
         {
@@ -10822,28 +10850,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "asinglespark"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "eternallytriumphant"
+                "image": "gravityaxle"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "eternallytriumphant"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "asinglespark"
+                "image": "gravityaxle"
             }
         }
     ]
