@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9754,7 +9754,7 @@
                     "name": "Flamekeeper",
                     "ext": ".jpg",
                     "urlName": "flamekeeper",
-                    "mtimeMs": 1659001424000,
+                    "mtimeMs": 1659112665765,
                     "imgPath": "/Destiny 2/Desktop/Seals/Flamekeeper",
                     "urlPath": "/destiny2/desktop/seals/flamekeeper",
                     "checksum": "cbf917aa5913d314b7503219fe49794da8494be4"
@@ -9763,10 +9763,28 @@
                     "name": "Gumshoe",
                     "ext": ".jpg",
                     "urlName": "gumshoe",
-                    "mtimeMs": 1659001425000,
+                    "mtimeMs": 1659112659573,
                     "imgPath": "/Destiny 2/Desktop/Seals/Gumshoe",
                     "urlPath": "/destiny2/desktop/seals/gumshoe",
                     "checksum": "aba8543142699d723698347cf222a701a677f751"
+                },
+                "discerptor": {
+                    "name": "Discerptor",
+                    "ext": ".jpg",
+                    "urlName": "discerptor",
+                    "mtimeMs": 1659112437000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Discerptor",
+                    "urlPath": "/destiny2/desktop/seals/discerptor",
+                    "checksum": "1e2c9e7719f34e8db5a1caaa5917544a4e82f2ce"
+                },
+                "disciple-slayer": {
+                    "name": "Disciple-Slayer",
+                    "ext": ".jpg",
+                    "urlName": "disciple-slayer",
+                    "mtimeMs": 1659112438000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Disciple-Slayer",
+                    "urlPath": "/destiny2/desktop/seals/disciple-slayer",
+                    "checksum": "c9b0fa63c49aeda1e61299996eef015724ada71e"
                 }
             }
         },
@@ -14721,7 +14739,7 @@
                     "name": "Flamekeeper",
                     "ext": ".jpg",
                     "urlName": "flamekeeper",
-                    "mtimeMs": 1659001422000,
+                    "mtimeMs": 1659112611893,
                     "imgPath": "/Destiny 2/Mobile/Seals/Flamekeeper",
                     "urlPath": "/destiny2/mobile/seals/flamekeeper",
                     "checksum": "fbbaab0ed30aad4323c8a4ee51299d2a2f551d5d"
@@ -14730,10 +14748,28 @@
                     "name": "Gumshoe",
                     "ext": ".jpg",
                     "urlName": "gumshoe",
-                    "mtimeMs": 1659001423000,
+                    "mtimeMs": 1659112606657,
                     "imgPath": "/Destiny 2/Mobile/Seals/Gumshoe",
                     "urlPath": "/destiny2/mobile/seals/gumshoe",
                     "checksum": "5fdd413b295d85664a73df6d11a54cf7b196b74e"
+                },
+                "discerptor": {
+                    "name": "Discerptor",
+                    "ext": ".jpg",
+                    "urlName": "discerptor",
+                    "mtimeMs": 1659112436000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Discerptor",
+                    "urlPath": "/destiny2/mobile/seals/discerptor",
+                    "checksum": "ba795a67f7c2e1ed03e06edb058c9a9cb206ca04"
+                },
+                "disciple-slayer": {
+                    "name": "Disciple-Slayer",
+                    "ext": ".jpg",
+                    "urlName": "disciple-slayer",
+                    "mtimeMs": 1659112437000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Disciple-Slayer",
+                    "urlPath": "/destiny2/mobile/seals/disciple-slayer",
+                    "checksum": "facaee49b7345d9a468af5c350a57cf5e2c92e02"
                 }
             }
         }

@@ -5425,6 +5425,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "operationcaliente"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "operationintrepid"
             }
         },
@@ -6895,6 +6902,13 @@
             "params": {
                 "device": "desktop",
                 "category": "seals",
+                "image": "flamekeeper"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
                 "image": "flawless"
             }
         },
@@ -6903,6 +6917,13 @@
                 "device": "desktop",
                 "category": "seals",
                 "image": "forerunner"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "gumshoe"
             }
         },
         {
@@ -9247,6 +9268,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "operationcaliente"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "operationintrepid"
             }
         },
@@ -10717,6 +10745,13 @@
             "params": {
                 "device": "mobile",
                 "category": "seals",
+                "image": "flamekeeper"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
                 "image": "flawless"
             }
         },
@@ -10725,6 +10760,13 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "forerunner"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "gumshoe"
             }
         },
         {
@@ -10849,43 +10891,29 @@
         {
             "params": {
                 "device": "desktop",
-                "category": "emblems",
-                "image": "operationcaliente"
+                "category": "seals",
+                "image": "discerptor"
             }
         },
         {
             "params": {
                 "device": "desktop",
                 "category": "seals",
-                "image": "flamekeeper"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "seals",
-                "image": "gumshoe"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "operationcaliente"
+                "image": "disciple-slayer"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "seals",
-                "image": "flamekeeper"
+                "image": "discerptor"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "seals",
-                "image": "gumshoe"
+                "image": "disciple-slayer"
             }
         }
     ]
