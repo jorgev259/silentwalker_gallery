@@ -4620,13 +4620,6 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "g-type"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
                 "image": "galacticmagpie"
             }
         },
@@ -4726,6 +4719,13 @@
                 "device": "desktop",
                 "category": "emblems",
                 "image": "gravitationalallure"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "gravityaxle"
             }
         },
         {
@@ -8442,13 +8442,6 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "g-type"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
                 "image": "galacticmagpie"
             }
         },
@@ -8548,6 +8541,13 @@
                 "device": "mobile",
                 "category": "emblems",
                 "image": "gravitationalallure"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "gravityaxle"
             }
         },
         {
@@ -10850,14 +10850,42 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "gravityaxle"
+                "image": "operationcaliente"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "flamekeeper"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "gumshoe"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "gravityaxle"
+                "image": "operationcaliente"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "flamekeeper"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "gumshoe"
             }
         }
     ]

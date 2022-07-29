@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9468,6 +9468,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Gravity Axle",
                     "urlPath": "/destiny2/desktop/emblems/gravityaxle",
                     "checksum": "462244b5878db5e5f2eccf420405c403f5a7606b"
+                },
+                "operationcaliente": {
+                    "name": "Operation Caliente",
+                    "ext": ".jpg",
+                    "urlName": "operationcaliente",
+                    "mtimeMs": 1659004369948,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Operation Caliente",
+                    "urlPath": "/destiny2/desktop/emblems/operationcaliente",
+                    "checksum": "362cca7a686719730226f22584814613d58a6204"
                 }
             },
             "Seals": {
@@ -9740,6 +9749,24 @@
                     "imgPath": "/Destiny 2/Desktop/Seals/Iron Lord",
                     "urlPath": "/destiny2/desktop/seals/ironlord",
                     "checksum": "4568ba6455094dd63bfc3166c0ef64de6dfa19d5"
+                },
+                "flamekeeper": {
+                    "name": "Flamekeeper",
+                    "ext": ".jpg",
+                    "urlName": "flamekeeper",
+                    "mtimeMs": 1659001424000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Flamekeeper",
+                    "urlPath": "/destiny2/desktop/seals/flamekeeper",
+                    "checksum": "cbf917aa5913d314b7503219fe49794da8494be4"
+                },
+                "gumshoe": {
+                    "name": "Gumshoe",
+                    "ext": ".jpg",
+                    "urlName": "gumshoe",
+                    "mtimeMs": 1659001425000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Gumshoe",
+                    "urlPath": "/destiny2/desktop/seals/gumshoe",
+                    "checksum": "aba8543142699d723698347cf222a701a677f751"
                 }
             }
         },
@@ -14408,6 +14435,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Gravity Axle",
                     "urlPath": "/destiny2/mobile/emblems/gravityaxle",
                     "checksum": "695a323df7d6ff79cbcf669bab19e5f4a82f7d3e"
+                },
+                "operationcaliente": {
+                    "name": "Operation Caliente",
+                    "ext": ".jpg",
+                    "urlName": "operationcaliente",
+                    "mtimeMs": 1659004384003,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Operation Caliente",
+                    "urlPath": "/destiny2/mobile/emblems/operationcaliente",
+                    "checksum": "7d6a64b1383efe19f15144696fd2cae393cbd732"
                 }
             },
             "Seals": {
@@ -14680,6 +14716,24 @@
                     "imgPath": "/Destiny 2/Mobile/Seals/Iron Lord",
                     "urlPath": "/destiny2/mobile/seals/ironlord",
                     "checksum": "a08e40e48108aa5528c029d6c5feb19b22d68a3d"
+                },
+                "flamekeeper": {
+                    "name": "Flamekeeper",
+                    "ext": ".jpg",
+                    "urlName": "flamekeeper",
+                    "mtimeMs": 1659001422000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Flamekeeper",
+                    "urlPath": "/destiny2/mobile/seals/flamekeeper",
+                    "checksum": "fbbaab0ed30aad4323c8a4ee51299d2a2f551d5d"
+                },
+                "gumshoe": {
+                    "name": "Gumshoe",
+                    "ext": ".jpg",
+                    "urlName": "gumshoe",
+                    "mtimeMs": 1659001423000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Gumshoe",
+                    "urlPath": "/destiny2/mobile/seals/gumshoe",
+                    "checksum": "5fdd413b295d85664a73df6d11a54cf7b196b74e"
                 }
             }
         }
