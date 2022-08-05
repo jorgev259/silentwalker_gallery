@@ -6881,6 +6881,20 @@
             "params": {
                 "device": "desktop",
                 "category": "seals",
+                "image": "discerptor"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "disciple-slayer"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
                 "image": "dredgen"
             }
         },
@@ -10724,6 +10738,20 @@
             "params": {
                 "device": "mobile",
                 "category": "seals",
+                "image": "discerptor"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "disciple-slayer"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
                 "image": "dredgen"
             }
         },
@@ -10891,29 +10919,15 @@
         {
             "params": {
                 "device": "desktop",
-                "category": "seals",
-                "image": "discerptor"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "seals",
-                "image": "disciple-slayer"
+                "category": "emblems",
+                "image": "relentlessmomentum"
             }
         },
         {
             "params": {
                 "device": "mobile",
-                "category": "seals",
-                "image": "discerptor"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "seals",
-                "image": "disciple-slayer"
+                "category": "emblems",
+                "image": "relentlessmomentum"
             }
         }
     ]

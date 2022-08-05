@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9477,6 +9477,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Operation Caliente",
                     "urlPath": "/destiny2/desktop/emblems/operationcaliente",
                     "checksum": "362cca7a686719730226f22584814613d58a6204"
+                },
+                "relentlessmomentum": {
+                    "name": "Relentless Momentum",
+                    "ext": ".jpg",
+                    "urlName": "relentlessmomentum",
+                    "mtimeMs": 1659610805000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Relentless Momentum",
+                    "urlPath": "/destiny2/desktop/emblems/relentlessmomentum",
+                    "checksum": "9cc7179921727562440bd717cc30d6be7d318fc2"
                 }
             },
             "Seals": {
@@ -14462,6 +14471,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Operation Caliente",
                     "urlPath": "/destiny2/mobile/emblems/operationcaliente",
                     "checksum": "7d6a64b1383efe19f15144696fd2cae393cbd732"
+                },
+                "relentlessmomentum": {
+                    "name": "Relentless Momentum",
+                    "ext": ".jpg",
+                    "urlName": "relentlessmomentum",
+                    "mtimeMs": 1659610433000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Relentless Momentum",
+                    "urlPath": "/destiny2/mobile/emblems/relentlessmomentum",
+                    "checksum": "b15cd883bd3de52eab2b5e2c79f7e849c20dba64"
                 }
             },
             "Seals": {
