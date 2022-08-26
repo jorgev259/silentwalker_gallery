@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9486,6 +9486,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Relentless Momentum",
                     "urlPath": "/destiny2/desktop/emblems/relentlessmomentum",
                     "checksum": "9cc7179921727562440bd717cc30d6be7d318fc2"
+                },
+                "tyrant": {
+                    "name": "Tyrant",
+                    "ext": ".jpg",
+                    "urlName": "tyrant",
+                    "mtimeMs": 1661543962000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Tyrant",
+                    "urlPath": "/destiny2/desktop/emblems/tyrant",
+                    "checksum": "ac82d366fc53248b9816dd780051589916250020"
                 }
             },
             "Seals": {
@@ -14480,6 +14489,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Relentless Momentum",
                     "urlPath": "/destiny2/mobile/emblems/relentlessmomentum",
                     "checksum": "b15cd883bd3de52eab2b5e2c79f7e849c20dba64"
+                },
+                "tyrant": {
+                    "name": "Tyrant",
+                    "ext": ".jpg",
+                    "urlName": "tyrant",
+                    "mtimeMs": 1661543833000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Tyrant",
+                    "urlPath": "/destiny2/mobile/emblems/tyrant",
+                    "checksum": "8fd79121a0f530c98c7358a90333bd6be4ff1bdb"
                 }
             },
             "Seals": {

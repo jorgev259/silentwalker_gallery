@@ -5677,6 +5677,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "relentlessmomentum"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "renewedtriumph"
             }
         },
@@ -9527,6 +9534,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "relentlessmomentum"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "renewedtriumph"
             }
         },
@@ -10920,14 +10934,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "relentlessmomentum"
+                "image": "tyrant"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "relentlessmomentum"
+                "image": "tyrant"
             }
         }
     ]
