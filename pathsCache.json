@@ -6594,6 +6594,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "tyrant"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "ultraworld"
             }
         },
@@ -10451,6 +10458,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "tyrant"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "ultraworld"
             }
         },
@@ -10934,14 +10948,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "tyrant"
+                "image": "kingnomore"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "tyrant"
+                "image": "kingnomore"
             }
         }
     ]

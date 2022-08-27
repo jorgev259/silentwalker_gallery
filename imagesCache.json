@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9495,6 +9495,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Tyrant",
                     "urlPath": "/destiny2/desktop/emblems/tyrant",
                     "checksum": "ac82d366fc53248b9816dd780051589916250020"
+                },
+                "kingnomore": {
+                    "name": "King No More",
+                    "ext": ".jpg",
+                    "urlName": "kingnomore",
+                    "mtimeMs": 1661553728000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/King No More",
+                    "urlPath": "/destiny2/desktop/emblems/kingnomore",
+                    "checksum": "900d0adce36aa25c2baebb41ed4e87974fffa9c2"
                 }
             },
             "Seals": {
@@ -14498,6 +14507,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Tyrant",
                     "urlPath": "/destiny2/mobile/emblems/tyrant",
                     "checksum": "8fd79121a0f530c98c7358a90333bd6be4ff1bdb"
+                },
+                "kingnomore": {
+                    "name": "King No More",
+                    "ext": ".jpg",
+                    "urlName": "kingnomore",
+                    "mtimeMs": 1661553799000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/King No More",
+                    "urlPath": "/destiny2/mobile/emblems/kingnomore",
+                    "checksum": "3e933d15297e353c468f3ee71574022d92746f17"
                 }
             },
             "Seals": {
