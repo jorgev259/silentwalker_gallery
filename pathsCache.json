@@ -5012,6 +5012,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "kingnomore"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "lauraprimaii"
             }
         },
@@ -8883,6 +8890,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "kingnomore"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "lauraprimaii"
             }
         },
@@ -10948,14 +10962,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "kingnomore"
+                "image": "exosphericvoyage"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "kingnomore"
+                "image": "exosphericvoyage"
             }
         }
     ]
