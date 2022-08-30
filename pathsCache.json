@@ -4466,6 +4466,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "exosphericvoyage"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "exotemporal"
             }
         },
@@ -8344,6 +8351,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "exosphericvoyage"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "exotemporal"
             }
         },
@@ -10962,14 +10976,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "exosphericvoyage"
+                "image": "neomunanights"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "exosphericvoyage"
+                "image": "neomunanights"
             }
         }
     ]

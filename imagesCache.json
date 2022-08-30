@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9513,6 +9513,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Exospheric Voyage",
                     "urlPath": "/destiny2/desktop/emblems/exosphericvoyage",
                     "checksum": "ede5d889fca2ae1ccccbd99ac0436b446753075f"
+                },
+                "neomunanights": {
+                    "name": "Neomuna Nights",
+                    "ext": ".jpg",
+                    "urlName": "neomunanights",
+                    "mtimeMs": 1661852137000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Neomuna Nights",
+                    "urlPath": "/destiny2/desktop/emblems/neomunanights",
+                    "checksum": "4fad5d5e59a7b395724b9015f80aa7f55ea46451"
                 }
             },
             "Seals": {
@@ -14534,6 +14543,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Exospheric Voyage",
                     "urlPath": "/destiny2/mobile/emblems/exosphericvoyage",
                     "checksum": "b62d1fac356fd0fdf7a065f8e106a94872669022"
+                },
+                "neomunanights": {
+                    "name": "Neomuna Nights",
+                    "ext": ".jpg",
+                    "urlName": "neomunanights",
+                    "mtimeMs": 1661852130000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Neomuna Nights",
+                    "urlPath": "/destiny2/mobile/emblems/neomunanights",
+                    "checksum": "d9e85a5cb9bc48c3c85d0fb8a56cefc8229d0d96"
                 }
             },
             "Seals": {
