@@ -5320,6 +5320,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "neomunanights"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "neophyteguide"
             }
         },
@@ -9205,6 +9212,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "neomunanights"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "neophyteguide"
             }
         },
@@ -10976,14 +10990,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "neomunanights"
+                "image": "starbirth"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "neomunanights"
+                "image": "starbirth"
             }
         }
     ]
