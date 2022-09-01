@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9531,6 +9531,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Starbirth",
                     "urlPath": "/destiny2/desktop/emblems/starbirth",
                     "checksum": "97279304f767fa131e6a745b7941e1088477d69c"
+                },
+                "scientiailluminata": {
+                    "name": "Scientia Illuminata",
+                    "ext": ".jpg",
+                    "urlName": "scientiailluminata",
+                    "mtimeMs": 1662044324000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Scientia Illuminata",
+                    "urlPath": "/destiny2/desktop/emblems/scientiailluminata",
+                    "checksum": "0a5997bf7dd61b80ef170765867eb424d2e45bdd"
                 }
             },
             "Seals": {
@@ -14570,6 +14579,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Starbirth",
                     "urlPath": "/destiny2/mobile/emblems/starbirth",
                     "checksum": "9071048ca6c1d9d0e82b06dedcd6b2bb7e3ee139"
+                },
+                "scientiailluminata": {
+                    "name": "Scientia Illuminata",
+                    "ext": ".jpg",
+                    "urlName": "scientiailluminata",
+                    "mtimeMs": 1662043831000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Scientia Illuminata",
+                    "urlPath": "/destiny2/mobile/emblems/scientiailluminata",
+                    "checksum": "f8d001eb4c479f782ba637a936b797a56aa561a9"
                 }
             },
             "Seals": {

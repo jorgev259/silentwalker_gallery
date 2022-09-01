@@ -6118,6 +6118,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "starbirth"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "starscrossed"
             }
         },
@@ -10003,6 +10010,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "starbirth"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "starscrossed"
             }
         },
@@ -10990,14 +11004,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "starbirth"
+                "image": "scientiailluminata"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "starbirth"
+                "image": "scientiailluminata"
             }
         }
     ]
