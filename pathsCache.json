@@ -5803,6 +5803,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "scientiailluminata"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "scourgeofnothing"
             }
         },
@@ -9695,6 +9702,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "scientiailluminata"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "scourgeofnothing"
             }
         },
@@ -11004,14 +11018,28 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "scientiailluminata"
+                "image": "magnetism"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "abitofcoin"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "scientiailluminata"
+                "image": "magnetism"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "abitofcoin"
             }
         }
     ]
