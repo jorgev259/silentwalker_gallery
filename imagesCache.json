@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9558,6 +9558,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/A Bit of Coin",
                     "urlPath": "/destiny2/desktop/emblems/abitofcoin",
                     "checksum": "13426fcb9506fae937da9f2545306bfeeefbf2b3"
+                },
+                "accelerationcrew": {
+                    "name": "Acceleration Crew",
+                    "ext": ".jpg",
+                    "urlName": "accelerationcrew",
+                    "mtimeMs": 1662282816000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Acceleration Crew",
+                    "urlPath": "/destiny2/desktop/emblems/accelerationcrew",
+                    "checksum": "b873c7f918aaeab740fe742ae88331090987fa84"
                 }
             },
             "Seals": {
@@ -14624,6 +14633,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/A Bit of Coin",
                     "urlPath": "/destiny2/mobile/emblems/abitofcoin",
                     "checksum": "9723a18bd5c55b844bf6576412fb8555926ff702"
+                },
+                "accelerationcrew": {
+                    "name": "Acceleration Crew",
+                    "ext": ".jpg",
+                    "urlName": "accelerationcrew",
+                    "mtimeMs": 1662282816000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Acceleration Crew",
+                    "urlPath": "/destiny2/mobile/emblems/accelerationcrew",
+                    "checksum": "6c71e5049dcacea71dc960ffbc8d194469066b34"
                 }
             },
             "Seals": {
