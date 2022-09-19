@@ -3619,6 +3619,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "accelerationcrew"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "accoladesonaccolades"
             }
         },
@@ -7539,6 +7546,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "accelerationcrew"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "accoladesonaccolades"
             }
         },
@@ -11046,14 +11060,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "accelerationcrew"
+                "image": "severancepackage"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "accelerationcrew"
+                "image": "severancepackage"
             }
         }
     ]

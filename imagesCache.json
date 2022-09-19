@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9567,6 +9567,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Acceleration Crew",
                     "urlPath": "/destiny2/desktop/emblems/accelerationcrew",
                     "checksum": "b873c7f918aaeab740fe742ae88331090987fa84"
+                },
+                "severancepackage": {
+                    "name": "Severance Package",
+                    "ext": ".jpg",
+                    "urlName": "severancepackage",
+                    "mtimeMs": 1663325932000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Severance Package",
+                    "urlPath": "/destiny2/desktop/emblems/severancepackage",
+                    "checksum": "8bdc96d991e35ca466789393e61ebd02f4105242"
                 }
             },
             "Seals": {
@@ -14642,6 +14651,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Acceleration Crew",
                     "urlPath": "/destiny2/mobile/emblems/accelerationcrew",
                     "checksum": "6c71e5049dcacea71dc960ffbc8d194469066b34"
+                },
+                "severancepackage": {
+                    "name": "Severance Package",
+                    "ext": ".jpg",
+                    "urlName": "severancepackage",
+                    "mtimeMs": 1663325932000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Severance Package",
+                    "urlPath": "/destiny2/mobile/emblems/severancepackage",
+                    "checksum": "8cdef8ce8933a54967562fa56d0e675479b4448b"
                 }
             },
             "Seals": {
