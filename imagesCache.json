@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9576,6 +9576,24 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Severance Package",
                     "urlPath": "/destiny2/desktop/emblems/severancepackage",
                     "checksum": "8bdc96d991e35ca466789393e61ebd02f4105242"
+                },
+                "sentinelsshove": {
+                    "name": "Sentinels Shove",
+                    "ext": ".jpg",
+                    "urlName": "sentinelsshove",
+                    "mtimeMs": 1663595175859,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Sentinels Shove",
+                    "urlPath": "/destiny2/desktop/emblems/sentinelsshove",
+                    "checksum": "ecc03b8aaea052836586666ba5d7fac2692f7430"
+                },
+                "seraphimsgauntlets": {
+                    "name": "Seraphims Gauntlets",
+                    "ext": ".jpg",
+                    "urlName": "seraphimsgauntlets",
+                    "mtimeMs": 1663334704000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Seraphims Gauntlets",
+                    "urlPath": "/destiny2/desktop/emblems/seraphimsgauntlets",
+                    "checksum": "391a3f97766069645ff42a0c8389003f52482c7a"
                 }
             },
             "Seals": {
@@ -14660,6 +14678,105 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Severance Package",
                     "urlPath": "/destiny2/mobile/emblems/severancepackage",
                     "checksum": "8cdef8ce8933a54967562fa56d0e675479b4448b"
+                },
+                "seraphimsgauntlets": {
+                    "name": "Seraphims Gauntlets",
+                    "ext": ".jpg",
+                    "urlName": "seraphimsgauntlets",
+                    "mtimeMs": 1663595264114,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Seraphims Gauntlets",
+                    "urlPath": "/destiny2/mobile/emblems/seraphimsgauntlets",
+                    "checksum": "22672b6754107b1434f1fd8904e931392de2732c"
+                },
+                "seraphswings": {
+                    "name": "Seraphs Wings",
+                    "ext": ".jpg",
+                    "urlName": "seraphswings",
+                    "mtimeMs": 1663595258662,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Seraphs Wings",
+                    "urlPath": "/destiny2/mobile/emblems/seraphswings",
+                    "checksum": "4bf8176a8b540a248cb537512a5aea69a64f066e"
+                },
+                "serpentsruin": {
+                    "name": "Serpents Ruin",
+                    "ext": ".jpg",
+                    "urlName": "serpentsruin",
+                    "mtimeMs": 1663595250017,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Serpents Ruin",
+                    "urlPath": "/destiny2/mobile/emblems/serpentsruin",
+                    "checksum": "3fb28ac9ca792749d189fc1cdd7b315073c7b2cb"
+                },
+                "serpentsstrike": {
+                    "name": "Serpents Strike",
+                    "ext": ".jpg",
+                    "urlName": "serpentsstrike",
+                    "mtimeMs": 1663595254376,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Serpents Strike",
+                    "urlPath": "/destiny2/mobile/emblems/serpentsstrike",
+                    "checksum": "708a9e739da8ca900c3c2cc7fd66d7a2666947ed"
+                },
+                "shadowslight": {
+                    "name": "Shadows Light",
+                    "ext": ".jpg",
+                    "urlName": "shadowslight",
+                    "mtimeMs": 1663595239815,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Shadows Light",
+                    "urlPath": "/destiny2/mobile/emblems/shadowslight",
+                    "checksum": "9ae8ab5d30aa237d42546b5682e5731c63730c72"
+                },
+                "slingerssight": {
+                    "name": "Slingers Sight",
+                    "ext": ".jpg",
+                    "urlName": "slingerssight",
+                    "mtimeMs": 1663595232966,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Slingers Sight",
+                    "urlPath": "/destiny2/mobile/emblems/slingerssight",
+                    "checksum": "4f1aa10641d95df26634ba6c471a60b3ce64cc6e"
+                },
+                "stagsspirit": {
+                    "name": "Stags Spirit",
+                    "ext": ".jpg",
+                    "urlName": "stagsspirit",
+                    "mtimeMs": 1663595225006,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Stags Spirit",
+                    "urlPath": "/destiny2/mobile/emblems/stagsspirit",
+                    "checksum": "af478c8f921f8d5d0226c628b797512b1728db86"
+                },
+                "stalkersshot": {
+                    "name": "Stalkers Shot",
+                    "ext": ".jpg",
+                    "urlName": "stalkersshot",
+                    "mtimeMs": 1663595219464,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Stalkers Shot",
+                    "urlPath": "/destiny2/mobile/emblems/stalkersshot",
+                    "checksum": "22885d3e1f8d4161e95ce19fa5a6ebdd1eed2cf0"
+                },
+                "stormssurge": {
+                    "name": "Storms Surge",
+                    "ext": ".jpg",
+                    "urlName": "stormssurge",
+                    "mtimeMs": 1663595213486,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Storms Surge",
+                    "urlPath": "/destiny2/mobile/emblems/stormssurge",
+                    "checksum": "de760d095d36a946e5e9dfe8cab56f95520567f0"
+                },
+                "stridersslash": {
+                    "name": "Striders Slash",
+                    "ext": ".jpg",
+                    "urlName": "stridersslash",
+                    "mtimeMs": 1663595207225,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Striders Slash",
+                    "urlPath": "/destiny2/mobile/emblems/stridersslash",
+                    "checksum": "b974516a448f879f098ba9faea9e8b43322c9553"
+                },
+                "strikersslam": {
+                    "name": "Strikers Slam",
+                    "ext": ".jpg",
+                    "urlName": "strikersslam",
+                    "mtimeMs": 1663595201834,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Strikers Slam",
+                    "urlPath": "/destiny2/mobile/emblems/strikersslam",
+                    "checksum": "09cc7172947f055bf8e6f275d9e97c63c81f92c9"
                 }
             },
             "Seals": {

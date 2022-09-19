@@ -5873,13 +5873,6 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "sentinel'sshove"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
                 "image": "septenaryencryption"
             }
         },
@@ -5937,6 +5930,13 @@
                 "device": "desktop",
                 "category": "emblems",
                 "image": "sevenofseven"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "severancepackage"
             }
         },
         {
@@ -9814,27 +9814,6 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "seraph'swings"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "serpent'sruin"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "serpent'sstrike"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
                 "image": "settlethescore"
             }
         },
@@ -9863,6 +9842,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "severancepackage"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "shadehallow"
             }
         },
@@ -9871,13 +9857,6 @@
                 "device": "mobile",
                 "category": "emblems",
                 "image": "shadesofradegast"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "shadow'slight"
             }
         },
         {
@@ -9948,13 +9927,6 @@
                 "device": "mobile",
                 "category": "emblems",
                 "image": "slayeroforyx"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "slinger'ssight"
             }
         },
         {
@@ -10038,20 +10010,6 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "stag'sspirit"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "stalker'sshot"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
                 "image": "stalkingshades"
             }
         },
@@ -10087,13 +10045,6 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "storm'ssurge"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
                 "image": "strangeterrain"
             }
         },
@@ -10101,21 +10052,7 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "strider'sslash"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
                 "image": "strikeattheheart"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "striker'sslam"
             }
         },
         {
@@ -11060,14 +10997,91 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "severancepackage"
+                "image": "sentinelsshove"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "seraphimsgauntlets"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "severancepackage"
+                "image": "seraphimsgauntlets"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "seraphswings"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "serpentsruin"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "serpentsstrike"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "shadowslight"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "slingerssight"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "stagsspirit"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "stalkersshot"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "stormssurge"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "stridersslash"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "strikersslam"
             }
         }
     ]
