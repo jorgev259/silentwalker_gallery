@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9594,6 +9594,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Seraphims Gauntlets",
                     "urlPath": "/destiny2/desktop/emblems/seraphimsgauntlets",
                     "checksum": "391a3f97766069645ff42a0c8389003f52482c7a"
+                },
+                "eyeofthestorm": {
+                    "name": "Eye of the Storm",
+                    "ext": ".jpg",
+                    "urlName": "eyeofthestorm",
+                    "mtimeMs": 1663672590000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Eye of the Storm",
+                    "urlPath": "/destiny2/desktop/emblems/eyeofthestorm",
+                    "checksum": "04f4b4d117c4835800d7c9d969c05f4fe0b6c901"
                 }
             },
             "Seals": {
@@ -14777,6 +14786,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Strikers Slam",
                     "urlPath": "/destiny2/mobile/emblems/strikersslam",
                     "checksum": "09cc7172947f055bf8e6f275d9e97c63c81f92c9"
+                },
+                "eyeofthestorm": {
+                    "name": "Eye of the Storm",
+                    "ext": ".jpg",
+                    "urlName": "eyeofthestorm",
+                    "mtimeMs": 1663672596000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Eye of the Storm",
+                    "urlPath": "/destiny2/mobile/emblems/eyeofthestorm",
+                    "checksum": "1b2d21ecaf7c262a60f66137a954172bf04612e3"
                 }
             },
             "Seals": {
