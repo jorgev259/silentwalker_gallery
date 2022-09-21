@@ -4501,6 +4501,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "eyeofthestorm"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "fashionshow-beyondlight"
             }
         },
@@ -8442,6 +8449,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "eyeofthestorm"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "fashionshow-beyondlight"
             }
         },
@@ -11088,14 +11102,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "eyeofthestorm"
+                "image": "forgedingrace"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "eyeofthestorm"
+                "image": "forgedingrace"
             }
         }
     ]
