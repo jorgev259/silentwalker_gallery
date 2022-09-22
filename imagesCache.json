@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9612,6 +9612,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Forged in Grace",
                     "urlPath": "/destiny2/desktop/emblems/forgedingrace",
                     "checksum": "2c7b5f2bb682b44ecf7e0c0b561a9274d51b05c3"
+                },
+                "seedsofhope": {
+                    "name": "Seeds of Hope",
+                    "ext": ".jpg",
+                    "urlName": "seedsofhope",
+                    "mtimeMs": 1663857848000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Seeds of Hope",
+                    "urlPath": "/destiny2/desktop/emblems/seedsofhope",
+                    "checksum": "987b1d66e60228b7dc486e26670ee851e9ba30f2"
                 }
             },
             "Seals": {
@@ -14813,6 +14822,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Forged in Grace",
                     "urlPath": "/destiny2/mobile/emblems/forgedingrace",
                     "checksum": "03f20dfce2088dc91cf553b3bb1779b42e7dc81b"
+                },
+                "seedsofhope": {
+                    "name": "Seeds of Hope",
+                    "ext": ".jpg",
+                    "urlName": "seedsofhope",
+                    "mtimeMs": 1663857848000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Seeds of Hope",
+                    "urlPath": "/destiny2/mobile/emblems/seedsofhope",
+                    "checksum": "d093dabc934fb3599d960b88ce23e0475c83511b"
                 }
             },
             "Seals": {

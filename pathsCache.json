@@ -4620,6 +4620,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "forgedingrace"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "fourtimesaruler"
             }
         },
@@ -8568,6 +8575,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "forgedingrace"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "fourtimesaruler"
             }
         },
@@ -11102,14 +11116,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "forgedingrace"
+                "image": "seedsofhope"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "forgedingrace"
+                "image": "seedsofhope"
             }
         }
     ]
