@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9621,6 +9621,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Seeds of Hope",
                     "urlPath": "/destiny2/desktop/emblems/seedsofhope",
                     "checksum": "987b1d66e60228b7dc486e26670ee851e9ba30f2"
+                },
+                "irontosteel": {
+                    "name": "Iron to Steel",
+                    "ext": ".jpg",
+                    "urlName": "irontosteel",
+                    "mtimeMs": 1663949453000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Iron to Steel",
+                    "urlPath": "/destiny2/desktop/emblems/irontosteel",
+                    "checksum": "2485a30fcfac1e1cc39ba5856f063a9e2b80a978"
                 }
             },
             "Seals": {
@@ -14831,6 +14840,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Seeds of Hope",
                     "urlPath": "/destiny2/mobile/emblems/seedsofhope",
                     "checksum": "d093dabc934fb3599d960b88ce23e0475c83511b"
+                },
+                "irontosteel": {
+                    "name": "Iron to Steel",
+                    "ext": ".jpg",
+                    "urlName": "irontosteel",
+                    "mtimeMs": 1663949481000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Iron to Steel",
+                    "urlPath": "/destiny2/mobile/emblems/irontosteel",
+                    "checksum": "bb7ff8a2cc7d9dd749188c404ed08fecd527bb02"
                 }
             },
             "Seals": {
