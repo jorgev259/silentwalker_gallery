@@ -99,7 +99,11 @@ export default function Navbar (props) {
                 </a>
                 <ul className="dropdown-menu py-0" aria-labelledby="navbarDropdown">
                   <DropdownItem href={`/destiny1/${device}`} name='Wallpapers' currentUrl={router.asPath} />
-                  <li><a className="dropdown-item" href="https://drive.google.com/drive/folders/1drejXFUS5JIKP2WgqqdM0wSa0kY60cuI" rel="noopener noreferrer" target="_blank">Download All</a></li>
+                  <li><a className="dropdown-item" href={device === 'desktop'
+                    ? 'https://drive.google.com/drive/folders/1drejXFUS5JIKP2WgqqdM0wSa0kY60cuI'
+                    : 'https://drive.google.com/drive/folders/1d4FLAlJ1Thn3lx3M-PFOrDCbebNAbAGB'
+                }
+                  rel="noopener noreferrer" target="_blank">Download All</a></li>
                 </ul>
               </li>
 
@@ -111,7 +115,13 @@ export default function Navbar (props) {
                   <DropdownItem href={`/destiny2/${device}/emblems`} name='Emblems' currentUrl={router.asPath} />
                   <DropdownItem href={`/destiny2/${device}/seals`} name='Seals' currentUrl={router.asPath} />
                   <DropdownItem href={`/destiny2/${device}/bonus`} name='Bonus' currentUrl={router.asPath} />
-                  <li><a className="dropdown-item" href="https://drive.google.com/drive/folders/1__8jBXGy14tL12ciEoqBepwxWeqJaD_7" rel="noopener noreferrer" target="_blank">Download All</a></li>
+                  <li>
+                    <a className="dropdown-item" href={device === 'desktop'
+                      ? 'https://drive.google.com/drive/folders/1__8jBXGy14tL12ciEoqBepwxWeqJaD_7'
+                      : 'https://drive.google.com/drive/folders/1ZG-3BjxfRiEMq8so0h8G5B2bqXeFx1oK'
+                    }
+                    rel="noopener noreferrer" target="_blank">Download All</a>
+                  </li>
                 </ul>
               </li>
 
