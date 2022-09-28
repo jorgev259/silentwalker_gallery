@@ -76,9 +76,11 @@ export default function Navbar (props) {
     <>
       <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
-          <a className="navbar-brand d-flex align-items-center">
-            <img src='/images/assets/tricorn.png' alt='' style={{ height: '32px', width: '32px' }} />
-          </a>
+          <Link href="/">
+            <a className="navbar-brand d-flex align-items-center">
+              <img src='/images/assets/tricorn.png' alt='' style={{ height: '32px', width: '32px' }} />
+            </a>
+          </Link>
 
           <div className="d-flex d-md-none nav-item my-auto align-items-center mx-2" style={{ height: '30px' }}>
             <DeviceToggle router={router} />
