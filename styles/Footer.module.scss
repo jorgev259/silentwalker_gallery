@@ -3,6 +3,9 @@
   color: white;
   position: fixed;
   bottom: 0;
+  width: 100%;
+  overflow-y: auto;
+
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/assets/bar_bg.png');
   background-size: cover;
 }
@@ -22,6 +25,13 @@
   background-color: #007bff !important;
   border-color: #007bff !important;
   color: white !important;
+}
+
+.kofi {
+  border: 0px; 
+}
+
+.btn-primary, .kofi, .patreon {
   height: 36px;
 }
 
@@ -29,6 +39,14 @@
 @media (max-width: 576px) {
   .footer,
   .stub {
-    font-size: 13px !important;
+    font-size: 11px !important;
+  }
+
+  .btn-primary {
+    font-size: 12px;
+  }
+
+  .btn-primary, .kofi, .patreon {
+    height: 30px;
   }
 }
