@@ -51,6 +51,11 @@ body{
     margin-right: 15px;
   }
 
+  .nav-link {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
   .toggle {
     display: inline-block;
     height: 25px;
@@ -144,4 +149,10 @@ footer {
   border-radius: 1em;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+@media (min-width: 768px) {
+  #navbarToggle {
+    display: none !important;
+  }
 }

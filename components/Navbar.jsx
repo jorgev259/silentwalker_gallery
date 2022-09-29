@@ -60,7 +60,7 @@ function DropdownItem (props) {
   const active = href === currentUrl
 
   return (
-    <li><Link href={href} prefetch={false}><a className={classNames('dropdown-item', { active })}>{name}</a></Link></li>
+    <Link href={href} prefetch={false}><a className={classNames('dropdown-item', { active })}>{name}</a></Link>
   )
 }
 
@@ -69,85 +69,110 @@ export default function Navbar (props) {
   const sortProps = { sort, setSort }
 
   const router = useRouter()
+
+  return (
+    <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div className="container-fluid">
+        <div className='row w-100 justify-content-between justify-content-md-start'>
+          <div className='col-auto'>
+            <Link href="/">
+              <a className="navbar-brand d-flex align-items-center me-0">
+                <img src='/images/assets/tricorn.png' alt='' style={{ height: '32px', width: '32px' }} />
+              </a>
+            </Link>
+          </div>
+
+          <div className="navbar-nav flex-row col-auto px-0 d-none d-md-flex">
+            <NavItems />
+          </div>
+
+          <div className='col-auto d-flex align-items-center'>
+            <div className="d-flex nav-item my-auto align-items-center" style={{ height: '30px' }}>
+              <DeviceToggle router={router} />
+            </div>
+          </div>
+
+          <div className='col-auto d-none d-sm-flex align-items-center'>
+            <div className="d-flex nav-item my-auto align-items-center" style={{ height: '30px' }}>
+              <SortToggle {...sortProps} />
+            </div>
+          </div>
+
+          <div className='col-auto d-flex d-md-none'>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div className="collapse navbar-collapse" id="navbarToggle">
+            <div className="navbar-nav">
+              <div className="nav-item d-block d-sm-none my-2">
+                <div className="d-flex nav-item my-auto align-items-center" style={{ height: '30px' }}>
+                  <SortToggle {...sortProps} />
+                </div>
+              </div>
+              <NavItems />
+              <div className="nav-item mb-3">
+                <input className="w-100 h-100 form-control" type="search" placeholder="Search" onChange={ev => setSearch(ev.target.value.toLowerCase())} />
+              </div>
+
+            </div>
+          </div>
+
+          <div className='col pe-0 d-none d-md-flex'>
+            <input className="w-100 h-100 form-control" type="search" placeholder="Search" onChange={ev => setSearch(ev.target.value.toLowerCase())} />
+          </div>
+        </div>
+      </div>
+    </nav>
+  )
+}
+
+function NavItems () {
+  const router = useRouter()
   const { query } = router
   const { device = 'desktop' } = query
 
   return (
     <>
-      <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <div className="container-fluid">
-          <Link href="/">
-            <a className="navbar-brand d-flex align-items-center">
-              <img src='/images/assets/tricorn.png' alt='' style={{ height: '32px', width: '32px' }} />
-            </a>
-          </Link>
-
-          <div className="d-flex d-md-none nav-item my-auto align-items-center mx-2" style={{ height: '30px' }}>
-            <DeviceToggle router={router} />
-          </div>
-
-          <div className="d-flex d-md-none nav-item my-auto align-items-center mx-2" style={{ height: '30px' }}>
-            <SortToggle {...sortProps} />
-          </div>
-
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Destiny 1
-                </a>
-                <ul className="dropdown-menu py-0" aria-labelledby="navbarDropdown">
-                  <DropdownItem href={`/destiny1/${device}`} name='Wallpapers' currentUrl={router.asPath} />
-                  <li><a className="dropdown-item" href={device === 'desktop'
-                    ? 'https://drive.google.com/drive/folders/1drejXFUS5JIKP2WgqqdM0wSa0kY60cuI'
-                    : 'https://drive.google.com/drive/folders/1d4FLAlJ1Thn3lx3M-PFOrDCbebNAbAGB'
-                }
-                  rel="noopener noreferrer" target="_blank">Download All</a></li>
-                </ul>
-              </li>
-
-              <li className="nav-item dropdown">
-                <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Destiny 2
-                </a>
-                <ul className="dropdown-menu py-0" aria-labelledby="navbarDropdown">
-                  <DropdownItem href={`/destiny2/${device}/emblems`} name='Emblems' currentUrl={router.asPath} />
-                  <DropdownItem href={`/destiny2/${device}/seals`} name='Seals' currentUrl={router.asPath} />
-                  <DropdownItem href={`/destiny2/${device}/bonus`} name='Bonus' currentUrl={router.asPath} />
-                  <li>
-                    <a className="dropdown-item" href={device === 'desktop'
-                      ? 'https://drive.google.com/drive/folders/1__8jBXGy14tL12ciEoqBepwxWeqJaD_7'
-                      : 'https://drive.google.com/drive/folders/1ZG-3BjxfRiEMq8so0h8G5B2bqXeFx1oK'
-                    }
-                    rel="noopener noreferrer" target="_blank">Download All</a>
-                  </li>
-                </ul>
-              </li>
-
-              <li className="nav-item">
-                <Link href="/clanbanners"><a className="nav-link">Clan Banners</a></Link>
-              </li>
-
-              <li className="nav-item">
-                <Link href="/info"><a className="nav-link">Info</a></Link>
-              </li>
-
-              <li className="d-none d-md-flex nav-item my-auto align-items-center mx-2" style={{ height: '30px' }}>
-                <DeviceToggle router={router} />
-              </li>
-
-              <li className="d-none d-md-flex nav-item my-auto align-items-center mx-2" style={{ height: '30px' }}>
-                <SortToggle {...sortProps} />
-              </li>
-            </ul>
-
-            <input className="form-control me-2 my-2 mx-md-5" type="search" placeholder="Search" onChange={ev => setSearch(ev.target.value.toLowerCase())} />
-          </div>
+      <div className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Destiny 1
+        </a>
+        <div className="dropdown-menu py-0" aria-labelledby="navbarDropdown">
+          <DropdownItem href={`/destiny1/${device}`} name='Wallpapers' currentUrl={router.asPath} />
+          <a className="dropdown-item" href={
+            device === 'desktop'
+              ? 'https://drive.google.com/drive/folders/1drejXFUS5JIKP2WgqqdM0wSa0kY60cuI'
+              : 'https://drive.google.com/drive/folders/1d4FLAlJ1Thn3lx3M-PFOrDCbebNAbAGB'
+          } rel="noopener noreferrer" target="_blank">Download All</a>
         </div>
-      </nav>
+      </div>
+
+      <div className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Destiny 2
+        </a>
+        <div className="dropdown-menu py-0" aria-labelledby="navbarDropdown">
+          <DropdownItem href={`/destiny2/${device}/emblems`} name='Emblems' currentUrl={router.asPath} />
+          <DropdownItem href={`/destiny2/${device}/seals`} name='Seals' currentUrl={router.asPath} />
+          <DropdownItem href={`/destiny2/${device}/bonus`} name='Bonus' currentUrl={router.asPath} />
+          <a className="dropdown-item" href={
+            device === 'desktop'
+              ? 'https://drive.google.com/drive/folders/1__8jBXGy14tL12ciEoqBepwxWeqJaD_7'
+              : 'https://drive.google.com/drive/folders/1ZG-3BjxfRiEMq8so0h8G5B2bqXeFx1oK'
+          }
+          rel="noopener noreferrer" target="_blank">Download All</a>
+        </div>
+      </div>
+
+      <div className="nav-item">
+        <Link href="/clanbanners"><a className="nav-link">Clan Banners</a></Link>
+      </div>
+
+      <div className="nav-item">
+        <Link href="/info"><a className="nav-link">Info</a></Link>
+      </div>
     </>
   )
 }
