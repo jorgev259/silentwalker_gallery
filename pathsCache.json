@@ -5005,6 +5005,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "irontosteel"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "jacobson'sstaff"
             }
         },
@@ -8967,6 +8974,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "irontosteel"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "jacobson'sstaff"
             }
         },
@@ -11130,14 +11144,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "irontosteel"
+                "image": "adistanthowl"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "irontosteel"
+                "image": "adistanthowl"
             }
         }
     ]

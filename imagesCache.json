@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9630,6 +9630,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Iron to Steel",
                     "urlPath": "/destiny2/desktop/emblems/irontosteel",
                     "checksum": "2485a30fcfac1e1cc39ba5856f063a9e2b80a978"
+                },
+                "adistanthowl": {
+                    "name": "A Distant Howl",
+                    "ext": ".jpg",
+                    "urlName": "adistanthowl",
+                    "mtimeMs": 1664467324000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/A Distant Howl",
+                    "urlPath": "/destiny2/desktop/emblems/adistanthowl",
+                    "checksum": "7f66e74fe37da3161db27cacf06d96ed918cf0e5"
                 }
             },
             "Seals": {
@@ -14849,6 +14858,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Iron to Steel",
                     "urlPath": "/destiny2/mobile/emblems/irontosteel",
                     "checksum": "bb7ff8a2cc7d9dd749188c404ed08fecd527bb02"
+                },
+                "adistanthowl": {
+                    "name": "A Distant Howl",
+                    "ext": ".jpg",
+                    "urlName": "adistanthowl",
+                    "mtimeMs": 1664467323000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/A Distant Howl",
+                    "urlPath": "/destiny2/mobile/emblems/adistanthowl",
+                    "checksum": "7d1b007115ca4ad81dbd3ed7a9872e61ab8f1b84"
                 }
             },
             "Seals": {
