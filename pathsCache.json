@@ -3535,6 +3535,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "adistanthowl"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "aflareforthedramatic"
             }
         },
@@ -7504,6 +7511,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "adistanthowl"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "aflareforthedramatic"
             }
         },
@@ -11144,14 +11158,28 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "adistanthowl"
+                "image": "knighted"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "lostatsea"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "adistanthowl"
+                "image": "knighted"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "lostatsea"
             }
         }
     ]

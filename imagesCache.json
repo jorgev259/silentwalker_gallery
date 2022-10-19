@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9639,6 +9639,24 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/A Distant Howl",
                     "urlPath": "/destiny2/desktop/emblems/adistanthowl",
                     "checksum": "7f66e74fe37da3161db27cacf06d96ed918cf0e5"
+                },
+                "knighted": {
+                    "name": "Knighted",
+                    "ext": ".jpg",
+                    "urlName": "knighted",
+                    "mtimeMs": 1665484913000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Knighted",
+                    "urlPath": "/destiny2/desktop/emblems/knighted",
+                    "checksum": "d4efecb29a9f9f78be23dd4c7ca0661d40f54cb0"
+                },
+                "lostatsea": {
+                    "name": "Lost at Sea",
+                    "ext": ".jpg",
+                    "urlName": "lostatsea",
+                    "mtimeMs": 1665484914000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Lost at Sea",
+                    "urlPath": "/destiny2/desktop/emblems/lostatsea",
+                    "checksum": "dd517c9cbb7dc487ff85303a60421675e11b230e"
                 }
             },
             "Seals": {
@@ -14867,6 +14885,24 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/A Distant Howl",
                     "urlPath": "/destiny2/mobile/emblems/adistanthowl",
                     "checksum": "7d1b007115ca4ad81dbd3ed7a9872e61ab8f1b84"
+                },
+                "knighted": {
+                    "name": "Knighted",
+                    "ext": ".jpg",
+                    "urlName": "knighted",
+                    "mtimeMs": 1665484913000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Knighted",
+                    "urlPath": "/destiny2/mobile/emblems/knighted",
+                    "checksum": "3f61f604debea1abe57135992e8b9a249f4133ac"
+                },
+                "lostatsea": {
+                    "name": "Lost at Sea",
+                    "ext": ".jpg",
+                    "urlName": "lostatsea",
+                    "mtimeMs": 1665484913000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Lost at Sea",
+                    "urlPath": "/destiny2/mobile/emblems/lostatsea",
+                    "checksum": "c58eceab9aefa43e480ee68e8b9ca14af29a7716"
                 }
             },
             "Seals": {
