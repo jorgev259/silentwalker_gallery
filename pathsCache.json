@@ -5068,6 +5068,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "knighted"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "lauraprimaii"
             }
         },
@@ -5181,6 +5188,13 @@
                 "device": "desktop",
                 "category": "emblems",
                 "image": "long-boyspecial"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "lostatsea"
             }
         },
         {
@@ -9044,6 +9058,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "knighted"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "lauraprimaii"
             }
         },
@@ -9157,6 +9178,13 @@
                 "device": "mobile",
                 "category": "emblems",
                 "image": "long-boyspecial"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "lostatsea"
             }
         },
         {
@@ -11152,34 +11180,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "knighted"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "lostatsea"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "knighted"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "lostatsea"
             }
         }
     ]
