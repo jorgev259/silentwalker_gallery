@@ -24,7 +24,7 @@ jobs:
 
       - name: Build website
         run: |
-          yarn run lint
+          yarn run lint --fix
           yarn run export
           touch ./out/.nojekyll
 
