@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9657,6 +9657,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Lost at Sea",
                     "urlPath": "/destiny2/desktop/emblems/lostatsea",
                     "checksum": "dd517c9cbb7dc487ff85303a60421675e11b230e"
+                },
+                "hallowedcoronation": {
+                    "name": "Hallowed Coronation",
+                    "ext": ".jpg",
+                    "urlName": "hallowedcoronation",
+                    "mtimeMs": 1666348941000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Hallowed Coronation",
+                    "urlPath": "/destiny2/desktop/emblems/hallowedcoronation",
+                    "checksum": "ee3b309f874c80875ad2bc5e37cf4cb251551a9f"
                 }
             },
             "Seals": {
@@ -14903,6 +14912,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Lost at Sea",
                     "urlPath": "/destiny2/mobile/emblems/lostatsea",
                     "checksum": "c58eceab9aefa43e480ee68e8b9ca14af29a7716"
+                },
+                "hallowedcoronation": {
+                    "name": "Hallowed Coronation",
+                    "ext": ".jpg",
+                    "urlName": "hallowedcoronation",
+                    "mtimeMs": 1666348941000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Hallowed Coronation",
+                    "urlPath": "/destiny2/mobile/emblems/hallowedcoronation",
+                    "checksum": "e1609012cf0694de3c33819f075c1ddffbb58c4f"
                 }
             },
             "Seals": {
