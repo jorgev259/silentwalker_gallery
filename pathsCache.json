@@ -4802,6 +4802,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "hallowedcoronation"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "heardthecall"
             }
         },
@@ -8792,6 +8799,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "hallowedcoronation"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "heardthecall"
             }
         },
@@ -11186,14 +11200,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "hallowedcoronation"
+                "image": "pareidolia"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "hallowedcoronation"
+                "image": "pareidolia"
             }
         }
     ]

@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9666,6 +9666,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Hallowed Coronation",
                     "urlPath": "/destiny2/desktop/emblems/hallowedcoronation",
                     "checksum": "ee3b309f874c80875ad2bc5e37cf4cb251551a9f"
+                },
+                "pareidolia": {
+                    "name": "Pareidolia",
+                    "ext": ".jpg",
+                    "urlName": "pareidolia",
+                    "mtimeMs": 1666344316000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Pareidolia",
+                    "urlPath": "/destiny2/desktop/emblems/pareidolia",
+                    "checksum": "1a66beb1ffe8d5c86b9a7aae20e79c8776709056"
                 }
             },
             "Seals": {
@@ -14921,6 +14930,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Hallowed Coronation",
                     "urlPath": "/destiny2/mobile/emblems/hallowedcoronation",
                     "checksum": "e1609012cf0694de3c33819f075c1ddffbb58c4f"
+                },
+                "pareidolia": {
+                    "name": "Pareidolia",
+                    "ext": ".jpg",
+                    "urlName": "pareidolia",
+                    "mtimeMs": 1666344316000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Pareidolia",
+                    "urlPath": "/destiny2/mobile/emblems/pareidolia",
+                    "checksum": "36f6515bce63f1fbbc527e3025cf33a224d2ce1a"
                 }
             },
             "Seals": {
