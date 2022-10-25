@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9675,6 +9675,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Pareidolia",
                     "urlPath": "/destiny2/desktop/emblems/pareidolia",
                     "checksum": "1a66beb1ffe8d5c86b9a7aae20e79c8776709056"
+                },
+                "eyeofmidnight": {
+                    "name": "Eye of Midnight",
+                    "ext": ".jpg",
+                    "urlName": "eyeofmidnight",
+                    "mtimeMs": 1666717567000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Eye of Midnight",
+                    "urlPath": "/destiny2/desktop/emblems/eyeofmidnight",
+                    "checksum": "df59692b75dfcc64af5a2022ef66dbed9d0958a4"
                 }
             },
             "Seals": {
@@ -14939,6 +14948,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Pareidolia",
                     "urlPath": "/destiny2/mobile/emblems/pareidolia",
                     "checksum": "36f6515bce63f1fbbc527e3025cf33a224d2ce1a"
+                },
+                "eyeofmidnight": {
+                    "name": "Eye of Midnight",
+                    "ext": ".jpg",
+                    "urlName": "eyeofmidnight",
+                    "mtimeMs": 1666717575000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Eye of Midnight",
+                    "urlPath": "/destiny2/mobile/emblems/eyeofmidnight",
+                    "checksum": "ab9494427a55b60176e6364a287d23e1d8c0d897"
                 }
             },
             "Seals": {

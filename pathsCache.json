@@ -5565,6 +5565,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "pareidolia"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "peaceofthecity"
             }
         },
@@ -9562,6 +9569,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "pareidolia"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "peaceofthecity"
             }
         },
@@ -11200,14 +11214,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "pareidolia"
+                "image": "eyeofmidnight"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "pareidolia"
+                "image": "eyeofmidnight"
             }
         }
     ]
