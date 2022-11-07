@@ -6132,6 +6132,20 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "solarbreeze"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "solarflair"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "solariumyellow"
             }
         },
@@ -10136,6 +10150,20 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "solarbreeze"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "solarflair"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "solariumyellow"
             }
         },
@@ -11222,34 +11250,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "solarbreeze"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "solarflair"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "solarflair"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "solarbreeze"
             }
         }
     ]
