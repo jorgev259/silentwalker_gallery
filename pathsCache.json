@@ -4508,6 +4508,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "eyeofmidnight"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "eyeofthestorm"
             }
         },
@@ -8512,6 +8519,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "eyeofmidnight"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "eyeofthestorm"
             }
         },
@@ -11214,14 +11228,28 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "eyeofmidnight"
+                "image": "solarbreeze"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "solarflair"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "eyeofmidnight"
+                "image": "solarflair"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "solarbreeze"
             }
         }
     ]

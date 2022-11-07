@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9684,6 +9684,24 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Eye of Midnight",
                     "urlPath": "/destiny2/desktop/emblems/eyeofmidnight",
                     "checksum": "df59692b75dfcc64af5a2022ef66dbed9d0958a4"
+                },
+                "solarbreeze": {
+                    "name": "Solar Breeze",
+                    "ext": ".jpg",
+                    "urlName": "solarbreeze",
+                    "mtimeMs": 1667492662000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Solar Breeze",
+                    "urlPath": "/destiny2/desktop/emblems/solarbreeze",
+                    "checksum": "d62ae818edb53352b79aa0195b596fd013d05ce7"
+                },
+                "solarflair": {
+                    "name": "Solar Flair",
+                    "ext": ".jpg",
+                    "urlName": "solarflair",
+                    "mtimeMs": 1667494791000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Solar Flair",
+                    "urlPath": "/destiny2/desktop/emblems/solarflair",
+                    "checksum": "68a127ac0e0ecd820bcef2dffc3da50760a0bc85"
                 }
             },
             "Seals": {
@@ -14957,6 +14975,24 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Eye of Midnight",
                     "urlPath": "/destiny2/mobile/emblems/eyeofmidnight",
                     "checksum": "ab9494427a55b60176e6364a287d23e1d8c0d897"
+                },
+                "solarflair": {
+                    "name": "Solar Flair",
+                    "ext": ".jpg",
+                    "urlName": "solarflair",
+                    "mtimeMs": 1667494790000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Solar Flair",
+                    "urlPath": "/destiny2/mobile/emblems/solarflair",
+                    "checksum": "0008ac50f5364bb1f93a9bff4664a8ff1d6218d4"
+                },
+                "solarbreeze": {
+                    "name": "Solar Breeze",
+                    "ext": ".jpg",
+                    "urlName": "solarbreeze",
+                    "mtimeMs": 1667492661000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Solar Breeze",
+                    "urlPath": "/destiny2/mobile/emblems/solarbreeze",
+                    "checksum": "310e38cae6ad521c20ed64ca11502de740e6e8d7"
                 }
             },
             "Seals": {
