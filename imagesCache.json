@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9702,6 +9702,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Solar Flair",
                     "urlPath": "/destiny2/desktop/emblems/solarflair",
                     "checksum": "68a127ac0e0ecd820bcef2dffc3da50760a0bc85"
+                },
+                "schrodingersgun": {
+                    "name": "Schrodingers Gun",
+                    "ext": ".jpg",
+                    "urlName": "schrodingersgun",
+                    "mtimeMs": 1668166225000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Schrodingers Gun",
+                    "urlPath": "/destiny2/desktop/emblems/schrodingersgun",
+                    "checksum": "78995f24ab6de981c6fb70d3e8465bc9f069ab6f"
                 }
             },
             "Seals": {
@@ -14993,6 +15002,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Solar Breeze",
                     "urlPath": "/destiny2/mobile/emblems/solarbreeze",
                     "checksum": "310e38cae6ad521c20ed64ca11502de740e6e8d7"
+                },
+                "schrodingersgun": {
+                    "name": "Schrodingers Gun",
+                    "ext": ".jpg",
+                    "urlName": "schrodingersgun",
+                    "mtimeMs": 1668166216000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Schrodingers Gun",
+                    "urlPath": "/destiny2/mobile/emblems/schrodingersgun",
+                    "checksum": "85e58c2e367d7b7216f0e0ca6145d43cda6b4048"
                 }
             },
             "Seals": {

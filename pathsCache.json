@@ -11251,6 +11251,20 @@
                 "category": "seals",
                 "image": "wayfarer"
             }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "schrodingersgun"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "schrodingersgun"
+            }
         }
     ]
 }
