@@ -5572,6 +5572,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "parallelprogram"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "pareidolia"
             }
         },
@@ -6266,6 +6273,13 @@
                 "device": "desktop",
                 "category": "emblems",
                 "image": "steelofbergusia"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "storiesweremember"
             }
         },
         {
@@ -8239,6 +8253,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "damagedincorporated"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "dancethedemonsaway"
             }
         },
@@ -9597,6 +9618,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "parallelprogram"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "pareidolia"
             }
         },
@@ -10284,6 +10312,13 @@
                 "device": "mobile",
                 "category": "emblems",
                 "image": "steelofbergusia"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "storiesweremember"
             }
         },
         {
@@ -11257,41 +11292,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "parallelprogram"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "storiesweremember"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "damagedincorporated"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "parallelprogram"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "storiesweremember"
             }
         }
     ]
