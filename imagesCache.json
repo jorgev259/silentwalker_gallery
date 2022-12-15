@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9711,6 +9711,24 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Schrodingers Gun",
                     "urlPath": "/destiny2/desktop/emblems/schrodingersgun",
                     "checksum": "78995f24ab6de981c6fb70d3e8465bc9f069ab6f"
+                },
+                "parallelprogram": {
+                    "name": "Parallel Program",
+                    "ext": ".jpg",
+                    "urlName": "parallelprogram",
+                    "mtimeMs": 1669217361000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Parallel Program",
+                    "urlPath": "/destiny2/desktop/emblems/parallelprogram",
+                    "checksum": "b499b4900d06ce4936771a45697a4fa5cf9b412f"
+                },
+                "storiesweremember": {
+                    "name": "Stories We Remember",
+                    "ext": ".jpg",
+                    "urlName": "storiesweremember",
+                    "mtimeMs": 1671015725000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Stories We Remember",
+                    "urlPath": "/destiny2/desktop/emblems/storiesweremember",
+                    "checksum": "0171e968413f9e21fb5fdcbdea26fcd2fe2a64ec"
                 }
             },
             "Seals": {
@@ -15011,6 +15029,33 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Schrodingers Gun",
                     "urlPath": "/destiny2/mobile/emblems/schrodingersgun",
                     "checksum": "85e58c2e367d7b7216f0e0ca6145d43cda6b4048"
+                },
+                "damagedincorporated": {
+                    "name": "Damaged Incorporated",
+                    "ext": ".jpg",
+                    "urlName": "damagedincorporated",
+                    "mtimeMs": 1670255689720,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Damaged Incorporated",
+                    "urlPath": "/destiny2/mobile/emblems/damagedincorporated",
+                    "checksum": "2a784711ed4cf4f1b5f7f03420f2c5dfd693f739"
+                },
+                "parallelprogram": {
+                    "name": "Parallel Program",
+                    "ext": ".jpg",
+                    "urlName": "parallelprogram",
+                    "mtimeMs": 1669217361000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Parallel Program",
+                    "urlPath": "/destiny2/mobile/emblems/parallelprogram",
+                    "checksum": "6922980c903363a36a90d8c5aae40f21842fd035"
+                },
+                "storiesweremember": {
+                    "name": "Stories We Remember",
+                    "ext": ".jpg",
+                    "urlName": "storiesweremember",
+                    "mtimeMs": 1671015724000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Stories We Remember",
+                    "urlPath": "/destiny2/mobile/emblems/storiesweremember",
+                    "checksum": "d5722f992b95a8f02d575b569c6722a37c34a735"
                 }
             },
             "Seals": {

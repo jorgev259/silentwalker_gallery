@@ -8239,13 +8239,6 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "damaged,incorporated"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
                 "image": "dancethedemonsaway"
             }
         },
@@ -11264,6 +11257,41 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "parallelprogram"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "storiesweremember"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "damagedincorporated"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "parallelprogram"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "storiesweremember"
             }
         }
     ]
