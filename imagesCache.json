@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9729,6 +9729,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Stories We Remember",
                     "urlPath": "/destiny2/desktop/emblems/storiesweremember",
                     "checksum": "0171e968413f9e21fb5fdcbdea26fcd2fe2a64ec"
+                },
+                "flightofsoteria": {
+                    "name": "Flight of Soteria",
+                    "ext": ".jpg",
+                    "urlName": "flightofsoteria",
+                    "mtimeMs": 1671125600000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Flight of Soteria",
+                    "urlPath": "/destiny2/desktop/emblems/flightofsoteria",
+                    "checksum": "e31c147889586f2c68dd3cabf0ebfb5e72957a5e"
                 }
             },
             "Seals": {
@@ -15056,6 +15065,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Stories We Remember",
                     "urlPath": "/destiny2/mobile/emblems/storiesweremember",
                     "checksum": "d5722f992b95a8f02d575b569c6722a37c34a735"
+                },
+                "flightofsoteria": {
+                    "name": "Flight of Soteria",
+                    "ext": ".jpg",
+                    "urlName": "flightofsoteria",
+                    "mtimeMs": 1671125931000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Flight of Soteria",
+                    "urlPath": "/destiny2/mobile/emblems/flightofsoteria",
+                    "checksum": "55fa5edb51dc2f030564668b40433e9ac6c877e3"
                 }
             },
             "Seals": {

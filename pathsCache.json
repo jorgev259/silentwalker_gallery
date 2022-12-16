@@ -11293,6 +11293,20 @@
                 "category": "seals",
                 "image": "wayfarer"
             }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "flightofsoteria"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "flightofsoteria"
+            }
         }
     ]
 }
