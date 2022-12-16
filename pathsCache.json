@@ -4599,6 +4599,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "flightofsoteria"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "fluidresonance"
             }
         },
@@ -8645,6 +8652,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "flightofsoteria"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "fluidresonance"
             }
         },
@@ -11298,14 +11312,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "flightofsoteria"
+                "image": "pillorypartition"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "flightofsoteria"
+                "image": "pillorypartition"
             }
         }
     ]

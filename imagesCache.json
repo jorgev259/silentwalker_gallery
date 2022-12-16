@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9738,6 +9738,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Flight of Soteria",
                     "urlPath": "/destiny2/desktop/emblems/flightofsoteria",
                     "checksum": "e31c147889586f2c68dd3cabf0ebfb5e72957a5e"
+                },
+                "pillorypartition": {
+                    "name": "Pillory Partition",
+                    "ext": ".jpg",
+                    "urlName": "pillorypartition",
+                    "mtimeMs": 1671189156000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Pillory Partition",
+                    "urlPath": "/destiny2/desktop/emblems/pillorypartition",
+                    "checksum": "8e88da8971f3ad4a0a5a44fc801fccdb9434bda8"
                 }
             },
             "Seals": {
@@ -15074,6 +15083,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Flight of Soteria",
                     "urlPath": "/destiny2/mobile/emblems/flightofsoteria",
                     "checksum": "55fa5edb51dc2f030564668b40433e9ac6c877e3"
+                },
+                "pillorypartition": {
+                    "name": "Pillory Partition",
+                    "ext": ".jpg",
+                    "urlName": "pillorypartition",
+                    "mtimeMs": 1671189168000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Pillory Partition",
+                    "urlPath": "/destiny2/mobile/emblems/pillorypartition",
+                    "checksum": "fdf7f00b9474c2705ebca843f2efa9ef1cf794f5"
                 }
             },
             "Seals": {
