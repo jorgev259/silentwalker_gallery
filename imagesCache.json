@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10055,6 +10055,15 @@
                     "imgPath": "/Destiny 2/Desktop/Seals/Disciple-Slayer",
                     "urlPath": "/destiny2/desktop/seals/disciple-slayer",
                     "checksum": "c9b0fa63c49aeda1e61299996eef015724ada71e"
+                },
+                "reaper": {
+                    "name": "Reaper",
+                    "ext": ".jpg",
+                    "urlName": "reaper",
+                    "mtimeMs": 1670350095000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Reaper",
+                    "urlPath": "/destiny2/desktop/seals/reaper",
+                    "checksum": "08f4de2a4286cb56cc7cd8401518b3efc8969d94"
                 }
             }
         },
@@ -15400,6 +15409,15 @@
                     "imgPath": "/Destiny 2/Mobile/Seals/Disciple-Slayer",
                     "urlPath": "/destiny2/mobile/seals/disciple-slayer",
                     "checksum": "facaee49b7345d9a468af5c350a57cf5e2c92e02"
+                },
+                "reaper": {
+                    "name": "Reaper",
+                    "ext": ".jpg",
+                    "urlName": "reaper",
+                    "mtimeMs": 1670350094000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Reaper",
+                    "urlPath": "/destiny2/mobile/seals/reaper",
+                    "checksum": "d6d19915af4dd5a6b2263be78c768051f486de6b"
                 }
             }
         }

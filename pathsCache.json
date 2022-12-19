@@ -5607,6 +5607,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "pillorypartition"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "piraticalambitions"
             }
         },
@@ -9660,6 +9667,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "pillorypartition"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "piraticalambitions"
             }
         },
@@ -11310,16 +11324,16 @@
         },
         {
             "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "pillorypartition"
+                "device": "mobile",
+                "category": "seals",
+                "image": "reaper"
             }
         },
         {
             "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "pillorypartition"
+                "device": "desktop",
+                "category": "seals",
+                "image": "reaper"
             }
         }
     ]
