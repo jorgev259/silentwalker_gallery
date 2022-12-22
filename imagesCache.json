@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9747,6 +9747,24 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Pillory Partition",
                     "urlPath": "/destiny2/desktop/emblems/pillorypartition",
                     "checksum": "8e88da8971f3ad4a0a5a44fc801fccdb9434bda8"
+                },
+                "cosmichearth": {
+                    "name": "Cosmic Hearth",
+                    "ext": ".jpg",
+                    "urlName": "cosmichearth",
+                    "mtimeMs": 1671625744000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Cosmic Hearth",
+                    "urlPath": "/destiny2/desktop/emblems/cosmichearth",
+                    "checksum": "152c3d8056cfea91a36e47fd57ed20a80a409efd"
+                },
+                "dawningcheerandtreats": {
+                    "name": "Dawning Cheer and Treats",
+                    "ext": ".jpg",
+                    "urlName": "dawningcheerandtreats",
+                    "mtimeMs": 1671642275000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Dawning Cheer and Treats",
+                    "urlPath": "/destiny2/desktop/emblems/dawningcheerandtreats",
+                    "checksum": "b7f36aa4b741811bc127636f07ae7656d6b86ed7"
                 }
             },
             "Seals": {
@@ -15101,6 +15119,24 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Pillory Partition",
                     "urlPath": "/destiny2/mobile/emblems/pillorypartition",
                     "checksum": "fdf7f00b9474c2705ebca843f2efa9ef1cf794f5"
+                },
+                "cosmichearth": {
+                    "name": "Cosmic Hearth",
+                    "ext": ".jpg",
+                    "urlName": "cosmichearth",
+                    "mtimeMs": 1671625736000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Cosmic Hearth",
+                    "urlPath": "/destiny2/mobile/emblems/cosmichearth",
+                    "checksum": "4c7c6176f66be8534fd3f5d43fb6288f25d61ea5"
+                },
+                "dawningcheerandtreats": {
+                    "name": "Dawning Cheer and Treats",
+                    "ext": ".jpg",
+                    "urlName": "dawningcheerandtreats",
+                    "mtimeMs": 1671642275000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Dawning Cheer and Treats",
+                    "urlPath": "/destiny2/mobile/emblems/dawningcheerandtreats",
+                    "checksum": "54598afc32167de49f219dcbfed1b4b2de5bd27d"
                 }
             },
             "Seals": {
