@@ -4151,6 +4151,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "cosmichearth"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "countdowntoconvergence"
             }
         },
@@ -4243,6 +4250,13 @@
                 "device": "desktop",
                 "category": "emblems",
                 "image": "dawnchaser"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "dawningcheerandtreats"
             }
         },
         {
@@ -8218,6 +8232,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "cosmichearth"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "countdowntoconvergence"
             }
         },
@@ -8310,6 +8331,13 @@
                 "device": "mobile",
                 "category": "emblems",
                 "image": "dawnchaser"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "dawningcheerandtreats"
             }
         },
         {
@@ -11338,30 +11366,16 @@
         },
         {
             "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "cosmichearth"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "dawningcheerandtreats"
-            }
-        },
-        {
-            "params": {
                 "device": "mobile",
-                "category": "emblems",
-                "image": "cosmichearth"
+                "category": "seals",
+                "image": "scallywag"
             }
         },
         {
             "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "dawningcheerandtreats"
+                "device": "desktop",
+                "category": "seals",
+                "image": "scallywag"
             }
         }
     ]

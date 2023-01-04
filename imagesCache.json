@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10082,6 +10082,15 @@
                     "imgPath": "/Destiny 2/Desktop/Seals/Reaper",
                     "urlPath": "/destiny2/desktop/seals/reaper",
                     "checksum": "08f4de2a4286cb56cc7cd8401518b3efc8969d94"
+                },
+                "scallywag": {
+                    "name": "Scallywag",
+                    "ext": ".jpg",
+                    "urlName": "scallywag",
+                    "mtimeMs": 1670350097000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Scallywag",
+                    "urlPath": "/destiny2/desktop/seals/scallywag",
+                    "checksum": "d92c9c3fd24f3c7602afeb8b037e918d430900bd"
                 }
             }
         },
@@ -15454,6 +15463,15 @@
                     "imgPath": "/Destiny 2/Mobile/Seals/Reaper",
                     "urlPath": "/destiny2/mobile/seals/reaper",
                     "checksum": "d6d19915af4dd5a6b2263be78c768051f486de6b"
+                },
+                "scallywag": {
+                    "name": "Scallywag",
+                    "ext": ".jpg",
+                    "urlName": "scallywag",
+                    "mtimeMs": 1670350096000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Scallywag",
+                    "urlPath": "/destiny2/mobile/seals/scallywag",
+                    "checksum": "44a9e67c0472e642764b9b11c5e4967e9a16bcc0"
                 }
             }
         }
