@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9765,6 +9765,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Dawning Cheer and Treats",
                     "urlPath": "/destiny2/desktop/emblems/dawningcheerandtreats",
                     "checksum": "b7f36aa4b741811bc127636f07ae7656d6b86ed7"
+                },
+                "memorialized": {
+                    "name": "Memorialized",
+                    "ext": ".jpg",
+                    "urlName": "memorialized",
+                    "mtimeMs": 1672856236000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Memorialized",
+                    "urlPath": "/destiny2/desktop/emblems/memorialized",
+                    "checksum": "575e43a5c5e06d26e6ec70cae2450b73cc525ce2"
                 }
             },
             "Seals": {
@@ -15146,6 +15155,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Dawning Cheer and Treats",
                     "urlPath": "/destiny2/mobile/emblems/dawningcheerandtreats",
                     "checksum": "54598afc32167de49f219dcbfed1b4b2de5bd27d"
+                },
+                "memorialized": {
+                    "name": "Memorialized",
+                    "ext": ".jpg",
+                    "urlName": "memorialized",
+                    "mtimeMs": 1672855860000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Memorialized",
+                    "urlPath": "/destiny2/mobile/emblems/memorialized",
+                    "checksum": "bd332c1194b4f8391dda678170ea46851977eb64"
                 }
             },
             "Seals": {

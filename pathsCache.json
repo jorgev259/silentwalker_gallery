@@ -7231,6 +7231,13 @@
             "params": {
                 "device": "desktop",
                 "category": "seals",
+                "image": "scallywag"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
                 "image": "shadow"
             }
         },
@@ -11312,6 +11319,13 @@
             "params": {
                 "device": "mobile",
                 "category": "seals",
+                "image": "scallywag"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
                 "image": "shadow"
             }
         },
@@ -11366,16 +11380,16 @@
         },
         {
             "params": {
-                "device": "mobile",
-                "category": "seals",
-                "image": "scallywag"
+                "device": "desktop",
+                "category": "emblems",
+                "image": "memorialized"
             }
         },
         {
             "params": {
-                "device": "desktop",
-                "category": "seals",
-                "image": "scallywag"
+                "device": "mobile",
+                "category": "emblems",
+                "image": "memorialized"
             }
         }
     ]
