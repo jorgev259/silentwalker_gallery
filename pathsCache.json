@@ -5320,6 +5320,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "memorialized"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "mentoroflight"
             }
         },
@@ -9408,6 +9415,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "memorialized"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "mentoroflight"
             }
         },
@@ -11382,14 +11396,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "memorialized"
+                "image": "bloodofthewolf"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "memorialized"
+                "image": "bloodofthewolf"
             }
         }
     ]
