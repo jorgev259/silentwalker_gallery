@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9783,6 +9783,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Blood of the Wolf",
                     "urlPath": "/destiny2/desktop/emblems/bloodofthewolf",
                     "checksum": "d3c7ea57f3c1318bb6089ebb32ae5c3d939d1a03"
+                },
+                "pret-a-porter": {
+                    "name": "Pret-a-porter",
+                    "ext": ".jpg",
+                    "urlName": "pret-a-porter",
+                    "mtimeMs": 1673546265000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Pret-a-porter",
+                    "urlPath": "/destiny2/desktop/emblems/pret-a-porter",
+                    "checksum": "83da7858289bc1657d404dcae7a770e281167cd3"
                 }
             },
             "Seals": {
@@ -15182,6 +15191,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Blood of the Wolf",
                     "urlPath": "/destiny2/mobile/emblems/bloodofthewolf",
                     "checksum": "d3bc2836bf6b6bf9b7612b0fff373ba6a522b92a"
+                },
+                "pret-a-porter": {
+                    "name": "Pret-a-porter",
+                    "ext": ".jpg",
+                    "urlName": "pret-a-porter",
+                    "mtimeMs": 1673546265000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Pret-a-porter",
+                    "urlPath": "/destiny2/mobile/emblems/pret-a-porter",
+                    "checksum": "52b8d674a4d69cc6af015e085af99502ae2c2d7d"
                 }
             },
             "Seals": {

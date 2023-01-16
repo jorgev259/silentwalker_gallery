@@ -3927,6 +3927,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "bloodofthewolf"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "bornofthis"
             }
         },
@@ -8022,6 +8029,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "bloodofthewolf"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "bornofthis"
             }
         },
@@ -11396,14 +11410,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "bloodofthewolf"
+                "image": "pret-a-porter"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "bloodofthewolf"
+                "image": "pret-a-porter"
             }
         }
     ]
