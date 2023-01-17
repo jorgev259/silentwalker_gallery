@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9792,6 +9792,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Pret-a-porter",
                     "urlPath": "/destiny2/desktop/emblems/pret-a-porter",
                     "checksum": "83da7858289bc1657d404dcae7a770e281167cd3"
+                },
+                "orbitalstep": {
+                    "name": "Orbital Step",
+                    "ext": ".jpg",
+                    "urlName": "orbitalstep",
+                    "mtimeMs": 1673872878000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Orbital Step",
+                    "urlPath": "/destiny2/desktop/emblems/orbitalstep",
+                    "checksum": "6ebc0310fddfaac45e9ec8713f1b3de0e0ec6c34"
                 }
             },
             "Seals": {
@@ -15200,6 +15209,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Pret-a-porter",
                     "urlPath": "/destiny2/mobile/emblems/pret-a-porter",
                     "checksum": "52b8d674a4d69cc6af015e085af99502ae2c2d7d"
+                },
+                "orbitalstep": {
+                    "name": "Orbital Step",
+                    "ext": ".jpg",
+                    "urlName": "orbitalstep",
+                    "mtimeMs": 1673872943000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Orbital Step",
+                    "urlPath": "/destiny2/mobile/emblems/orbitalstep",
+                    "checksum": "85990216b69f551167ee420acd8741a3aac2b640"
                 }
             },
             "Seals": {

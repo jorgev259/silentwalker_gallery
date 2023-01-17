@@ -5677,6 +5677,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "pret-a-porter"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "primevalprime"
             }
         },
@@ -9779,6 +9786,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "pret-a-porter"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "primevalprime"
             }
         },
@@ -11410,14 +11424,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "pret-a-porter"
+                "image": "orbitalstep"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "pret-a-porter"
+                "image": "orbitalstep"
             }
         }
     ]
