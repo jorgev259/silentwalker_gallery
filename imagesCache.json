@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9801,6 +9801,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Orbital Step",
                     "urlPath": "/destiny2/desktop/emblems/orbitalstep",
                     "checksum": "6ebc0310fddfaac45e9ec8713f1b3de0e0ec6c34"
+                },
+                "jadesburrow": {
+                    "name": "Jades Burrow",
+                    "ext": ".jpg",
+                    "urlName": "jadesburrow",
+                    "mtimeMs": 1674057072000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Jades Burrow",
+                    "urlPath": "/destiny2/desktop/emblems/jadesburrow",
+                    "checksum": "de2582be7a12ae3e15a4a0796f6c5d8d08925b1c"
                 }
             },
             "Seals": {
@@ -15218,6 +15227,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Orbital Step",
                     "urlPath": "/destiny2/mobile/emblems/orbitalstep",
                     "checksum": "85990216b69f551167ee420acd8741a3aac2b640"
+                },
+                "jadesburrow": {
+                    "name": "Jades Burrow",
+                    "ext": ".jpg",
+                    "urlName": "jadesburrow",
+                    "mtimeMs": 1674057071000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Jades Burrow",
+                    "urlPath": "/destiny2/mobile/emblems/jadesburrow",
+                    "checksum": "8ad2228214e8e46dfc9821168017c17db2344d56"
                 }
             },
             "Seals": {

@@ -5600,6 +5600,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "orbitalstep"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "outlawedandunsanctioned"
             }
         },
@@ -9709,6 +9716,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "orbitalstep"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "outlawedandunsanctioned"
             }
         },
@@ -11424,14 +11438,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "orbitalstep"
+                "image": "jadesburrow"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "orbitalstep"
+                "image": "jadesburrow"
             }
         }
     ]
