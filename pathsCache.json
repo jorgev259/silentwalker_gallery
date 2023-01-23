@@ -5075,6 +5075,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "jadesburrow"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "k1revelation"
             }
         },
@@ -9191,6 +9198,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "jadesburrow"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "k1revelation"
             }
         },
@@ -11438,14 +11452,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "jadesburrow"
+                "image": "swiftfortuna"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "jadesburrow"
+                "image": "swiftfortuna"
             }
         }
     ]
