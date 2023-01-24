@@ -5936,7 +5936,7 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "savath%C3%BBn'ssong"
+                "image": "savathunssong"
             }
         },
         {
@@ -10052,7 +10052,7 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "savath%C3%BBn'ssong"
+                "image": "savathunssong"
             }
         },
         {
@@ -11452,14 +11452,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "savathunssong"
+                "image": "fullyoperational"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "savathunssong"
+                "image": "fullyoperational"
             }
         }
     ]

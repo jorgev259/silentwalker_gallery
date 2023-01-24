@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9828,6 +9828,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Savathuns Song",
                     "urlPath": "/destiny2/desktop/emblems/savathunssong",
                     "checksum": "185a9dca6fea7039fc2a47458edff2d462113f23"
+                },
+                "fullyoperational": {
+                    "name": "Fully Operational",
+                    "ext": ".jpg",
+                    "urlName": "fullyoperational",
+                    "mtimeMs": 1674475139000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Fully Operational",
+                    "urlPath": "/destiny2/desktop/emblems/fullyoperational",
+                    "checksum": "dfe3c56bf9db8b88f7d3b4a99f0caacf37fbfc16"
                 }
             },
             "Seals": {
@@ -15272,6 +15281,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Savathuns Song",
                     "urlPath": "/destiny2/mobile/emblems/savathunssong",
                     "checksum": "fefbc849f558d3b5e2e68ecec3e9a178e7240708"
+                },
+                "fullyoperational": {
+                    "name": "Fully Operational",
+                    "ext": ".jpg",
+                    "urlName": "fullyoperational",
+                    "mtimeMs": 1674475158000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Fully Operational",
+                    "urlPath": "/destiny2/mobile/emblems/fullyoperational",
+                    "checksum": "e169d5b44e6a46108e9e4ae1c28cb8913f60c112"
                 }
             },
             "Seals": {
