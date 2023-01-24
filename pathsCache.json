@@ -5936,13 +5936,6 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "savathu%CC%82n'ssong"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
                 "image": "savath%C3%BBn'ssong"
             }
         },
@@ -6427,6 +6420,13 @@
                 "device": "desktop",
                 "category": "emblems",
                 "image": "sweetdreams"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "swiftfortuna"
             }
         },
         {
@@ -10052,13 +10052,6 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "savathu%CC%82n'ssong"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
                 "image": "savath%C3%BBn'ssong"
             }
         },
@@ -10543,6 +10536,13 @@
                 "device": "mobile",
                 "category": "emblems",
                 "image": "sweetdreams"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "swiftfortuna"
             }
         },
         {
@@ -11452,14 +11452,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "swiftfortuna"
+                "image": "savathunssong"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "swiftfortuna"
+                "image": "savathunssong"
             }
         }
     ]
