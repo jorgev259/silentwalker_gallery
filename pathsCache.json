@@ -4683,6 +4683,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "fullyoperational"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "functionofgrace"
             }
         },
@@ -8806,6 +8813,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "fullyoperational"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "functionofgrace"
             }
         },
@@ -11452,14 +11466,42 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "fullyoperational"
+                "image": "nomorelasers"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "treeofprobabilities"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "valusintrigue"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "fullyoperational"
+                "image": "nomorelasers"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "treeofprobabilities"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "valusintrigue"
             }
         }
     ]

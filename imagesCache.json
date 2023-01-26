@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9837,6 +9837,33 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Fully Operational",
                     "urlPath": "/destiny2/desktop/emblems/fullyoperational",
                     "checksum": "dfe3c56bf9db8b88f7d3b4a99f0caacf37fbfc16"
+                },
+                "nomorelasers": {
+                    "name": "No More Lasers",
+                    "ext": ".jpg",
+                    "urlName": "nomorelasers",
+                    "mtimeMs": 1674561200000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/No More Lasers",
+                    "urlPath": "/destiny2/desktop/emblems/nomorelasers",
+                    "checksum": "6691e0a519c316492c2b605b3a3183791c1fc775"
+                },
+                "treeofprobabilities": {
+                    "name": "Tree of Probabilities",
+                    "ext": ".jpg",
+                    "urlName": "treeofprobabilities",
+                    "mtimeMs": 1674561391000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Tree of Probabilities",
+                    "urlPath": "/destiny2/desktop/emblems/treeofprobabilities",
+                    "checksum": "2f3ad29883be77808638bc303821ceb79b3f9f24"
+                },
+                "valusintrigue": {
+                    "name": "Valus Intrigue",
+                    "ext": ".jpg",
+                    "urlName": "valusintrigue",
+                    "mtimeMs": 1674561179000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Valus Intrigue",
+                    "urlPath": "/destiny2/desktop/emblems/valusintrigue",
+                    "checksum": "91a74f6c299b5baeffa975a723d72ca85b4b9fd5"
                 }
             },
             "Seals": {
@@ -15290,6 +15317,33 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Fully Operational",
                     "urlPath": "/destiny2/mobile/emblems/fullyoperational",
                     "checksum": "e169d5b44e6a46108e9e4ae1c28cb8913f60c112"
+                },
+                "nomorelasers": {
+                    "name": "No More Lasers",
+                    "ext": ".jpg",
+                    "urlName": "nomorelasers",
+                    "mtimeMs": 1674560850000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/No More Lasers",
+                    "urlPath": "/destiny2/mobile/emblems/nomorelasers",
+                    "checksum": "c5b8372c3ee0e4a7b07eed575a8d1178223746c7"
+                },
+                "treeofprobabilities": {
+                    "name": "Tree of Probabilities",
+                    "ext": ".jpg",
+                    "urlName": "treeofprobabilities",
+                    "mtimeMs": 1674560880000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Tree of Probabilities",
+                    "urlPath": "/destiny2/mobile/emblems/treeofprobabilities",
+                    "checksum": "15f71adeec6f405051815f874471dbc952fd6e77"
+                },
+                "valusintrigue": {
+                    "name": "Valus Intrigue",
+                    "ext": ".jpg",
+                    "urlName": "valusintrigue",
+                    "mtimeMs": 1674560799000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Valus Intrigue",
+                    "urlPath": "/destiny2/mobile/emblems/valusintrigue",
+                    "checksum": "d69b953a9248b636fd960b239bad00a35a4e773f"
                 }
             },
             "Seals": {
