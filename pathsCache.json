@@ -3766,13 +3766,6 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "archivist'sprize"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
                 "image": "arcologyinterface"
             }
         },
@@ -7917,13 +7910,6 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "archivist'sprize"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
                 "image": "arcologyinterface"
             }
         },
@@ -11508,14 +11494,28 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "archivist'skey"
+                "image": "archivistskey"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "archivistsprize"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "archivist'skey"
+                "image": "archivistskey"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "archivistsprize"
             }
         }
     ]

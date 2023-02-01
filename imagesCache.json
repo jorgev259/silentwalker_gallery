@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9873,6 +9873,24 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Archivist's Key",
                     "urlPath": "/destiny2/desktop/emblems/archivist'skey",
                     "checksum": "ad2a88859df03bd02854ecbb1400e37d6a68690d"
+                },
+                "archivistskey": {
+                    "name": "Archivists Key",
+                    "ext": ".jpg",
+                    "urlName": "archivistskey",
+                    "mtimeMs": 1675272150229,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Archivists Key",
+                    "urlPath": "/destiny2/desktop/emblems/archivistskey",
+                    "checksum": "1dd3e5f5b61ec5a9ee52c0c5042f93600a5bedc2"
+                },
+                "archivistsprize": {
+                    "name": "Archivists Prize",
+                    "ext": ".jpg",
+                    "urlName": "archivistsprize",
+                    "mtimeMs": 1675272156971,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Archivists Prize",
+                    "urlPath": "/destiny2/desktop/emblems/archivistsprize",
+                    "checksum": "715c7764288c17107cea3f3876a91595a666d8f2"
                 }
             },
             "Seals": {
@@ -15362,6 +15380,24 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Archivist's Key",
                     "urlPath": "/destiny2/mobile/emblems/archivist'skey",
                     "checksum": "077fc84f3bf52a7de5dffed196f4f99c87839770"
+                },
+                "archivistskey": {
+                    "name": "Archivists Key",
+                    "ext": ".jpg",
+                    "urlName": "archivistskey",
+                    "mtimeMs": 1675272172788,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Archivists Key",
+                    "urlPath": "/destiny2/mobile/emblems/archivistskey",
+                    "checksum": "522ffb86f8b24c7f70c1435a542ebe8fdfb2fd71"
+                },
+                "archivistsprize": {
+                    "name": "Archivists Prize",
+                    "ext": ".jpg",
+                    "urlName": "archivistsprize",
+                    "mtimeMs": 1675272178707,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Archivists Prize",
+                    "urlPath": "/destiny2/mobile/emblems/archivistsprize",
+                    "checksum": "d991eccb1b03fe7ed611aec22b7dba3176557875"
                 }
             },
             "Seals": {
