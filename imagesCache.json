@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9864,6 +9864,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Valus Intrigue",
                     "urlPath": "/destiny2/desktop/emblems/valusintrigue",
                     "checksum": "91a74f6c299b5baeffa975a723d72ca85b4b9fd5"
+                },
+                "archivist'skey": {
+                    "name": "Archivist's Key",
+                    "ext": ".jpg",
+                    "urlName": "archivist'skey",
+                    "mtimeMs": 1674752510000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Archivist's Key",
+                    "urlPath": "/destiny2/desktop/emblems/archivist'skey",
+                    "checksum": "ad2a88859df03bd02854ecbb1400e37d6a68690d"
                 }
             },
             "Seals": {
@@ -15344,6 +15353,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Valus Intrigue",
                     "urlPath": "/destiny2/mobile/emblems/valusintrigue",
                     "checksum": "d69b953a9248b636fd960b239bad00a35a4e773f"
+                },
+                "archivist'skey": {
+                    "name": "Archivist's Key",
+                    "ext": ".jpg",
+                    "urlName": "archivist'skey",
+                    "mtimeMs": 1674752359000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Archivist's Key",
+                    "urlPath": "/destiny2/mobile/emblems/archivist'skey",
+                    "checksum": "077fc84f3bf52a7de5dffed196f4f99c87839770"
                 }
             },
             "Seals": {
