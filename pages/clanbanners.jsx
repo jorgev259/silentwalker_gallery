@@ -19,9 +19,9 @@ export default function ClanBanners (props) {
                   }
                 </div>
                 <div className='d-md-none'>
-                {
-                  [1, 2, 3, 4].map(n => <img alt='' src={`/images/assets/clan${n}.png`} key={n} style={{ width: '50%', height: 'auto', paddingRight: '10px', paddingTop: '10px' }} />)
-                }
+                  {
+                    [1, 2, 3, 4].map(n => <img alt='' src={`/images/assets/clan${n}.png`} key={n} style={{ width: '50%', height: 'auto', paddingRight: '10px', paddingTop: '10px' }} />)
+                  }
                 </div>
               </div>
             </div>

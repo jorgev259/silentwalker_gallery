@@ -41,15 +41,15 @@ function ModalElement (props) {
             {show && <img className='w-100' src={imgUrl} alt={name}/>}
           </div>
           <div className="modal-footer">
-          <div className='mx-auto'>{name}</div>
-          <div className='mx-auto'>
-            <a href={imgUrl} className='modal-btn btn btn-outline-secondary' download>Download</a>
-            <Link href={parentUrl} scroll={false} shallow>
-              <a>
-                <button type="button" className='btn btn-outline-secondary ms-2 modal-btn'>Close</button>
-              </a>
-            </Link>
-          </div>
+            <div className='mx-auto'>{name}</div>
+            <div className='mx-auto'>
+              <a href={imgUrl} className='modal-btn btn btn-outline-secondary' download>Download</a>
+              <Link href={parentUrl} scroll={false} shallow>
+                <a>
+                  <button type="button" className='btn btn-outline-secondary ms-2 modal-btn'>Close</button>
+                </a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

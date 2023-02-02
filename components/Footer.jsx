@@ -20,7 +20,7 @@ function Element (props) {
         Recreating these wallpapers is almost a full-time job I make them to improve myself and to please you.<br />
         Your support helps me and the project to continue on and allows me to do my best work.
       </div>
-  </div>
+    </div>
   )
 }
 
