@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
+import Script from 'next/script'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../styles/globals.scss'
@@ -26,6 +27,16 @@ export default function App ({ Component, pageProps }) {
         <meta key='desc' property='og:description' content='The biggest collection of Destiny emblem wallpapers. Made by SiLeNtWaLkEr' />
         <meta key='image' property='og:image' content='/images/assets/logo_only.png' />
       </Head>
+      <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+      <Script id="gtag">
+        {`
+           window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+ 
+           gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+          `}
+      </Script>
       <Navbar {...props} setSearch={setSearch} />
       <Component {...pageProps} sort={sort} search={search} />
     </>
