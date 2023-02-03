@@ -1,5 +1,6 @@
-
+import { useEffect } from 'react'
 import classNames from 'classnames'
+import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 import Footer from './Footer'
@@ -30,11 +31,28 @@ function Thumb (props) {
 
 function ModalElement (props) {
   const { name, show, imgPath, ext, urlPath = '' } = props
+  const router = useRouter()
+
   const imgUrl = `https://raw.githubusercontent.com/jorgev259/silentwalker_wallpapers/main/images${imgPath}${ext}`
   const parentUrl = urlPath.split('/').slice(0, -1).join('/')
 
+  const close = () => router.push(parentUrl)
+
+  useEffect(() => {
+    const checkKey = e => {
+      if (e.key === 'Escape' && show) router.push(parentUrl)
+    }
+
+    window.addEventListener('keydown', checkKey)
+    return () => window.removeEventListener('keydown', checkKey)
+  }, [])
+
+  const onClose = e => {
+    if (e.currentTarget === e.target) close()
+  }
+
   return (
-    <div className={classNames('modal fade', styles.modal, { show })}>
+    <div className={classNames('modal fade', styles.modal, { show })} onClick={onClose}>
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal-content">
           <div className={classNames('modal-body p-0')}>
