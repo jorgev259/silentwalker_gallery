@@ -7,7 +7,7 @@ import '../styles/globals.scss'
 
 import Navbar from '../components/Navbar'
 
-ReactGA.initialize('G-1KJXLJMYNF')
+ReactGA.initialize('G-3Z2HM7FKC8')
 
 export default function App ({ Component, pageProps }) {
   const [sort, setSort] = useState('new')
