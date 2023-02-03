@@ -27,14 +27,14 @@ export default function App ({ Component, pageProps }) {
         <meta key='desc' property='og:description' content='The biggest collection of Destiny emblem wallpapers. Made by SiLeNtWaLkEr' />
         <meta key='image' property='og:image' content='/images/assets/logo_only.png' />
       </Head>
-      <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-1KJXLJMYNF" />
       <Script id="gtag">
         {`
            window.dataLayer = window.dataLayer || [];
            function gtag(){dataLayer.push(arguments);}
            gtag('js', new Date());
  
-           gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+           gtag('config', 'G-1KJXLJMYNF');
           `}
       </Script>
       <Navbar {...props} setSearch={setSearch} />
