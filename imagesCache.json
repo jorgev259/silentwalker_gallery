@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9891,6 +9891,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Archivists Prize",
                     "urlPath": "/destiny2/desktop/emblems/archivistsprize",
                     "checksum": "715c7764288c17107cea3f3876a91595a666d8f2"
+                },
+                "salvationsdownfall": {
+                    "name": "Salvations Downfall",
+                    "ext": ".jpg",
+                    "urlName": "salvationsdownfall",
+                    "mtimeMs": 1675187264000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Salvations Downfall",
+                    "urlPath": "/destiny2/desktop/emblems/salvationsdownfall",
+                    "checksum": "d485b198c4b6a19c6f30ae82f4b4f26e2ff2ae14"
                 }
             },
             "Seals": {
@@ -15398,6 +15407,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Archivists Prize",
                     "urlPath": "/destiny2/mobile/emblems/archivistsprize",
                     "checksum": "d991eccb1b03fe7ed611aec22b7dba3176557875"
+                },
+                "salvationsdownfall": {
+                    "name": "Salvations Downfall",
+                    "ext": ".jpg",
+                    "urlName": "salvationsdownfall",
+                    "mtimeMs": 1675187264000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Salvations Downfall",
+                    "urlPath": "/destiny2/mobile/emblems/salvationsdownfall",
+                    "checksum": "d599ccc33810d4c91758143f0ce945859e609f67"
                 }
             },
             "Seals": {

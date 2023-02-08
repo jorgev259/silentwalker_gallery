@@ -3766,6 +3766,20 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "archivistskey"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "archivistsprize"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "arcologyinterface"
             }
         },
@@ -7910,6 +7924,20 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "archivistskey"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "archivistsprize"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "arcologyinterface"
             }
         },
@@ -11494,28 +11522,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "archivistskey"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "archivistsprize"
+                "image": "salvationsdownfall"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "archivistskey"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "archivistsprize"
+                "image": "salvationsdownfall"
             }
         }
     ]
