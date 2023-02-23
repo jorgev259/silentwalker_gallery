@@ -5936,6 +5936,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "salvationsdownfall"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "sandsweptcrusader"
             }
         },
@@ -10087,6 +10094,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "salvationsdownfall"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "sandsweptcrusader"
             }
         },
@@ -11521,15 +11535,113 @@
         {
             "params": {
                 "device": "desktop",
-                "category": "emblems",
-                "image": "salvationsdownfall"
+                "category": "seals",
+                "image": "glorious"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "kingslayer"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "mmxxii"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "reveler"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "risen"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "seraph"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "starbaker"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "wanted"
             }
         },
         {
             "params": {
                 "device": "mobile",
-                "category": "emblems",
-                "image": "salvationsdownfall"
+                "category": "seals",
+                "image": "glorious"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "kingslayer"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "mmxxii"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "reveler"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "risen"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "seraph"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "starbaker"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "wanted"
             }
         }
     ]

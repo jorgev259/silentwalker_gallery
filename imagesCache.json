@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9997,7 +9997,7 @@
                     "name": "Fatebreaker",
                     "ext": ".jpg",
                     "urlName": "fatebreaker",
-                    "mtimeMs": 1630940175793,
+                    "mtimeMs": 1677172163836,
                     "imgPath": "/Destiny 2/Desktop/Seals/Fatebreaker",
                     "urlPath": "/destiny2/desktop/seals/fatebreaker",
                     "checksum": "a76a8d3269caa003af2b4b42d2433ade693a1a2b"
@@ -10226,6 +10226,78 @@
                     "imgPath": "/Destiny 2/Desktop/Seals/Scallywag",
                     "urlPath": "/destiny2/desktop/seals/scallywag",
                     "checksum": "d92c9c3fd24f3c7602afeb8b037e918d430900bd"
+                },
+                "glorious": {
+                    "name": "Glorious",
+                    "ext": ".jpg",
+                    "urlName": "glorious",
+                    "mtimeMs": 1675943363000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Glorious",
+                    "urlPath": "/destiny2/desktop/seals/glorious",
+                    "checksum": "eba9f7be203ea47bd1145183d8324438ddb96d80"
+                },
+                "kingslayer": {
+                    "name": "Kingslayer",
+                    "ext": ".jpg",
+                    "urlName": "kingslayer",
+                    "mtimeMs": 1676281862000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Kingslayer",
+                    "urlPath": "/destiny2/desktop/seals/kingslayer",
+                    "checksum": "b51e1407db5caf3f6adc237f0dc16497918001c9"
+                },
+                "mmxxii": {
+                    "name": "MMXXII",
+                    "ext": ".jpg",
+                    "urlName": "mmxxii",
+                    "mtimeMs": 1677157534000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/MMXXII",
+                    "urlPath": "/destiny2/desktop/seals/mmxxii",
+                    "checksum": "79872671ef196fb7cfdacdbcc3ba48192233aa1a"
+                },
+                "reveler": {
+                    "name": "Reveler",
+                    "ext": ".jpg",
+                    "urlName": "reveler",
+                    "mtimeMs": 1676476189000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Reveler",
+                    "urlPath": "/destiny2/desktop/seals/reveler",
+                    "checksum": "ab3b8a8bdeccabec0c4109c5c72f40e4246a43ae"
+                },
+                "risen": {
+                    "name": "Risen",
+                    "ext": ".jpg",
+                    "urlName": "risen",
+                    "mtimeMs": 1659383210000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Risen",
+                    "urlPath": "/destiny2/desktop/seals/risen",
+                    "checksum": "7d4def342646ae84cfa7d13aede252a9e59bf061"
+                },
+                "seraph": {
+                    "name": "Seraph",
+                    "ext": ".jpg",
+                    "urlName": "seraph",
+                    "mtimeMs": 1675961398000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Seraph",
+                    "urlPath": "/destiny2/desktop/seals/seraph",
+                    "checksum": "41cf07697828475c0c5bcb2c1ac1389654341761"
+                },
+                "starbaker": {
+                    "name": "Star Baker",
+                    "ext": ".jpg",
+                    "urlName": "starbaker",
+                    "mtimeMs": 1676395517000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Star Baker",
+                    "urlPath": "/destiny2/desktop/seals/starbaker",
+                    "checksum": "da358834278a7ad72db092089d69cc2a19fcb39c"
+                },
+                "wanted": {
+                    "name": "Wanted",
+                    "ext": ".jpg",
+                    "urlName": "wanted",
+                    "mtimeMs": 1677157275000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Wanted",
+                    "urlPath": "/destiny2/desktop/seals/wanted",
+                    "checksum": "d62a51f642d279d29bd1c45e62fbd9d235dc64e4"
                 }
             }
         },
@@ -15742,6 +15814,78 @@
                     "imgPath": "/Destiny 2/Mobile/Seals/Scallywag",
                     "urlPath": "/destiny2/mobile/seals/scallywag",
                     "checksum": "44a9e67c0472e642764b9b11c5e4967e9a16bcc0"
+                },
+                "glorious": {
+                    "name": "Glorious",
+                    "ext": ".jpg",
+                    "urlName": "glorious",
+                    "mtimeMs": 1675943327000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Glorious",
+                    "urlPath": "/destiny2/mobile/seals/glorious",
+                    "checksum": "833356ddc2a821b1bb68ca5e8b7b8abfa501c3bf"
+                },
+                "kingslayer": {
+                    "name": "Kingslayer",
+                    "ext": ".jpg",
+                    "urlName": "kingslayer",
+                    "mtimeMs": 1676281861000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Kingslayer",
+                    "urlPath": "/destiny2/mobile/seals/kingslayer",
+                    "checksum": "b56cf4e8cf277c5c0d31951e41e41a7418f51b97"
+                },
+                "mmxxii": {
+                    "name": "MMXXII",
+                    "ext": ".jpg",
+                    "urlName": "mmxxii",
+                    "mtimeMs": 1677157533000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/MMXXII",
+                    "urlPath": "/destiny2/mobile/seals/mmxxii",
+                    "checksum": "f5054afd1c076dddf4033202071bcc4437f60ac8"
+                },
+                "reveler": {
+                    "name": "Reveler",
+                    "ext": ".jpg",
+                    "urlName": "reveler",
+                    "mtimeMs": 1676476187000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Reveler",
+                    "urlPath": "/destiny2/mobile/seals/reveler",
+                    "checksum": "9a1515008a5152da7e531780661eab1fc0ca3b39"
+                },
+                "risen": {
+                    "name": "Risen",
+                    "ext": ".jpg",
+                    "urlName": "risen",
+                    "mtimeMs": 1659383209000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Risen",
+                    "urlPath": "/destiny2/mobile/seals/risen",
+                    "checksum": "c2d693c48bd15adaad41b47f865831813123800e"
+                },
+                "seraph": {
+                    "name": "Seraph",
+                    "ext": ".jpg",
+                    "urlName": "seraph",
+                    "mtimeMs": 1675961397000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Seraph",
+                    "urlPath": "/destiny2/mobile/seals/seraph",
+                    "checksum": "983f382995e53e1b78cf24bcca1ef99422108456"
+                },
+                "starbaker": {
+                    "name": "Star Baker",
+                    "ext": ".jpg",
+                    "urlName": "starbaker",
+                    "mtimeMs": 1676395516000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Star Baker",
+                    "urlPath": "/destiny2/mobile/seals/starbaker",
+                    "checksum": "7dd65d9810d06998ac6b1853ed443153cab2785a"
+                },
+                "wanted": {
+                    "name": "Wanted",
+                    "ext": ".jpg",
+                    "urlName": "wanted",
+                    "mtimeMs": 1677157276000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Wanted",
+                    "urlPath": "/destiny2/mobile/seals/wanted",
+                    "checksum": "987a72528260c6193c5f6ea232e22ab5f78719da"
                 }
             }
         }
