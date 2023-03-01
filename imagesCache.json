@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9900,6 +9900,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Salvations Downfall",
                     "urlPath": "/destiny2/desktop/emblems/salvationsdownfall",
                     "checksum": "d485b198c4b6a19c6f30ae82f4b4f26e2ff2ae14"
+                },
+                "sanctuaryofnefele": {
+                    "name": "Sanctuary of Nefele",
+                    "ext": ".jpg",
+                    "urlName": "sanctuaryofnefele",
+                    "mtimeMs": 1677673504000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Sanctuary of Nefele",
+                    "urlPath": "/destiny2/desktop/emblems/sanctuaryofnefele",
+                    "checksum": "92b20a734d7b353e0c4abe521fb6ce5e1fdb9dcc"
                 }
             },
             "Seals": {
@@ -15488,6 +15497,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Salvations Downfall",
                     "urlPath": "/destiny2/mobile/emblems/salvationsdownfall",
                     "checksum": "d599ccc33810d4c91758143f0ce945859e609f67"
+                },
+                "sanctuaryofnefele": {
+                    "name": "Sanctuary of Nefele",
+                    "ext": ".jpg",
+                    "urlName": "sanctuaryofnefele",
+                    "mtimeMs": 1677673504000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Sanctuary of Nefele",
+                    "urlPath": "/destiny2/mobile/emblems/sanctuaryofnefele",
+                    "checksum": "83b488c320f5486bda3094a761dabd08287d5a8b"
                 }
             },
             "Seals": {

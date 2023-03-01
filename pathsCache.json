@@ -7231,6 +7231,13 @@
             "params": {
                 "device": "desktop",
                 "category": "seals",
+                "image": "glorious"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
                 "image": "gumshoe"
             }
         },
@@ -7246,6 +7253,13 @@
                 "device": "desktop",
                 "category": "seals",
                 "image": "ironlord"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "kingslayer"
             }
         },
         {
@@ -7273,6 +7287,13 @@
             "params": {
                 "device": "desktop",
                 "category": "seals",
+                "image": "mmxxii"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
                 "image": "realmwalker"
             }
         },
@@ -7288,6 +7309,20 @@
                 "device": "desktop",
                 "category": "seals",
                 "image": "reckoner"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "reveler"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "risen"
             }
         },
         {
@@ -7315,6 +7350,13 @@
             "params": {
                 "device": "desktop",
                 "category": "seals",
+                "image": "seraph"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
                 "image": "shadow"
             }
         },
@@ -7336,6 +7378,13 @@
             "params": {
                 "device": "desktop",
                 "category": "seals",
+                "image": "starbaker"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
                 "image": "unbroken"
             }
         },
@@ -7351,6 +7400,13 @@
                 "device": "desktop",
                 "category": "seals",
                 "image": "vidmaster"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "wanted"
             }
         },
         {
@@ -11396,6 +11452,13 @@
             "params": {
                 "device": "mobile",
                 "category": "seals",
+                "image": "glorious"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
                 "image": "gumshoe"
             }
         },
@@ -11411,6 +11474,13 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "ironlord"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "kingslayer"
             }
         },
         {
@@ -11438,6 +11508,13 @@
             "params": {
                 "device": "mobile",
                 "category": "seals",
+                "image": "mmxxii"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
                 "image": "realmwalker"
             }
         },
@@ -11453,6 +11530,20 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "reckoner"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "reveler"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "risen"
             }
         },
         {
@@ -11480,6 +11571,13 @@
             "params": {
                 "device": "mobile",
                 "category": "seals",
+                "image": "seraph"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
                 "image": "shadow"
             }
         },
@@ -11495,6 +11593,13 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "splintered"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "starbaker"
             }
         },
         {
@@ -11522,6 +11627,13 @@
             "params": {
                 "device": "mobile",
                 "category": "seals",
+                "image": "wanted"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
                 "image": "warden"
             }
         },
@@ -11535,113 +11647,15 @@
         {
             "params": {
                 "device": "desktop",
-                "category": "seals",
-                "image": "glorious"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "seals",
-                "image": "kingslayer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "seals",
-                "image": "mmxxii"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "seals",
-                "image": "reveler"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "seals",
-                "image": "risen"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "seals",
-                "image": "seraph"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "seals",
-                "image": "starbaker"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "seals",
-                "image": "wanted"
+                "category": "emblems",
+                "image": "sanctuaryofnefele"
             }
         },
         {
             "params": {
                 "device": "mobile",
-                "category": "seals",
-                "image": "glorious"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "seals",
-                "image": "kingslayer"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "seals",
-                "image": "mmxxii"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "seals",
-                "image": "reveler"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "seals",
-                "image": "risen"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "seals",
-                "image": "seraph"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "seals",
-                "image": "starbaker"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "seals",
-                "image": "wanted"
+                "category": "emblems",
+                "image": "sanctuaryofnefele"
             }
         }
     ]
