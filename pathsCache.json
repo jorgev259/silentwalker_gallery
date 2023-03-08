@@ -5943,6 +5943,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "sanctuaryofnefele"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "sandsweptcrusader"
             }
         },
@@ -10157,6 +10164,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "sanctuaryofnefele"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "sandsweptcrusader"
             }
         },
@@ -11648,14 +11662,28 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "sanctuaryofnefele"
+                "image": "ethericstrands"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "luminarykaleidoscope"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "sanctuaryofnefele"
+                "image": "ethericstrands"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "luminarykaleidoscope"
             }
         }
     ]
