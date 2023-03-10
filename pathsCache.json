@@ -3556,6 +3556,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "agoodnightssleep"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "agoodsport"
             }
         },
@@ -7805,6 +7812,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "agoodnightssleep"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "agoodsport"
             }
         },
@@ -11698,20 +11712,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "agoodnightssleep"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "agoodnightssleep"
             }
         }
     ]
