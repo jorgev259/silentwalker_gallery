@@ -6552,6 +6552,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "terminalcircuit"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "terminalvelocity"
             }
         },
@@ -10787,6 +10794,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "terminalcircuit"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "terminalvelocity"
             }
         },
@@ -11684,20 +11698,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "terminalcircuit"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "terminalcircuit"
             }
         }
     ]
