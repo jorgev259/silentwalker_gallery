@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9927,6 +9927,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Luminary Kaleidoscope",
                     "urlPath": "/destiny2/desktop/emblems/luminarykaleidoscope",
                     "checksum": "68e7d60eabc356ecdab4e1b004c09a3596327770"
+                },
+                "terminalcircuit": {
+                    "name": "Terminal Circuit",
+                    "ext": ".jpg",
+                    "urlName": "terminalcircuit",
+                    "mtimeMs": 1678377103000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Terminal Circuit",
+                    "urlPath": "/destiny2/desktop/emblems/terminalcircuit",
+                    "checksum": "2b757c1636674b8024b625147032303a34bdc44c"
                 }
             },
             "Seals": {
@@ -15542,6 +15551,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Luminary Kaleidoscope",
                     "urlPath": "/destiny2/mobile/emblems/luminarykaleidoscope",
                     "checksum": "0ee633503c0b72f4a0646c76685f1b1e7f58fd52"
+                },
+                "terminalcircuit": {
+                    "name": "Terminal Circuit",
+                    "ext": ".jpg",
+                    "urlName": "terminalcircuit",
+                    "mtimeMs": 1678454683526,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Terminal Circuit",
+                    "urlPath": "/destiny2/mobile/emblems/terminalcircuit",
+                    "checksum": "575517b3c3c23f6e0f36c75cd78a9e3fcf35803a"
                 }
             },
             "Seals": {

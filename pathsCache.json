@@ -4494,6 +4494,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "ethericstrands"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "everyonecanplay"
             }
         },
@@ -5279,6 +5286,13 @@
                 "device": "desktop",
                 "category": "emblems",
                 "image": "ludomaniacal"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "luminarykaleidoscope"
             }
         },
         {
@@ -8722,6 +8736,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "ethericstrands"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "everyonecanplay"
             }
         },
@@ -9507,6 +9528,13 @@
                 "device": "mobile",
                 "category": "emblems",
                 "image": "ludomaniacal"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "luminarykaleidoscope"
             }
         },
         {
@@ -11662,28 +11690,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "ethericstrands"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "luminarykaleidoscope"
+                "image": "terminalcircuit"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "ethericstrands"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "luminarykaleidoscope"
+                "image": "terminalcircuit"
             }
         }
     ]
