@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9936,6 +9936,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Terminal Circuit",
                     "urlPath": "/destiny2/desktop/emblems/terminalcircuit",
                     "checksum": "2b757c1636674b8024b625147032303a34bdc44c"
+                },
+                "agoodnightssleep": {
+                    "name": "A Good Nights Sleep",
+                    "ext": ".jpg",
+                    "urlName": "agoodnightssleep",
+                    "mtimeMs": 1678461413000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/A Good Nights Sleep",
+                    "urlPath": "/destiny2/desktop/emblems/agoodnightssleep",
+                    "checksum": "e94f602ec2cc8d507ce74f917580c1f5d571a9ce"
                 }
             },
             "Seals": {
@@ -15560,6 +15569,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Terminal Circuit",
                     "urlPath": "/destiny2/mobile/emblems/terminalcircuit",
                     "checksum": "575517b3c3c23f6e0f36c75cd78a9e3fcf35803a"
+                },
+                "agoodnightssleep": {
+                    "name": "A Good Nights Sleep",
+                    "ext": ".jpg",
+                    "urlName": "agoodnightssleep",
+                    "mtimeMs": 1678461403000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/A Good Nights Sleep",
+                    "urlPath": "/destiny2/mobile/emblems/agoodnightssleep",
+                    "checksum": "edbac50917c10b6a1002a806699ebb2ed8825692"
                 }
             },
             "Seals": {
