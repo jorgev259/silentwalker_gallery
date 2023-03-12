@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9963,6 +9963,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Terrors Uprooted",
                     "urlPath": "/destiny2/desktop/emblems/terrorsuprooted",
                     "checksum": "4f05fd37e559ff00a37b62b6f4733b9cd3e03155"
+                },
+                "dimitalics": {
+                    "name": "Dim Italics",
+                    "ext": ".jpg",
+                    "urlName": "dimitalics",
+                    "mtimeMs": 1678653053000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Dim Italics",
+                    "urlPath": "/destiny2/desktop/emblems/dimitalics",
+                    "checksum": "5cd29aa36a61ab21b5653294b6de71af967729e5"
                 }
             },
             "Seals": {
@@ -15614,6 +15623,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Terrors Uprooted",
                     "urlPath": "/destiny2/mobile/emblems/terrorsuprooted",
                     "checksum": "474c910501d00b27858d3b331e404ed44608861a"
+                },
+                "dimitalics": {
+                    "name": "Dim Italics",
+                    "ext": ".jpg",
+                    "urlName": "dimitalics",
+                    "mtimeMs": 1678652927000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Dim Italics",
+                    "urlPath": "/destiny2/mobile/emblems/dimitalics",
+                    "checksum": "0e18c1deb2f31229b55c1a3963ab084656d31c0f"
                 }
             },
             "Seals": {

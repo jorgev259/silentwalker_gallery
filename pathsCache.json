@@ -6587,6 +6587,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "terrorsuprooted"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "thearmsdealer"
             }
         },
@@ -10843,6 +10850,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "terrorsuprooted"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "thearmsdealer"
             }
         },
@@ -11732,14 +11746,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "terrorsuprooted"
+                "image": "dimitalics"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "terrorsuprooted"
+                "image": "dimitalics"
             }
         }
     ]
