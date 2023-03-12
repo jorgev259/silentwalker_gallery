@@ -5677,6 +5677,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "particleacceleration"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "peaceofthecity"
             }
         },
@@ -9933,6 +9940,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "particleacceleration"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "peaceofthecity"
             }
         },
@@ -11718,14 +11732,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "particleacceleration"
+                "image": "terrorsuprooted"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "particleacceleration"
+                "image": "terrorsuprooted"
             }
         }
     ]
