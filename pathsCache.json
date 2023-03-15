@@ -4326,6 +4326,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "dimitalics"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "disdainforglitter"
             }
         },
@@ -8596,6 +8603,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "dimitalics"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "disdainforglitter"
             }
         },
@@ -11746,14 +11760,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "dimitalics"
+                "image": "gds-89"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "dimitalics"
+                "image": "gds-89"
             }
         }
     ]
