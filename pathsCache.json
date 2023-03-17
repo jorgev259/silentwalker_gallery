@@ -4753,6 +4753,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "gds-89"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "ghostboard"
             }
         },
@@ -9030,6 +9037,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "gds-89"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "ghostboard"
             }
         },
@@ -11760,14 +11774,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "gds-89"
+                "image": "pushforward"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "gds-89"
+                "image": "pushforward"
             }
         }
     ]
