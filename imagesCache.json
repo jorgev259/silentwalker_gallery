@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9990,6 +9990,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Push Forward",
                     "urlPath": "/destiny2/desktop/emblems/pushforward",
                     "checksum": "93a7917ddaa4d7cc330911c7f52f76530b9e54ff"
+                },
+                "ferrousferocity": {
+                    "name": "Ferrous Ferocity",
+                    "ext": ".jpg",
+                    "urlName": "ferrousferocity",
+                    "mtimeMs": 1678988067000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Ferrous Ferocity",
+                    "urlPath": "/destiny2/desktop/emblems/ferrousferocity",
+                    "checksum": "8bc4b4205afab8d548efa3b07be37e8e784754a9"
                 }
             },
             "Seals": {
@@ -15668,6 +15677,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Push Forward",
                     "urlPath": "/destiny2/mobile/emblems/pushforward",
                     "checksum": "686ad7043ada5f173aee7966764afdc14859e7f2"
+                },
+                "ferrousferocity": {
+                    "name": "Ferrous Ferocity",
+                    "ext": ".jpg",
+                    "urlName": "ferrousferocity",
+                    "mtimeMs": 1678988207000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Ferrous Ferocity",
+                    "urlPath": "/destiny2/mobile/emblems/ferrousferocity",
+                    "checksum": "122ad37494b149d36213da5baadaaf8d1f3aef3f"
                 }
             },
             "Seals": {

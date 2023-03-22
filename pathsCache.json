@@ -5824,6 +5824,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "pushforward"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "pushingdowndaisies"
             }
         },
@@ -10108,6 +10115,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "pushforward"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "pushingdowndaisies"
             }
         },
@@ -11774,14 +11788,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "pushforward"
+                "image": "ferrousferocity"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "pushforward"
+                "image": "ferrousferocity"
             }
         }
     ]
