@@ -4592,6 +4592,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "ferrousferocity"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "fightforever"
             }
         },
@@ -8883,6 +8890,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "ferrousferocity"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "fightforever"
             }
         },
@@ -11788,14 +11802,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "ferrousferocity"
+                "image": "amethyststronghold"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "ferrousferocity"
+                "image": "amethyststronghold"
             }
         }
     ]

@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -9999,6 +9999,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Ferrous Ferocity",
                     "urlPath": "/destiny2/desktop/emblems/ferrousferocity",
                     "checksum": "8bc4b4205afab8d548efa3b07be37e8e784754a9"
+                },
+                "amethyststronghold": {
+                    "name": "Amethyst Stronghold",
+                    "ext": ".jpg",
+                    "urlName": "amethyststronghold",
+                    "mtimeMs": 1680173887000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Amethyst Stronghold",
+                    "urlPath": "/destiny2/desktop/emblems/amethyststronghold",
+                    "checksum": "108adb85f87a6c1cbe1b35ca94319d32cd9f103b"
                 }
             },
             "Seals": {
@@ -15686,6 +15695,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Ferrous Ferocity",
                     "urlPath": "/destiny2/mobile/emblems/ferrousferocity",
                     "checksum": "122ad37494b149d36213da5baadaaf8d1f3aef3f"
+                },
+                "amethyststronghold": {
+                    "name": "Amethyst Stronghold",
+                    "ext": ".jpg",
+                    "urlName": "amethyststronghold",
+                    "mtimeMs": 1680174330000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Amethyst Stronghold",
+                    "urlPath": "/destiny2/mobile/emblems/amethyststronghold",
+                    "checksum": "edd7c361959458cee2ac03e4a9c0992f0a6a8ed1"
                 }
             },
             "Seals": {
