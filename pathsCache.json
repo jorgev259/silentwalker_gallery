@@ -3682,6 +3682,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "amethyststronghold"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "anaudience"
             }
         },
@@ -7980,6 +7987,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "amethyststronghold"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "anaudience"
             }
         },
@@ -11802,14 +11816,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "amethyststronghold"
+                "image": "icarusascended"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "amethyststronghold"
+                "image": "icarusascended"
             }
         }
     ]
