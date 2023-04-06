@@ -5047,6 +5047,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "icarusascended"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "inthefire"
             }
         },
@@ -9352,6 +9359,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "icarusascended"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "inthefire"
             }
         },
@@ -11816,14 +11830,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "icarusascended"
+                "image": "limitlesshorizon"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "icarusascended"
+                "image": "limitlesshorizon"
             }
         }
     ]

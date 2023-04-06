@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10017,6 +10017,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Icarus Ascended",
                     "urlPath": "/destiny2/desktop/emblems/icarusascended",
                     "checksum": "b201abc1b9194c2f9b6a86e11f005d450a2061f6"
+                },
+                "limitlesshorizon": {
+                    "name": "Limitless Horizon",
+                    "ext": ".jpg",
+                    "urlName": "limitlesshorizon",
+                    "mtimeMs": 1680707171000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Limitless Horizon",
+                    "urlPath": "/destiny2/desktop/emblems/limitlesshorizon",
+                    "checksum": "8514526af6a25a989181a669230815182747a5b2"
                 }
             },
             "Seals": {
@@ -15722,6 +15731,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Icarus Ascended",
                     "urlPath": "/destiny2/mobile/emblems/icarusascended",
                     "checksum": "389b3f94cd027c84275f47416d4ea2162102689c"
+                },
+                "limitlesshorizon": {
+                    "name": "Limitless Horizon",
+                    "ext": ".jpg",
+                    "urlName": "limitlesshorizon",
+                    "mtimeMs": 1680707152000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Limitless Horizon",
+                    "urlPath": "/destiny2/mobile/emblems/limitlesshorizon",
+                    "checksum": "a554fc26220515654f42236bcedb2d17a0915c71"
                 }
             },
             "Seals": {
