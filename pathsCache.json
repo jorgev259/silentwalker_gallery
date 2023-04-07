@@ -5257,6 +5257,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "limitlesshorizon"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "lion'send"
             }
         },
@@ -9569,6 +9576,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "limitlesshorizon"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "lion'send"
             }
         },
@@ -11830,14 +11844,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "limitlesshorizon"
+                "image": "brimfulofasher"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "limitlesshorizon"
+                "image": "brimfulofasher"
             }
         }
     ]
