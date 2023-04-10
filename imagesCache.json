@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10035,6 +10035,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Brimful of Asher",
                     "urlPath": "/destiny2/desktop/emblems/brimfulofasher",
                     "checksum": "2d72ae5bd921ab52cf323750a62a967aef6de4ba"
+                },
+                "fallingstars": {
+                    "name": "Falling Stars",
+                    "ext": ".jpg",
+                    "urlName": "fallingstars",
+                    "mtimeMs": 1680624345000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Falling Stars",
+                    "urlPath": "/destiny2/desktop/emblems/fallingstars",
+                    "checksum": "a9d456bfea80261a298732548fc4eb9e3506f3ae"
                 }
             },
             "Seals": {
@@ -15758,6 +15767,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Brimful of Asher",
                     "urlPath": "/destiny2/mobile/emblems/brimfulofasher",
                     "checksum": "af59d936be339f6e44f3142eb11ed44b262cfdba"
+                },
+                "fallingstars": {
+                    "name": "Falling Stars",
+                    "ext": ".jpg",
+                    "urlName": "fallingstars",
+                    "mtimeMs": 1680624344000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Falling Stars",
+                    "urlPath": "/destiny2/mobile/emblems/fallingstars",
+                    "checksum": "da82bbe36c924aac992ee8fc9d565ee2dfa1bb13"
                 }
             },
             "Seals": {

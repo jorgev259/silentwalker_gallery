@@ -3983,6 +3983,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "brimfulofasher"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "bumpinthenight"
             }
         },
@@ -8302,6 +8309,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "brimfulofasher"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "bumpinthenight"
             }
         },
@@ -11844,14 +11858,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "brimfulofasher"
+                "image": "fallingstars"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "brimfulofasher"
+                "image": "fallingstars"
             }
         }
     ]
