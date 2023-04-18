@@ -4585,6 +4585,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "fallingstars"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "fashionshow-beyondlight"
             }
         },
@@ -8911,6 +8918,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "fallingstars"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "fashionshow-beyondlight"
             }
         },
@@ -11858,14 +11872,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "fallingstars"
+                "image": "crucibleascendantdivision"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "fallingstars"
+                "image": "crucibleascendantdivision"
             }
         }
     ]

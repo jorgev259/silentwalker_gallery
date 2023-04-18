@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10044,6 +10044,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Falling Stars",
                     "urlPath": "/destiny2/desktop/emblems/fallingstars",
                     "checksum": "a9d456bfea80261a298732548fc4eb9e3506f3ae"
+                },
+                "crucibleascendantdivision": {
+                    "name": "Crucible Ascendant Division",
+                    "ext": ".jpg",
+                    "urlName": "crucibleascendantdivision",
+                    "mtimeMs": 1681839105984,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Crucible Ascendant Division",
+                    "urlPath": "/destiny2/desktop/emblems/crucibleascendantdivision",
+                    "checksum": "a5d07a527902628f5858c02bf9ab7c39c5e90548"
                 }
             },
             "Seals": {
@@ -15776,6 +15785,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Falling Stars",
                     "urlPath": "/destiny2/mobile/emblems/fallingstars",
                     "checksum": "da82bbe36c924aac992ee8fc9d565ee2dfa1bb13"
+                },
+                "crucibleascendantdivision": {
+                    "name": "Crucible Ascendant Division",
+                    "ext": ".jpg",
+                    "urlName": "crucibleascendantdivision",
+                    "mtimeMs": 1681839115039,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Crucible Ascendant Division",
+                    "urlPath": "/destiny2/mobile/emblems/crucibleascendantdivision",
+                    "checksum": "cfbb72b235eb5687d2cc6280010a46953fc84151"
                 }
             },
             "Seals": {
