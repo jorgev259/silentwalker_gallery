@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10053,6 +10053,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Crucible Ascendant Division",
                     "urlPath": "/destiny2/desktop/emblems/crucibleascendantdivision",
                     "checksum": "a5d07a527902628f5858c02bf9ab7c39c5e90548"
+                },
+                "airlockinvitation": {
+                    "name": "Airlock Invitation",
+                    "ext": ".jpg",
+                    "urlName": "airlockinvitation",
+                    "mtimeMs": 1682695963000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Airlock Invitation",
+                    "urlPath": "/destiny2/desktop/emblems/airlockinvitation",
+                    "checksum": "3c583ec99078e92306646e9dd2130f4ec15ced9d"
                 }
             },
             "Seals": {
@@ -15794,6 +15803,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Crucible Ascendant Division",
                     "urlPath": "/destiny2/mobile/emblems/crucibleascendantdivision",
                     "checksum": "cfbb72b235eb5687d2cc6280010a46953fc84151"
+                },
+                "airlockinvitation": {
+                    "name": "Airlock Invitation",
+                    "ext": ".jpg",
+                    "urlName": "airlockinvitation",
+                    "mtimeMs": 1682695763000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Airlock Invitation",
+                    "urlPath": "/destiny2/mobile/emblems/airlockinvitation",
+                    "checksum": "08b6cff27c41ab5edf770885b2f3ac07db06d08d"
                 }
             },
             "Seals": {
