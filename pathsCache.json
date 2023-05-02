@@ -3682,6 +3682,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "airlockinvitation"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "amethyststronghold"
             }
         },
@@ -8022,6 +8029,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "airlockinvitation"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "amethyststronghold"
             }
         },
@@ -11886,14 +11900,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "airlockinvitation"
+                "image": "quantumrelay"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "airlockinvitation"
+                "image": "quantumrelay"
             }
         }
     ]

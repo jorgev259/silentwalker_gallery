@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10062,6 +10062,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Airlock Invitation",
                     "urlPath": "/destiny2/desktop/emblems/airlockinvitation",
                     "checksum": "3c583ec99078e92306646e9dd2130f4ec15ced9d"
+                },
+                "quantumrelay": {
+                    "name": "Quantum Relay",
+                    "ext": ".jpg",
+                    "urlName": "quantumrelay",
+                    "mtimeMs": 1683046445000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Quantum Relay",
+                    "urlPath": "/destiny2/desktop/emblems/quantumrelay",
+                    "checksum": "c826ec7237d580ee3fb7750b1986c7c18c10732c"
                 }
             },
             "Seals": {
@@ -15812,6 +15821,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Airlock Invitation",
                     "urlPath": "/destiny2/mobile/emblems/airlockinvitation",
                     "checksum": "08b6cff27c41ab5edf770885b2f3ac07db06d08d"
+                },
+                "quantumrelay": {
+                    "name": "Quantum Relay",
+                    "ext": ".jpg",
+                    "urlName": "quantumrelay",
+                    "mtimeMs": 1683046438000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Quantum Relay",
+                    "urlPath": "/destiny2/mobile/emblems/quantumrelay",
+                    "checksum": "1756b5c2949a08fd9e6bf4d23a65b54f22934f56"
                 }
             },
             "Seals": {
