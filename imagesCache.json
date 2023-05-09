@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10071,6 +10071,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Quantum Relay",
                     "urlPath": "/destiny2/desktop/emblems/quantumrelay",
                     "checksum": "c826ec7237d580ee3fb7750b1986c7c18c10732c"
+                },
+                "indomitableunity": {
+                    "name": "Indomitable Unity",
+                    "ext": ".jpg",
+                    "urlName": "indomitableunity",
+                    "mtimeMs": 1682598202000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Indomitable Unity",
+                    "urlPath": "/destiny2/desktop/emblems/indomitableunity",
+                    "checksum": "b847a3bb61c74b98096405dc5c0ec511d16b6afe"
                 }
             },
             "Seals": {
@@ -15830,6 +15839,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Quantum Relay",
                     "urlPath": "/destiny2/mobile/emblems/quantumrelay",
                     "checksum": "1756b5c2949a08fd9e6bf4d23a65b54f22934f56"
+                },
+                "indomitableunity": {
+                    "name": "Indomitable Unity",
+                    "ext": ".jpg",
+                    "urlName": "indomitableunity",
+                    "mtimeMs": 1682598201000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Indomitable Unity",
+                    "urlPath": "/destiny2/mobile/emblems/indomitableunity",
+                    "checksum": "f745e5c1ae729ee8537d8cd2bac557c8cb49101a"
                 }
             },
             "Seals": {

@@ -5894,6 +5894,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "quantumrelay"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "quarantinezone"
             }
         },
@@ -10241,6 +10248,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "quantumrelay"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "quarantinezone"
             }
         },
@@ -11900,14 +11914,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "quantumrelay"
+                "image": "indomitableunity"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "quantumrelay"
+                "image": "indomitableunity"
             }
         }
     ]
