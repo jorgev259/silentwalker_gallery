@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10080,6 +10080,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Indomitable Unity",
                     "urlPath": "/destiny2/desktop/emblems/indomitableunity",
                     "checksum": "b847a3bb61c74b98096405dc5c0ec511d16b6afe"
+                },
+                "apricotdawn": {
+                    "name": "Apricot Dawn",
+                    "ext": ".jpg",
+                    "urlName": "apricotdawn",
+                    "mtimeMs": 1682614699000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Apricot Dawn",
+                    "urlPath": "/destiny2/desktop/emblems/apricotdawn",
+                    "checksum": "a1c96765d33c455efd5ef8be974575434c1f9498"
                 }
             },
             "Seals": {
@@ -10478,6 +10487,15 @@
                     "imgPath": "/Destiny 2/Desktop/Seals/Wanted",
                     "urlPath": "/destiny2/desktop/seals/wanted",
                     "checksum": "d62a51f642d279d29bd1c45e62fbd9d235dc64e4"
+                },
+                "champ": {
+                    "name": "Champ",
+                    "ext": ".jpg",
+                    "urlName": "champ",
+                    "mtimeMs": 1684336504000,
+                    "imgPath": "/Destiny 2/Desktop/Seals/Champ",
+                    "urlPath": "/destiny2/desktop/seals/champ",
+                    "checksum": "da4a5af4cc19be11d92473aa242b1307c104ea6d"
                 }
             }
         },
@@ -15848,6 +15866,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Indomitable Unity",
                     "urlPath": "/destiny2/mobile/emblems/indomitableunity",
                     "checksum": "f745e5c1ae729ee8537d8cd2bac557c8cb49101a"
+                },
+                "apricotdawn": {
+                    "name": "Apricot Dawn",
+                    "ext": ".jpg",
+                    "urlName": "apricotdawn",
+                    "mtimeMs": 1682614699000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Apricot Dawn",
+                    "urlPath": "/destiny2/mobile/emblems/apricotdawn",
+                    "checksum": "04e794731d6cd3ebae9bf8b6f23e817845644976"
                 }
             },
             "Seals": {
@@ -16246,6 +16273,15 @@
                     "imgPath": "/Destiny 2/Mobile/Seals/Wanted",
                     "urlPath": "/destiny2/mobile/seals/wanted",
                     "checksum": "987a72528260c6193c5f6ea232e22ab5f78719da"
+                },
+                "champ": {
+                    "name": "Champ",
+                    "ext": ".jpg",
+                    "urlName": "champ",
+                    "mtimeMs": 1684336502000,
+                    "imgPath": "/Destiny 2/Mobile/Seals/Champ",
+                    "urlPath": "/destiny2/mobile/seals/champ",
+                    "checksum": "e26d1c0c3bb9638845ced625f09d2284aceaa2cb"
                 }
             }
         }

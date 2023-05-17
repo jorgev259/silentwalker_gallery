@@ -5096,6 +5096,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "indomitableunity"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "infinitereflections"
             }
         },
@@ -9450,6 +9457,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "indomitableunity"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "infinitereflections"
             }
         },
@@ -11914,14 +11928,28 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "indomitableunity"
+                "image": "apricotdawn"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "indomitableunity"
+                "image": "apricotdawn"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
+                "image": "champ"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
+                "image": "champ"
             }
         }
     ]
