@@ -5922,6 +5922,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "radiantreveille"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "rainofashes"
             }
         },
@@ -10297,6 +10304,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "radiantreveille"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "rainofashes"
             }
         },
@@ -11950,20 +11964,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "radiantreveille"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "radiantreveille"
             }
         }
     ]
