@@ -3773,6 +3773,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "apricotdawn"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "arcpropellant"
             }
         },
@@ -7280,6 +7287,13 @@
             "params": {
                 "device": "desktop",
                 "category": "seals",
+                "image": "champ"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "seals",
                 "image": "chosen"
             }
         },
@@ -8128,6 +8142,13 @@
                 "device": "mobile",
                 "category": "emblems",
                 "image": "apprenticeguide"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "apricotdawn"
             }
         },
         {
@@ -11634,6 +11655,13 @@
             "params": {
                 "device": "mobile",
                 "category": "seals",
+                "image": "champ"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "seals",
                 "image": "chosen"
             }
         },
@@ -11922,34 +11950,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "apricotdawn"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "apricotdawn"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "seals",
-                "image": "champ"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "seals",
-                "image": "champ"
             }
         }
     ]
