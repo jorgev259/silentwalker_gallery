@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10098,6 +10098,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Radiant Reveille",
                     "urlPath": "/destiny2/desktop/emblems/radiantreveille",
                     "checksum": "b8a53ac07d6a6367100793637416922a2bf7a76c"
+                },
+                "harmonicwaves": {
+                    "name": "Harmonic Waves",
+                    "ext": ".jpg",
+                    "urlName": "harmonicwaves",
+                    "mtimeMs": 1685114288000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Harmonic Waves",
+                    "urlPath": "/destiny2/desktop/emblems/harmonicwaves",
+                    "checksum": "4090d0ed3157e9255bc969952e7b46cea8114e45"
                 }
             },
             "Seals": {
@@ -15893,6 +15902,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Radiant Reveille",
                     "urlPath": "/destiny2/mobile/emblems/radiantreveille",
                     "checksum": "b00316bbf25ce03b2208cb93e93072e6080e7a73"
+                },
+                "harmonicwaves": {
+                    "name": "Harmonic Waves",
+                    "ext": ".jpg",
+                    "urlName": "harmonicwaves",
+                    "mtimeMs": 1684949704000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Harmonic Waves",
+                    "urlPath": "/destiny2/mobile/emblems/harmonicwaves",
+                    "checksum": "09b90984ea361415664ff1f95a39fd921bd85505"
                 }
             },
             "Seals": {
