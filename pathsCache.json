@@ -4935,6 +4935,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "harmonicwaves"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "heardthecall"
             }
         },
@@ -9317,6 +9324,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "harmonicwaves"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "heardthecall"
             }
         },
@@ -11964,20 +11978,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "harmonicwaves"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "harmonicwaves"
             }
         }
     ]
