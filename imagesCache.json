@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10107,6 +10107,24 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Harmonic Waves",
                     "urlPath": "/destiny2/desktop/emblems/harmonicwaves",
                     "checksum": "4090d0ed3157e9255bc969952e7b46cea8114e45"
+                },
+                "agravematter": {
+                    "name": "A Grave Matter",
+                    "ext": ".jpg",
+                    "urlName": "agravematter",
+                    "mtimeMs": 1685121553000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/A Grave Matter",
+                    "urlPath": "/destiny2/desktop/emblems/agravematter",
+                    "checksum": "bc217ab5856f484916012a95bc8bfa46ec3c5697"
+                },
+                "regicide": {
+                    "name": "Regicide",
+                    "ext": ".jpg",
+                    "urlName": "regicide",
+                    "mtimeMs": 1685463631000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Regicide",
+                    "urlPath": "/destiny2/desktop/emblems/regicide",
+                    "checksum": "fbf91b63c81607aff1444a6f8a740682784a2787"
                 }
             },
             "Seals": {
@@ -15911,6 +15929,24 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Harmonic Waves",
                     "urlPath": "/destiny2/mobile/emblems/harmonicwaves",
                     "checksum": "09b90984ea361415664ff1f95a39fd921bd85505"
+                },
+                "agravematter": {
+                    "name": "A Grave Matter",
+                    "ext": ".jpg",
+                    "urlName": "agravematter",
+                    "mtimeMs": 1685121222000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/A Grave Matter",
+                    "urlPath": "/destiny2/mobile/emblems/agravematter",
+                    "checksum": "e41474a0c1930f502e01632195989450cb5736ad"
+                },
+                "regicide": {
+                    "name": "Regicide",
+                    "ext": ".jpg",
+                    "urlName": "regicide",
+                    "mtimeMs": 1685463631000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Regicide",
+                    "urlPath": "/destiny2/mobile/emblems/regicide",
+                    "checksum": "b530373df35cda459339f2844a2568d8d016d612"
                 }
             },
             "Seals": {
