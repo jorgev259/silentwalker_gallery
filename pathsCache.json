@@ -3962,6 +3962,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "blazenflame"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "bloodofizanami"
             }
         },
@@ -8365,6 +8372,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "blazenflame"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "bloodofizanami"
             }
         },
@@ -12012,14 +12026,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "blazenflame"
+                "image": "bladecircuit"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "blazenflame"
+                "image": "bladecircuit"
             }
         }
     ]
