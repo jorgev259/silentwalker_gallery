@@ -3948,6 +3948,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "bladecircuit"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "bladeofbergusia"
             }
         },
@@ -8358,6 +8365,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "bladecircuit"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "bladeofbergusia"
             }
         },
@@ -12020,20 +12034,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "bladecircuit"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "bladecircuit"
             }
         }
     ]
