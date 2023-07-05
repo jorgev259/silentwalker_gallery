@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10143,6 +10143,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Blade Circuit",
                     "urlPath": "/destiny2/desktop/emblems/bladecircuit",
                     "checksum": "2f96dc317bb2c228896fdc89f6c66dd30bd0840f"
+                },
+                "pondpals": {
+                    "name": "Pond Pals",
+                    "ext": ".jpg",
+                    "urlName": "pondpals",
+                    "mtimeMs": 1686842260000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Pond Pals",
+                    "urlPath": "/destiny2/desktop/emblems/pondpals",
+                    "checksum": "94a371216b859c0efda642cd27438a7618ebfe5e"
                 }
             },
             "Seals": {
@@ -15983,6 +15992,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Blade Circuit",
                     "urlPath": "/destiny2/mobile/emblems/bladecircuit",
                     "checksum": "2f09eb906614a7ec887e243013c937678340185c"
+                },
+                "pondpals": {
+                    "name": "Pond Pals",
+                    "ext": ".jpg",
+                    "urlName": "pondpals",
+                    "mtimeMs": 1686842268000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Pond Pals",
+                    "urlPath": "/destiny2/mobile/emblems/pondpals",
+                    "checksum": "9ffbbd82691c8e6c0b9f115f81bcb9b4862b89ff"
                 }
             },
             "Seals": {

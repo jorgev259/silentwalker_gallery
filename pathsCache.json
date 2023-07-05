@@ -12035,6 +12035,20 @@
                 "category": "seals",
                 "image": "wayfarer"
             }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "pondpals"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "pondpals"
+            }
         }
     ]
 }
