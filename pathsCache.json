@@ -5845,6 +5845,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "pondpals"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "praxicfire"
             }
         },
@@ -10262,6 +10269,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "pondpals"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "praxicfire"
             }
         },
@@ -12034,20 +12048,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "pondpals"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "pondpals"
             }
         }
     ]
