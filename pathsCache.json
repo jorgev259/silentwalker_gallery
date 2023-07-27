@@ -6384,6 +6384,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "signofthegambit"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "sisterofshapes"
             }
         },
@@ -10801,6 +10808,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "signofthegambit"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "sisterofshapes"
             }
         },
@@ -12048,20 +12062,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "signofthegambit"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "signofthegambit"
             }
         }
     ]
