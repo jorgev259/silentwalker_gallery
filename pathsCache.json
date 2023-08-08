@@ -12063,6 +12063,34 @@
                 "category": "seals",
                 "image": "wayfarer"
             }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "thisobsidiansea"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "sunkissed"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "thisobsidiansea"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "sunkissed"
+            }
         }
     ]
 }

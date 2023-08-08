@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10161,6 +10161,24 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Sign of the Gambit",
                     "urlPath": "/destiny2/desktop/emblems/signofthegambit",
                     "checksum": "d2cf091d20119e7a28a80eb503bde7cbf666c7b1"
+                },
+                "thisobsidiansea": {
+                    "name": "This Obsidian Sea",
+                    "ext": ".jpg",
+                    "urlName": "thisobsidiansea",
+                    "mtimeMs": 1687970802000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/This Obsidian Sea",
+                    "urlPath": "/destiny2/desktop/emblems/thisobsidiansea",
+                    "checksum": "07e1127c4cc5ddfbc373c46c9c8feddc07e2fcd5"
+                },
+                "sunkissed": {
+                    "name": "Sunkissed",
+                    "ext": ".jpg",
+                    "urlName": "sunkissed",
+                    "mtimeMs": 1690817298000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Sunkissed",
+                    "urlPath": "/destiny2/desktop/emblems/sunkissed",
+                    "checksum": "f3bb8dcf83b72578cd80b5d6e36fd4b4662dda69"
                 }
             },
             "Seals": {
@@ -16019,6 +16037,24 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Sign of the Gambit",
                     "urlPath": "/destiny2/mobile/emblems/signofthegambit",
                     "checksum": "23104d4edae28e0e4310ca2c249427b2e4bf0f37"
+                },
+                "thisobsidiansea": {
+                    "name": "This Obsidian Sea",
+                    "ext": ".jpg",
+                    "urlName": "thisobsidiansea",
+                    "mtimeMs": 1687970796000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/This Obsidian Sea",
+                    "urlPath": "/destiny2/mobile/emblems/thisobsidiansea",
+                    "checksum": "6dd0c4481ad66ba2a206e60b44d531aa31311078"
+                },
+                "sunkissed": {
+                    "name": "Sunkissed",
+                    "ext": ".jpg",
+                    "urlName": "sunkissed",
+                    "mtimeMs": 1690817297000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Sunkissed",
+                    "urlPath": "/destiny2/mobile/emblems/sunkissed",
+                    "checksum": "536ce1b10ab4b8ade57b96aeefe9fe43c87e8302"
                 }
             },
             "Seals": {
