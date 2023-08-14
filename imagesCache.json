@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10179,6 +10179,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Sunkissed",
                     "urlPath": "/destiny2/desktop/emblems/sunkissed",
                     "checksum": "f3bb8dcf83b72578cd80b5d6e36fd4b4662dda69"
+                },
+                "bluebloodcells": {
+                    "name": "Blue Blood Cells",
+                    "ext": ".jpg",
+                    "urlName": "bluebloodcells",
+                    "mtimeMs": 1690994732000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Blue Blood Cells",
+                    "urlPath": "/destiny2/desktop/emblems/bluebloodcells",
+                    "checksum": "cc16105bd5ee7aca549eea3ab3b598224afcdae6"
                 }
             },
             "Seals": {
@@ -16055,6 +16064,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Sunkissed",
                     "urlPath": "/destiny2/mobile/emblems/sunkissed",
                     "checksum": "536ce1b10ab4b8ade57b96aeefe9fe43c87e8302"
+                },
+                "bluebloodcells": {
+                    "name": "Blue Blood Cells",
+                    "ext": ".jpg",
+                    "urlName": "bluebloodcells",
+                    "mtimeMs": 1690994552000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Blue Blood Cells",
+                    "urlPath": "/destiny2/mobile/emblems/bluebloodcells",
+                    "checksum": "022a2a2c66417f64ff4a42b4e26bb395f60e28bc"
                 }
             },
             "Seals": {
