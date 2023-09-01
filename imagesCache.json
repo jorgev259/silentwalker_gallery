@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10188,6 +10188,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Blue Blood Cells",
                     "urlPath": "/destiny2/desktop/emblems/bluebloodcells",
                     "checksum": "cc16105bd5ee7aca549eea3ab3b598224afcdae6"
+                },
+                "abrokenthrone": {
+                    "name": "A Broken Throne",
+                    "ext": ".jpg",
+                    "urlName": "abrokenthrone",
+                    "mtimeMs": 1693609821473,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/A Broken Throne",
+                    "urlPath": "/destiny2/desktop/emblems/abrokenthrone",
+                    "checksum": "fcf33dfd73edf5aaac491d3699d0a7063726d46d"
                 }
             },
             "Seals": {
@@ -16073,6 +16082,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Blue Blood Cells",
                     "urlPath": "/destiny2/mobile/emblems/bluebloodcells",
                     "checksum": "022a2a2c66417f64ff4a42b4e26bb395f60e28bc"
+                },
+                "abrokenthrone": {
+                    "name": "A Broken Throne",
+                    "ext": ".jpg",
+                    "urlName": "abrokenthrone",
+                    "mtimeMs": 1693609839330,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/A Broken Throne",
+                    "urlPath": "/destiny2/mobile/emblems/abrokenthrone",
+                    "checksum": "edc80dcdb78b6878b413c9854f450f60a77c3f7a"
                 }
             },
             "Seals": {
