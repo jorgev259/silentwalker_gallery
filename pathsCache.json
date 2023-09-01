@@ -3521,6 +3521,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "abrokenthrone"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "aclassyorder"
             }
         },
@@ -7973,6 +7980,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "abrokenthrone"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "aclassyorder"
             }
         },
@@ -12104,20 +12118,6 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "category": "emblems",
-                "image": "abrokenthrone"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "emblems",
-                "image": "abrokenthrone"
             }
         }
     ]
