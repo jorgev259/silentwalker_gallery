@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10197,6 +10197,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/A Broken Throne",
                     "urlPath": "/destiny2/desktop/emblems/abrokenthrone",
                     "checksum": "fcf33dfd73edf5aaac491d3699d0a7063726d46d"
+                },
+                "illuminatedperil": {
+                    "name": "Illuminated Peril",
+                    "ext": ".jpg",
+                    "urlName": "illuminatedperil",
+                    "mtimeMs": 1693756815000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Illuminated Peril",
+                    "urlPath": "/destiny2/desktop/emblems/illuminatedperil",
+                    "checksum": "7810a62f606dbba98500eb6c82349687c6196a7d"
                 }
             },
             "Seals": {
@@ -16091,6 +16100,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/A Broken Throne",
                     "urlPath": "/destiny2/mobile/emblems/abrokenthrone",
                     "checksum": "edc80dcdb78b6878b413c9854f450f60a77c3f7a"
+                },
+                "illuminatedperil": {
+                    "name": "Illuminated Peril",
+                    "ext": ".jpg",
+                    "urlName": "illuminatedperil",
+                    "mtimeMs": 1693756830000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Illuminated Peril",
+                    "urlPath": "/destiny2/mobile/emblems/illuminatedperil",
+                    "checksum": "52f035c655364e5f3185469f0089e4e9d0110523"
                 }
             },
             "Seals": {
