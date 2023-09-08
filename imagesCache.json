@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10206,6 +10206,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Illuminated Peril",
                     "urlPath": "/destiny2/desktop/emblems/illuminatedperil",
                     "checksum": "7810a62f606dbba98500eb6c82349687c6196a7d"
+                },
+                "dazzlingiridescence": {
+                    "name": "Dazzling Iridescence",
+                    "ext": ".jpg",
+                    "urlName": "dazzlingiridescence",
+                    "mtimeMs": 1690820466000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Dazzling Iridescence",
+                    "urlPath": "/destiny2/desktop/emblems/dazzlingiridescence",
+                    "checksum": "6f3bc8bb81a825f6af693c22dfbc8eb55b372872"
                 }
             },
             "Seals": {
@@ -16105,10 +16114,19 @@
                     "name": "Illuminated Peril",
                     "ext": ".jpg",
                     "urlName": "illuminatedperil",
-                    "mtimeMs": 1693756830000,
+                    "mtimeMs": 1693847531849,
                     "imgPath": "/Destiny 2/Mobile/Emblems/Illuminated Peril",
                     "urlPath": "/destiny2/mobile/emblems/illuminatedperil",
                     "checksum": "52f035c655364e5f3185469f0089e4e9d0110523"
+                },
+                "dazzlingiridescence": {
+                    "name": "Dazzling Iridescence",
+                    "ext": ".jpg",
+                    "urlName": "dazzlingiridescence",
+                    "mtimeMs": 1690820454000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Dazzling Iridescence",
+                    "urlPath": "/destiny2/mobile/emblems/dazzlingiridescence",
+                    "checksum": "1ae30434a5945ae05d49a41bd123b0f4e3497616"
                 }
             },
             "Seals": {

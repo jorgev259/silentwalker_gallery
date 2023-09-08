@@ -5131,6 +5131,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "illuminatedperil"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "inthefire"
             }
         },
@@ -9590,6 +9597,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "illuminatedperil"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "inthefire"
             }
         },
@@ -12124,14 +12138,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "illuminatedperil"
+                "image": "dazzlingiridescence"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "illuminatedperil"
+                "image": "dazzlingiridescence"
             }
         }
     ]
