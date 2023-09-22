@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10215,6 +10215,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Dazzling Iridescence",
                     "urlPath": "/destiny2/desktop/emblems/dazzlingiridescence",
                     "checksum": "6f3bc8bb81a825f6af693c22dfbc8eb55b372872"
+                },
+                "kulikekakou": {
+                    "name": "Kulike Kakou",
+                    "ext": ".jpg",
+                    "urlName": "kulikekakou",
+                    "mtimeMs": 1693836207000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Kulike Kakou",
+                    "urlPath": "/destiny2/desktop/emblems/kulikekakou",
+                    "checksum": "9271013d9c1ce9e4f721437fa733cd0747d38b98"
                 }
             },
             "Seals": {
@@ -16127,6 +16136,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Dazzling Iridescence",
                     "urlPath": "/destiny2/mobile/emblems/dazzlingiridescence",
                     "checksum": "1ae30434a5945ae05d49a41bd123b0f4e3497616"
+                },
+                "kulikekakou": {
+                    "name": "Kulike Kakou",
+                    "ext": ".jpg",
+                    "urlName": "kulikekakou",
+                    "mtimeMs": 1693836201000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Kulike Kakou",
+                    "urlPath": "/destiny2/mobile/emblems/kulikekakou",
+                    "checksum": "facbdff84cbc4ea31dd2b48f3740571b38686851"
                 }
             },
             "Seals": {

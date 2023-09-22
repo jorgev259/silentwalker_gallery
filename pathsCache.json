@@ -4368,6 +4368,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "dazzlingiridescence"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "deadzonecammo"
             }
         },
@@ -8834,6 +8841,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "dazzlingiridescence"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "deadzonecammo"
             }
         },
@@ -12138,14 +12152,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "dazzlingiridescence"
+                "image": "kulikekakou"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "dazzlingiridescence"
+                "image": "kulikekakou"
             }
         }
     ]
