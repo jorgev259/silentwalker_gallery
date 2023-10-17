@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10224,6 +10224,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Kulike Kakou",
                     "urlPath": "/destiny2/desktop/emblems/kulikekakou",
                     "checksum": "9271013d9c1ce9e4f721437fa733cd0747d38b98"
+                },
+                "lookup": {
+                    "name": "Look Up",
+                    "ext": ".jpg",
+                    "urlName": "lookup",
+                    "mtimeMs": 1695228357000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Look Up",
+                    "urlPath": "/destiny2/desktop/emblems/lookup",
+                    "checksum": "3243e50688b594b57d8c0c047cffca71f2fc0554"
                 }
             },
             "Seals": {
@@ -16145,6 +16154,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Kulike Kakou",
                     "urlPath": "/destiny2/mobile/emblems/kulikekakou",
                     "checksum": "facbdff84cbc4ea31dd2b48f3740571b38686851"
+                },
+                "lookup": {
+                    "name": "Look Up",
+                    "ext": ".jpg",
+                    "urlName": "lookup",
+                    "mtimeMs": 1695228344000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Look Up",
+                    "urlPath": "/destiny2/mobile/emblems/lookup",
+                    "checksum": "3a4a81e4cc38a78ae776f8c4d5effbe904d80296"
                 }
             },
             "Seals": {

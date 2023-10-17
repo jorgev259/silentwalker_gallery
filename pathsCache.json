@@ -5285,6 +5285,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "kulikekakou"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "lauraprimaii"
             }
         },
@@ -9758,6 +9765,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "kulikekakou"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "lauraprimaii"
             }
         },
@@ -12152,14 +12166,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "kulikekakou"
+                "image": "lookup"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "kulikekakou"
+                "image": "lookup"
             }
         }
     ]
