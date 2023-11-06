@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10233,6 +10233,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Look Up",
                     "urlPath": "/destiny2/desktop/emblems/lookup",
                     "checksum": "3243e50688b594b57d8c0c047cffca71f2fc0554"
+                },
+                "paracausalpath": {
+                    "name": "Paracausal Path",
+                    "ext": ".jpg",
+                    "urlName": "paracausalpath",
+                    "mtimeMs": 1694620423000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Paracausal Path",
+                    "urlPath": "/destiny2/desktop/emblems/paracausalpath",
+                    "checksum": "45e2b9be7af32918130db073440f84e3b25e3452"
                 }
             },
             "Seals": {
@@ -16163,6 +16172,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Look Up",
                     "urlPath": "/destiny2/mobile/emblems/lookup",
                     "checksum": "3a4a81e4cc38a78ae776f8c4d5effbe904d80296"
+                },
+                "paracausalpath": {
+                    "name": "Paracausal Path",
+                    "ext": ".jpg",
+                    "urlName": "paracausalpath",
+                    "mtimeMs": 1694620402000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Paracausal Path",
+                    "urlPath": "/destiny2/mobile/emblems/paracausalpath",
+                    "checksum": "933900c292a72f9c392715c67791abd61c2cc502"
                 }
             },
             "Seals": {

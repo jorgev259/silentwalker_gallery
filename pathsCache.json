@@ -5418,6 +5418,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "lookup"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "lostatsea"
             }
         },
@@ -9898,6 +9905,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "lookup"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "lostatsea"
             }
         },
@@ -12166,14 +12180,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "lookup"
+                "image": "paracausalpath"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "lookup"
+                "image": "paracausalpath"
             }
         }
     ]
