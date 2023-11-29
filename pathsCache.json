@@ -5817,6 +5817,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "paracausalpath"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "parallelprogram"
             }
         },
@@ -10304,6 +10311,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "paracausalpath"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "parallelprogram"
             }
         },
@@ -12180,14 +12194,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "paracausalpath"
+                "image": "visionsofrivia"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "paracausalpath"
+                "image": "visionsofrivia"
             }
         }
     ]

@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10242,6 +10242,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Paracausal Path",
                     "urlPath": "/destiny2/desktop/emblems/paracausalpath",
                     "checksum": "45e2b9be7af32918130db073440f84e3b25e3452"
+                },
+                "visionsofrivia": {
+                    "name": "Visions of Rivia",
+                    "ext": ".jpg",
+                    "urlName": "visionsofrivia",
+                    "mtimeMs": 1701275371399,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Visions of Rivia",
+                    "urlPath": "/destiny2/desktop/emblems/visionsofrivia",
+                    "checksum": "927badd3a2a7a47fa2c432f19b6f34c1680c3932"
                 }
             },
             "Seals": {
@@ -16181,6 +16190,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Paracausal Path",
                     "urlPath": "/destiny2/mobile/emblems/paracausalpath",
                     "checksum": "933900c292a72f9c392715c67791abd61c2cc502"
+                },
+                "visionsofrivia": {
+                    "name": "Visions of Rivia",
+                    "ext": ".jpg",
+                    "urlName": "visionsofrivia",
+                    "mtimeMs": 1701275383704,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Visions of Rivia",
+                    "urlPath": "/destiny2/mobile/emblems/visionsofrivia",
+                    "checksum": "8383f827b8a7b4c2014a057bcec899eb142a0ac1"
                 }
             },
             "Seals": {
