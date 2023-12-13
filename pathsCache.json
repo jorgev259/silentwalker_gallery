@@ -7266,6 +7266,13 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
+                "image": "visionsofrivia"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
                 "image": "walker'swarp"
             }
         },
@@ -11753,6 +11760,13 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
+                "image": "visionsofrivia"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
                 "image": "walker'swarp"
             }
         },
@@ -12194,14 +12208,14 @@
             "params": {
                 "device": "desktop",
                 "category": "emblems",
-                "image": "visionsofrivia"
+                "image": "bloodstream"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "visionsofrivia"
+                "image": "bloodstream"
             }
         }
     ]

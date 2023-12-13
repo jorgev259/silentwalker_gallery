@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -10251,6 +10251,15 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Visions of Rivia",
                     "urlPath": "/destiny2/desktop/emblems/visionsofrivia",
                     "checksum": "927badd3a2a7a47fa2c432f19b6f34c1680c3932"
+                },
+                "bloodstream": {
+                    "name": "Bloodstream",
+                    "ext": ".jpg",
+                    "urlName": "bloodstream",
+                    "mtimeMs": 1698251381000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Bloodstream",
+                    "urlPath": "/destiny2/desktop/emblems/bloodstream",
+                    "checksum": "3b9b791712548adffc2680e4bbadad2faeb9939a"
                 }
             },
             "Seals": {
@@ -16199,6 +16208,15 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Visions of Rivia",
                     "urlPath": "/destiny2/mobile/emblems/visionsofrivia",
                     "checksum": "8383f827b8a7b4c2014a057bcec899eb142a0ac1"
+                },
+                "bloodstream": {
+                    "name": "Bloodstream",
+                    "ext": ".jpg",
+                    "urlName": "bloodstream",
+                    "mtimeMs": 1698251375000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Bloodstream",
+                    "urlPath": "/destiny2/mobile/emblems/bloodstream",
+                    "checksum": "7a86634e2c353cbe317a7dfd717c7046794f5889"
                 }
             },
             "Seals": {
