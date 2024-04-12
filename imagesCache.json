@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-Prince Sigil",
+                "name": "1280x800-PrinceSigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978634929,
-                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
+                "mtimeMs": 1561978633786,
+                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
+                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -2412,6 +2412,15 @@
                 "imgPath": "/Destiny 1/Desktop/1280x800-Worm Gods' Servant",
                 "urlPath": "/destiny1/desktop/1280x800-wormgods'servant",
                 "checksum": "8650847d78b157d917d903263f6287fb73fcc30c"
+            },
+            "1920x1080-hungerorbebrave-2024": {
+                "name": "1920x1080-Hunger or Be Brave-2024",
+                "ext": ".jpg",
+                "urlName": "1920x1080-hungerorbebrave-2024",
+                "mtimeMs": 1711579328000,
+                "imgPath": "/Destiny 1/Desktop/1920x1080-Hunger or Be Brave-2024",
+                "urlPath": "/destiny1/desktop/1920x1080-hungerorbebrave-2024",
+                "checksum": "93bdefa5ac6048f5cfbdb2d7dd7341a926babef4"
             }
         },
         "Mobile": {
@@ -4835,6 +4844,15 @@
                 "imgPath": "/Destiny 1/Mobile/1440x2560-Worm Gods' Servant",
                 "urlPath": "/destiny1/mobile/1440x2560-wormgods'servant",
                 "checksum": "69d79cc30f36590aacb77a574d0b3579d93dee97"
+            },
+            "1440x2560-hungerorbebrave-2024": {
+                "name": "1440x2560-Hunger or Be Brave-2024",
+                "ext": ".jpg",
+                "urlName": "1440x2560-hungerorbebrave-2024",
+                "mtimeMs": 1711579881000,
+                "imgPath": "/Destiny 1/Mobile/1440x2560-Hunger or Be Brave-2024",
+                "urlPath": "/destiny1/mobile/1440x2560-hungerorbebrave-2024",
+                "checksum": "f28025a7368209bcbf88f9dcd93002f947e488f7"
             }
         }
     },
