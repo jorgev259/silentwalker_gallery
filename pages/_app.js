@@ -1,13 +1,11 @@
 import { useEffect, useState } from 'react'
 import Head from 'next/head'
-import ReactGA from 'react-ga4'
+import { GoogleTagManager } from '@next/third-parties/google'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../styles/globals.scss'
 
 import Navbar from '../components/Navbar'
-
-ReactGA.initialize('G-3Z2HM7FKC8')
 
 export default function App ({ Component, pageProps }) {
   const [sort, setSort] = useState('new')
@@ -31,6 +29,7 @@ export default function App ({ Component, pageProps }) {
       </Head>
       <Navbar {...props} setSearch={setSearch} />
       <Component {...pageProps} sort={sort} search={search} />
+      <GoogleTagManager gtmId="G-3Z2HM7FKC8" />
     </>
   )
 }

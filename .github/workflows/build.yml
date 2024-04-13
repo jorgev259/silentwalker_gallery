@@ -13,19 +13,19 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: fregante/setup-git-user@v1 
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v4
         with:
-          node-version: '16'
-          cache: 'yarn'
+          node-version: 'lts/Hydrogen'
+          cache: 'npm'
 
       - name: Install dependencies
         run: |
-          yarn install --pure-lockfile    
+          npm install --force 
 
       - name: Build website
         run: |
-          yarn run lint --fix
-          yarn run export
+          npm run lint --fix
+          npm run export
           touch ./out/.nojekyll
 
       - name: Deploy
