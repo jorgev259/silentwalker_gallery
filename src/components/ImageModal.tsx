@@ -1,6 +1,9 @@
+'use client'
+import { useEffect } from 'react'
 import Link from 'next/link'
 import classNames from 'classnames'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 
 import type { DriveImage } from '@/types'
 
@@ -14,11 +17,26 @@ export default function ImageModal({
   parentUrl: string
 }) {
   const { name, webContentLink, modalLink } = image
+  const router = useRouter()
+
+  const onClose = () => router.push(parentUrl)
+
+  useEffect(() => {
+    const checkKey = (e) => {
+      if (e.key === 'Escape') router.push(parentUrl)
+    }
+
+    window.addEventListener('keydown', checkKey)
+    return () => window.removeEventListener('keydown', checkKey)
+  }, [parentUrl, router])
 
   return (
-    <div className={classNames('modal fade show', styles.modal)}>
+    <div
+      className={classNames('modal fade show', styles.modal)}
+      onClick={onClose}
+    >
       <div className='modal-dialog modal-dialog-centered'>
-        <div className='modal-content'>
+        <div className='modal-content' onClick={(ev) => ev.stopPropagation()}>
           <div className={classNames('modal-body p-0')}>
             <Image
               className='w-100'

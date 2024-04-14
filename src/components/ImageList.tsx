@@ -1,13 +1,14 @@
 'use client'
-
 import { useContext } from 'react'
-import { SearchContext } from './SearchProvider'
-import { DriveImage } from '@/types'
 import classNames from 'classnames'
 import Image from 'next/image'
+import { usePathname } from 'next/navigation'
+import Link from 'next/link'
+
+import { SearchContext } from './SearchProvider'
+import type { DriveImage } from '@/types'
 
 import styles from '@/styles/gallery.module.scss'
-import Link from 'next/link'
 
 const deviceStyles = {
   desktop: 'col-12 col-sm-6 col-md-3',
@@ -25,7 +26,7 @@ export default function ImageList(props: {
   const [search] = searchState
 
   const filteredImages = images.filter((i) =>
-    i.name?.toLowerCase().includes(search)
+    i.name.toLowerCase().includes(search)
   )
   const imageList =
     sort === 'new'
@@ -43,7 +44,10 @@ export default function ImageList(props: {
 
 function Thumb(props: { device: string; image: DriveImage }) {
   const { device, image } = props
-  const { thumbnailLink, name } = image
+  const { thumbnailLink, name, urlName } = image
+
+  const pathname = usePathname() ?? '/'
+  const href = `${pathname}/${urlName}`
 
   return (
     <div
@@ -55,9 +59,10 @@ function Thumb(props: { device: string; image: DriveImage }) {
       )}
     >
       <Link
-        href={'/'}
+        href={href}
         scroll={false}
         className='position-relative w-100 h-100 d-block'
+        passHref
       >
         <Image src={thumbnailLink} width={350} height={350} alt={name} />
       </Link>
