@@ -1,7 +1,0 @@
-.git/
-node_modules/
-.next/
-.swc/
-.env
-images/
-wallpapers/
