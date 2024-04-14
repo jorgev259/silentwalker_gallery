@@ -1,0 +1,20 @@
+{
+  "destiny1": {
+    "desktop": "1drejXFUS5JIKP2WgqqdM0wSa0kY60cuI",
+    "mobile": "1d4FLAlJ1Thn3lx3M-PFOrDCbebNAbAGB"
+  },
+  "destiny2": {
+    "desktop": {
+      "all": "1__8jBXGy14tL12ciEoqBepwxWeqJaD_7",
+      "seals": "1CxEtX9HfR9sV4tYbRllG6dFCi3bSduNz",
+      "emblems": "13gtMO55BxRTsBhloUgE9XLf4bsN4o7Ky",
+      "bonus": "12nRiA1zA5GsEk_3zKK26URmAn_THsKe4"
+    },
+    "mobile": {
+      "all": "1ZG-3BjxfRiEMq8so0h8G5B2bqXeFx1oK",
+      "seals": "1DyMO0X3G_yImK9Rz4SMkzaN_cMCYeaNR",
+      "emblems": "1yq_6DJ-5aUdz22v2JuLQ65m3UNf5Tbuc",
+      "bonus": "14Mk4dD4OaYgt1Xa-7aoiMAjUjijuoSqD"
+    }
+  }
+}
