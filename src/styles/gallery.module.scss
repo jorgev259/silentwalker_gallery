@@ -21,7 +21,7 @@
 
   .desktop {
     height: calc(100% / 1 * 9 / 16);
-    background-image: url('/images/assets/loading_Desktop.gif');
+    background-image: url('../img/assets/loading_Desktop.gif');
 
     @media (min-width: 576px) {
       height: calc(100% / 2 * 9 / 16);
@@ -33,7 +33,7 @@
 
   .mobile {
     height: calc(100% / 2 * 16 / 9);
-    background-image: url('/images/assets/loading_Mobile.gif');
+    background-image: url('../img/assets/loading_Mobile.gif');
 
     @media (min-width: 576px) {
       height: calc(100% / 3 * 16 / 9);
