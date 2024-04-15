@@ -1,6 +1,11 @@
 import type { Dispatch, SetStateAction } from 'react'
 
 export type Device = 'desktop' | 'mobile'
+export type D2Category = 'emblems' | 'seals' | 'bonus'
+export interface D2Param {
+  device: Device
+  category: D2Category
+}
 
 export interface DriveImage {
   id: string

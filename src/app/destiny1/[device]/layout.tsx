@@ -1,5 +1,4 @@
 import { ReactNode } from 'react'
-import { drive_v3 as driveV3 } from 'googleapis'
 
 import Gallery from '@/components/Gallery'
 import { getFileList } from '@/lib/gdriveClient'
@@ -15,7 +14,7 @@ export default async function Layout({
   params,
   children
 }: {
-  params: { device: Device; images: driveV3.Schema$File[] }
+  params: { device: Device }
   children: ReactNode
 }) {
   const { device } = params
