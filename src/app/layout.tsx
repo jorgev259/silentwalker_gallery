@@ -9,6 +9,7 @@ import BootstrapClient from '@/components/BoostrapClient'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '@/styles/layout.scss'
+import logoOnly from '@/img/assets/logo_only.png'
 
 const title = 'SiLeNtWaLkEr Wallpapers'
 
@@ -18,14 +19,14 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title,
-  metadataBase: new URL('https://destinyemblemwallpapers.com'),
+  metadataBase: new URL('https://jorgev259.github.io'),
   openGraph: {
     title,
     type: 'website',
     url: '/',
     description:
       'The biggest collection of Destiny emblem wallpapers. Made by SiLeNtWaLkEr',
-    images: [{ url: '/images/assets/logo_only.png' }]
+    images: [{ url: logoOnly.src }]
   }
 }
 
