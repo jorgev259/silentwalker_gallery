@@ -1,8 +1,9 @@
 'use client'
 import Link from 'next/link'
 import classNames from 'classnames'
-import { ReactNode } from 'react'
+import { ReactNode, useContext } from 'react'
 import { usePathname } from 'next/navigation'
+import { SearchContext } from './SearchProvider'
 
 export default function DropdownItem({
   href,
@@ -11,8 +12,8 @@ export default function DropdownItem({
   href: string
   children: ReactNode
 }) {
-  const pathname = usePathname() ?? ''
-  const device = pathname.split('/')[2]
+  const pathname = usePathname()
+  const { device } = useContext(SearchContext)
 
   const linkHref = href.replace('[device]', device)
   const active = pathname === linkHref

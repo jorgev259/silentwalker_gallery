@@ -1,10 +1,10 @@
 'use client'
-import { ReactNode } from 'react'
+import { ReactNode, useContext } from 'react'
 import Link from 'next/link'
 import { get } from 'lodash'
-import { usePathname } from 'next/navigation'
 
 import folderIds from '@/constants/folderIds.json'
+import { SearchContext } from './SearchProvider'
 
 export default function DownloadFolderItem({
   children,
@@ -13,8 +13,7 @@ export default function DownloadFolderItem({
   children: ReactNode
   folder: string
 }) {
-  const pathname = usePathname() ?? ''
-  const device = pathname.split('/')[2]
+  const { device } = useContext(SearchContext)
 
   const folderPath = folder.replace('[device]', device)
   const folderId = get(folderIds, folderPath)

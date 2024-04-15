@@ -1,4 +1,4 @@
-import type { Dispatch, SetStateAction } from 'react'
+import type { Dispatch, SetStateAction, SyntheticEvent } from 'react'
 
 export type Device = 'desktop' | 'mobile'
 export type D2Category = 'emblems' | 'seals' | 'bonus'
@@ -22,4 +22,6 @@ type StateArgs<T> = [T, Dispatch<SetStateAction<T>>]
 export interface ContextValue {
   sortState: StateArgs<string>
   searchState: StateArgs<string>
+  handleSearch: (ev: SyntheticEvent) => void
+  device: string
 }

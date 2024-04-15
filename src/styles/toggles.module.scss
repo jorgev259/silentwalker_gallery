@@ -1,0 +1,26 @@
+.toggle {
+  display: inline-block;
+  height: 25px;
+  width: 50px;
+  background-color: #bdc1c8;
+  border-radius: 1.5rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+
+  .handle {
+    background-color: white;
+    width: 18px;
+    height: 18px;
+    border-radius: 1.125rem;
+    position: relative;
+    margin-left: 3px;
+    margin-right: 5px;
+    left: 0px;
+    transition: left 0.25s linear;
+  }
+
+  .handle.active {
+    left: 24px;
+  }
+}
