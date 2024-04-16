@@ -1,6 +1,8 @@
 import classNames from 'classnames'
 
 import styles from '@/styles/footer.module.scss'
+import Image from 'next/image'
+import Script from 'next/script'
 
 export default function Footer() {
   return (
@@ -26,7 +28,9 @@ export default function Footer() {
           target='_blank'
           rel='noreferrer'
         >
-          <img
+          <Image
+            width={150}
+            height={36}
             className={styles.kofi}
             src='https://cdn.ko-fi.com/cdn/kofi3.png?v=3'
             alt='Buy Me a Coffee at ko-fi.com'
@@ -39,10 +43,10 @@ export default function Footer() {
         >
           Become a Patron!
         </a>
-        <script
-          async
+        <Script
           src='https://c6.patreon.com/becomePatronButton.bundle.js'
-        ></script>
+          async
+        />
       </div>
       <div className='mt-3'>
         Recreating these wallpapers is almost a full-time job I make them to
