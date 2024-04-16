@@ -11,7 +11,7 @@ import {
 
 export const SearchContext = createContext<ContextValue>({
   sortState: ['', () => {}],
-  searchState: ['', () => {}],
+  search: '',
   handleSearch: (ev) => {},
   device: 'desktop'
 })
@@ -20,10 +20,9 @@ export function SearchContextProvider(props: PropsWithChildren) {
   const { children } = props
 
   const sortState = useState('new')
-  const searchState = useState('')
+  const [search, setSearch] = useState('')
   const pathname = usePathname() ?? ''
 
-  const [, setSearch] = sortState
   const device = pathname.split('/')[2]
   const handleSearch = useCallback(
     (ev: SyntheticEvent) => {
@@ -34,7 +33,7 @@ export function SearchContextProvider(props: PropsWithChildren) {
     [setSearch]
   )
 
-  const value = { sortState, searchState, device, handleSearch }
+  const value = { sortState, search, handleSearch, device }
 
   return (
     <SearchContext.Provider value={value}>{children}</SearchContext.Provider>

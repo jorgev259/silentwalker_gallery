@@ -21,9 +21,8 @@ export default function ImageList(props: {
 }) {
   const { images, device } = props
 
-  const { sortState, searchState } = useContext(SearchContext)
+  const { sortState, search } = useContext(SearchContext)
   const [sort] = sortState
-  const [search] = searchState
 
   const filteredImages = images.filter((i) =>
     i.name.toLowerCase().includes(search)

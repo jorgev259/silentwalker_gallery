@@ -21,7 +21,7 @@ type StateArgs<T> = [T, Dispatch<SetStateAction<T>>]
 
 export interface ContextValue {
   sortState: StateArgs<string>
-  searchState: StateArgs<string>
+  search: string
   handleSearch: (ev: SyntheticEvent) => void
   device: string
 }
