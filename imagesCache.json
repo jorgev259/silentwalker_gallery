@@ -869,7 +869,7 @@
                 "name": "1280x800-Häkke",
                 "ext": ".jpg",
                 "urlName": "1280x800-h%C3%A4kke",
-                "mtimeMs": 1653455982315.936,
+                "mtimeMs": 1713320089855.0586,
                 "imgPath": "/Destiny 1/Desktop/1280x800-Häkke",
                 "urlPath": "/destiny1/desktop/1280x800-h%c3%a4kke",
                 "checksum": "c9e6b3f8c357746d692256cd49a0d1afa54f03b9"
@@ -1379,13 +1379,13 @@
                 "checksum": "afb893efdae6bd5004da0b232619ebf967e93b24"
             },
             "1280x800-princesigil": {
-                "name": "1280x800-PrinceSigil",
+                "name": "1280x800-Prince Sigil",
                 "ext": ".jpg",
                 "urlName": "1280x800-princesigil",
-                "mtimeMs": 1561978633786,
-                "imgPath": "/Destiny 1/Desktop/1280x800-PrinceSigil",
+                "mtimeMs": 1561978634929,
+                "imgPath": "/Destiny 1/Desktop/1280x800-Prince Sigil",
                 "urlPath": "/destiny1/desktop/1280x800-princesigil",
-                "checksum": "d0dd1167d4b93eb4ec6c5a42219427c1230cb276"
+                "checksum": "9af6b75202ee78473692ac73806ef39edf97dc79"
             },
             "1280x800-prisonofeldersi": {
                 "name": "1280x800-Prison of Elders I",
@@ -3292,7 +3292,7 @@
                 "name": "1440x2560-Häkke",
                 "ext": ".jpg",
                 "urlName": "1440x2560-h%C3%A4kke",
-                "mtimeMs": 1653455988776.292,
+                "mtimeMs": 1713320095943.0874,
                 "imgPath": "/Destiny 1/Mobile/1440x2560-Häkke",
                 "urlPath": "/destiny1/mobile/1440x2560-h%c3%a4kke",
                 "checksum": "ea0f62d41db469fe0de3eaac6a45d6f822e212db"
@@ -10278,6 +10278,42 @@
                     "imgPath": "/Destiny 2/Desktop/Emblems/Bloodstream",
                     "urlPath": "/destiny2/desktop/emblems/bloodstream",
                     "checksum": "3b9b791712548adffc2680e4bbadad2faeb9939a"
+                },
+                "gateaway": {
+                    "name": "Gateaway",
+                    "ext": ".jpg",
+                    "urlName": "gateaway",
+                    "mtimeMs": 1713265572000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Gateaway",
+                    "urlPath": "/destiny2/desktop/emblems/gateaway",
+                    "checksum": "8159d481c03bc24b335a64aa6811e6fac3349007"
+                },
+                "pointsoflight": {
+                    "name": "Points of Light",
+                    "ext": ".jpg",
+                    "urlName": "pointsoflight",
+                    "mtimeMs": 1706706684000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Points of Light",
+                    "urlPath": "/destiny2/desktop/emblems/pointsoflight",
+                    "checksum": "aa7c22fc76d3c5ed80222dfd614bb6125061d9e6"
+                },
+                "shatteredfortress": {
+                    "name": "Shattered Fortress",
+                    "ext": ".jpg",
+                    "urlName": "shatteredfortress",
+                    "mtimeMs": 1706135923000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Shattered Fortress",
+                    "urlPath": "/destiny2/desktop/emblems/shatteredfortress",
+                    "checksum": "df62e3c57a81d26207a69c8f483b7d6b676bc58a"
+                },
+                "tatteredregalia": {
+                    "name": "Tattered Regalia",
+                    "ext": ".jpg",
+                    "urlName": "tatteredregalia",
+                    "mtimeMs": 1708013510000,
+                    "imgPath": "/Destiny 2/Desktop/Emblems/Tattered Regalia",
+                    "urlPath": "/destiny2/desktop/emblems/tatteredregalia",
+                    "checksum": "217cadeac01801f5ed5171c8ac431d12fa157401"
                 }
             },
             "Seals": {
@@ -16235,6 +16271,42 @@
                     "imgPath": "/Destiny 2/Mobile/Emblems/Bloodstream",
                     "urlPath": "/destiny2/mobile/emblems/bloodstream",
                     "checksum": "7a86634e2c353cbe317a7dfd717c7046794f5889"
+                },
+                "gateaway": {
+                    "name": "Gateaway",
+                    "ext": ".jpg",
+                    "urlName": "gateaway",
+                    "mtimeMs": 1713265559000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Gateaway",
+                    "urlPath": "/destiny2/mobile/emblems/gateaway",
+                    "checksum": "39a9abffbdb56ad2d47260640bb11d6d910b4cb4"
+                },
+                "pointsoflight": {
+                    "name": "Points of Light",
+                    "ext": ".jpg",
+                    "urlName": "pointsoflight",
+                    "mtimeMs": 1706706670000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Points of Light",
+                    "urlPath": "/destiny2/mobile/emblems/pointsoflight",
+                    "checksum": "ec3933ee5b74b2b795437cf596015c06be933004"
+                },
+                "tatteredregalia": {
+                    "name": "Tattered Regalia",
+                    "ext": ".jpg",
+                    "urlName": "tatteredregalia",
+                    "mtimeMs": 1708013505000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Tattered Regalia",
+                    "urlPath": "/destiny2/mobile/emblems/tatteredregalia",
+                    "checksum": "ce60f73c832276a6b29f828fde40c0df9fa997f4"
+                },
+                "shatteredfortress": {
+                    "name": "Shattered Fortress",
+                    "ext": ".jpg",
+                    "urlName": "shatteredfortress",
+                    "mtimeMs": 1701712412000,
+                    "imgPath": "/Destiny 2/Mobile/Emblems/Shattered Fortress",
+                    "urlPath": "/destiny2/mobile/emblems/shatteredfortress",
+                    "checksum": "02d4d74092fe351fe6c491e6f1d65a12b90d3a0e"
                 }
             },
             "Seals": {

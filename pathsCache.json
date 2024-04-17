@@ -579,6 +579,12 @@
         {
             "params": {
                 "device": "desktop",
+                "image": "1280x800-h%C3%A4kke"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
                 "image": "1280x800-havingitall"
             }
         },
@@ -1604,6 +1610,12 @@
         },
         {
             "params": {
+                "device": "desktop",
+                "image": "1920x1080-hungerorbebrave-2024"
+            }
+        },
+        {
+            "params": {
                 "device": "mobile",
                 "image": "1440x2560-7-7adinfinitum"
             }
@@ -2181,6 +2193,12 @@
         {
             "params": {
                 "device": "mobile",
+                "image": "1440x2560-h%C3%A4kke"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
                 "image": "1440x2560-havingitall"
             }
         },
@@ -2224,6 +2242,12 @@
             "params": {
                 "device": "mobile",
                 "image": "1440x2560-houseofjudgment"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "image": "1440x2560-hungerorbebrave-2024"
             }
         },
         {
@@ -3214,18 +3238,6 @@
             "params": {
                 "device": "desktop",
                 "image": "1280x800-princesigil"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "image": "1440x2560-hungerorbebrave-2024"
-            }
-        },
-        {
-            "params": {
-                "device": "desktop",
-                "image": "1920x1080-hungerorbebrave-2024"
             }
         }
     ],
@@ -7798,6 +7810,13 @@
             "params": {
                 "device": "mobile",
                 "category": "bonus",
+                "image": "gg21-huntersa-white"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "bonus",
                 "image": "gg21-huntersb"
             }
         },
@@ -7861,13 +7880,6 @@
             "params": {
                 "device": "mobile",
                 "category": "bonus",
-                "image": "gg21-huntersa-white"
-            }
-        },
-        {
-            "params": {
-                "device": "mobile",
-                "category": "bonus",
                 "image": "gg22-warlocksa"
             }
         },
@@ -7875,14 +7887,14 @@
             "params": {
                 "device": "mobile",
                 "category": "bonus",
-                "image": "guardiangames"
+                "image": "guardiangames-darkversion"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "bonus",
-                "image": "guardiangames-darkversion"
+                "image": "guardiangames"
             }
         },
         {
@@ -7952,14 +7964,14 @@
             "params": {
                 "device": "mobile",
                 "category": "bonus",
-                "image": "stasis-titan"
+                "image": "stasis-hunter"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "bonus",
-                "image": "stasis-hunter"
+                "image": "stasis-titan"
             }
         },
         {
@@ -7973,14 +7985,14 @@
             "params": {
                 "device": "mobile",
                 "category": "bonus",
-                "image": "trials"
+                "image": "trials-2"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "bonus",
-                "image": "trials-2"
+                "image": "trials"
             }
         },
         {
@@ -8050,14 +8062,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "aflareforthedramatic"
+                "image": "adistanthowl"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "adistanthowl"
+                "image": "aflareforthedramatic"
             }
         },
         {
@@ -8113,14 +8125,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "amindforeverchanging"
+                "image": "ahighertruth"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "ahighertruth"
+                "image": "amindforeverchanging"
             }
         },
         {
@@ -8162,14 +8174,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "aceofspades"
+                "image": "accoladesonaccolades"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "accoladesonaccolades"
+                "image": "aceofspades"
             }
         },
         {
@@ -8183,14 +8195,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "afterthenightfall"
+                "image": "adventurousspirit"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "adventurousspirit"
+                "image": "afterthenightfall"
             }
         },
         {
@@ -8246,14 +8258,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "annopantheratigris"
+                "image": "andstillwestood"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "andstillwestood"
+                "image": "annopantheratigris"
             }
         },
         {
@@ -8267,14 +8279,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "answeredcall"
+                "image": "anothervengeance"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "anothervengeance"
+                "image": "answeredcall"
             }
         },
         {
@@ -8302,14 +8314,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "archiveoftwilight"
+                "image": "arcpropellant"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "arcpropellant"
+                "image": "archiveoftwilight"
             }
         },
         {
@@ -8323,14 +8335,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "arcologyinterface"
+                "image": "archivistsprize"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "archivistsprize"
+                "image": "arcologyinterface"
             }
         },
         {
@@ -8358,14 +8370,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "aurelianprize"
+                "image": "atthevanguard"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "atthevanguard"
+                "image": "aurelianprize"
             }
         },
         {
@@ -8379,14 +8391,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "battlecolors"
+                "image": "baneofnokris"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "baneofnokris"
+                "image": "battlecolors"
             }
         },
         {
@@ -8498,14 +8510,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "bloodstream"
+                "image": "bloodofthewolf"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "bloodofthewolf"
+                "image": "bloodstream"
             }
         },
         {
@@ -8547,14 +8559,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "bumpinthenight"
+                "image": "brimfulofasher"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "brimfulofasher"
+                "image": "bumpinthenight"
             }
         },
         {
@@ -8596,14 +8608,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "c-t-a-t-o-d-l"
+                "image": "burntedges"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "burntedges"
+                "image": "c-t-a-t-o-d-l"
             }
         },
         {
@@ -8897,14 +8909,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "deliciousbenefactor"
+                "image": "deathtothedeathless"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "deathtothedeathless"
+                "image": "deliciousbenefactor"
             }
         },
         {
@@ -8932,14 +8944,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "distanttides"
+                "image": "disdainforgold"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "disdainforgold"
+                "image": "distanttides"
             }
         },
         {
@@ -8953,14 +8965,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "eagle'sfall"
+                "image": "drinkatthewell"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "drinkatthewell"
+                "image": "eagle'sfall"
             }
         },
         {
@@ -9002,14 +9014,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "emblemofsynth"
+                "image": "emblemofpeace"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "emblemofpeace"
+                "image": "emblemofsynth"
             }
         },
         {
@@ -9037,14 +9049,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "emperor'senvy"
+                "image": "embracehisname"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "embracehisname"
+                "image": "emperor'senvy"
             }
         },
         {
@@ -9058,14 +9070,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "ennead"
+                "image": "empoweredvoices"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "empoweredvoices"
+                "image": "ennead"
             }
         },
         {
@@ -9079,14 +9091,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "escapethisdeadorbit"
+                "image": "entrenous"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "entrenous"
+                "image": "escapethisdeadorbit"
             }
         },
         {
@@ -9639,14 +9651,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "icarusascended"
+                "image": "huntinggrounds"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "huntinggrounds"
+                "image": "icarusascended"
             }
         },
         {
@@ -10052,14 +10064,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "metagalacticbloom"
+                "image": "mentors-y4"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "mentors-y4"
+                "image": "metagalacticbloom"
             }
         },
         {
@@ -10143,14 +10155,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "neophyteguide"
+                "image": "neomunanights"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "neomunanights"
+                "image": "neophyteguide"
             }
         },
         {
@@ -10346,14 +10358,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "particleacceleration"
+                "image": "pareidolia"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "pareidolia"
+                "image": "particleacceleration"
             }
         },
         {
@@ -10507,14 +10519,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "quarantinezone"
+                "image": "quantumrelay"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "quantumrelay"
+                "image": "quarantinezone"
             }
         },
         {
@@ -10850,14 +10862,14 @@
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "severancepackage"
+                "image": "sevenofseven"
             }
         },
         {
             "params": {
                 "device": "mobile",
                 "category": "emblems",
-                "image": "sevenofseven"
+                "image": "severancepackage"
             }
         },
         {
@@ -12216,6 +12228,62 @@
                 "device": "mobile",
                 "category": "seals",
                 "image": "wayfarer"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "gateaway"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "pointsoflight"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "shatteredfortress"
+            }
+        },
+        {
+            "params": {
+                "device": "desktop",
+                "category": "emblems",
+                "image": "tatteredregalia"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "gateaway"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "pointsoflight"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "tatteredregalia"
+            }
+        },
+        {
+            "params": {
+                "device": "mobile",
+                "category": "emblems",
+                "image": "shatteredfortress"
             }
         }
     ]
