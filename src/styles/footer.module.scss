@@ -26,6 +26,21 @@
 
 .kofi {
   border: 0px;
+
+  img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+.kofi,
+.paypal {
+  flex: 0;
+}
+
+.patreon {
+  flex: 1;
+  overflow: hidden;
 }
 
 .btn-primary,

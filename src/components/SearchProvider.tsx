@@ -23,7 +23,7 @@ export function SearchContextProvider(props: PropsWithChildren) {
   const [search, setSearch] = useState('')
   const pathname = usePathname() ?? ''
 
-  const device = pathname.split('/')[2]
+  const device = pathname.split('/')[2] ?? 'desktop'
   const handleSearch = useCallback(
     (ev: SyntheticEvent) => {
       const target = ev.target as HTMLInputElement
