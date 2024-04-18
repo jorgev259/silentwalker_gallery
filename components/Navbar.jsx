@@ -1,14 +1,14 @@
-import classNames from "classnames";
-import { useRouter } from "next/router";
-import Link from "next/link";
+import classNames from 'classnames'
+import { useRouter } from 'next/router'
+import Link from 'next/link'
 
-function DeviceToggle(props) {
-  const { router } = props;
-  const { query } = router;
-  const { device = "desktop" } = query;
+function DeviceToggle (props) {
+  const { router } = props
+  const { query } = router
+  const { device = 'desktop' } = query
 
-  const nextDevice = device === "desktop" ? "mobile" : "desktop";
-  const active = device === "mobile";
+  const nextDevice = device === 'desktop' ? 'mobile' : 'desktop'
+  const active = device === 'mobile'
 
   return (
     <>
@@ -16,14 +16,14 @@ function DeviceToggle(props) {
         <img
           src="/images/assets/laptop.png"
           alt=""
-          style={{ height: "30px", width: "40px" }}
+          style={{ height: '30px', width: '40px' }}
         />
       </div>
 
       <Link legacyBehavior href={router.asPath.replace(device, nextDevice)}>
         <a>
           <div className="toggle d-flex align-items-center">
-            <div className={classNames("handle", { active })} />
+            <div className={classNames('handle', { active })} />
           </div>
         </a>
       </Link>
@@ -32,19 +32,19 @@ function DeviceToggle(props) {
         <img
           src="/images/assets/phone.png"
           alt=""
-          style={{ height: "30px", width: "22px" }}
+          style={{ height: '30px', width: '22px' }}
         />
       </div>
     </>
-  );
+  )
 }
 
-function SortToggle(props) {
-  const { sort, setSort } = props;
-  const active = sort === "name";
-  const nextSort = sort === "name" ? "new" : "name";
+function SortToggle (props) {
+  const { sort, setSort } = props
+  const active = sort === 'name'
+  const nextSort = sort === 'name' ? 'new' : 'name'
 
-  const handleToggle = () => setSort(nextSort);
+  const handleToggle = () => setSort(nextSort)
 
   return (
     <>
@@ -52,41 +52,41 @@ function SortToggle(props) {
         <img
           src="/images/assets/clock.png"
           alt=""
-          style={{ height: "27px", width: "27px" }}
+          style={{ height: '27px', width: '27px' }}
         />
       </div>
 
       <div className="toggle d-flex align-items-center" onClick={handleToggle}>
-        <div className={classNames("handle", { active })} />
+        <div className={classNames('handle', { active })} />
       </div>
 
       <div className="d-inline-block">
         <img
           src="/images/assets/name.png"
           alt=""
-          style={{ height: "25px", width: "25px" }}
+          style={{ height: '25px', width: '25px' }}
         />
       </div>
     </>
-  );
+  )
 }
 
-function DropdownItem(props) {
-  const { href, name, currentUrl } = props;
-  const active = href === currentUrl;
+function DropdownItem (props) {
+  const { href, name, currentUrl } = props
+  const active = href === currentUrl
 
   return (
     <Link legacyBehavior href={href} prefetch={false}>
-      <a className={classNames("dropdown-item", { active })}>{name}</a>
+      <a className={classNames('dropdown-item', { active })}>{name}</a>
     </Link>
-  );
+  )
 }
 
-export default function Navbar(props) {
-  const { sort, setSort, setSearch } = props;
-  const sortProps = { sort, setSort };
+export default function Navbar (props) {
+  const { sort, setSort, setSearch } = props
+  const sortProps = { sort, setSort }
 
-  const router = useRouter();
+  const router = useRouter()
 
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -98,7 +98,7 @@ export default function Navbar(props) {
                 <img
                   src="/images/assets/tricorn.png"
                   alt=""
-                  style={{ height: "32px", width: "32px" }}
+                  style={{ height: '32px', width: '32px' }}
                 />
               </a>
             </Link>
@@ -111,7 +111,7 @@ export default function Navbar(props) {
           <div className="col-auto d-flex align-items-center">
             <div
               className="d-flex nav-item my-auto align-items-center"
-              style={{ height: "30px" }}
+              style={{ height: '30px' }}
             >
               <DeviceToggle router={router} />
             </div>
@@ -120,7 +120,7 @@ export default function Navbar(props) {
           <div className="col-auto d-none d-sm-flex align-items-center">
             <div
               className="d-flex nav-item my-auto align-items-center"
-              style={{ height: "30px" }}
+              style={{ height: '30px' }}
             >
               <SortToggle {...sortProps} />
             </div>
@@ -145,7 +145,7 @@ export default function Navbar(props) {
               <div className="nav-item d-block d-sm-none my-2">
                 <div
                   className="d-flex nav-item my-auto align-items-center"
-                  style={{ height: "30px" }}
+                  style={{ height: '30px' }}
                 >
                   <SortToggle {...sortProps} />
                 </div>
@@ -173,13 +173,13 @@ export default function Navbar(props) {
         </div>
       </div>
     </nav>
-  );
+  )
 }
 
-function NavItems() {
-  const router = useRouter();
-  const { query } = router;
-  const { device = "desktop" } = query;
+function NavItems () {
+  const router = useRouter()
+  const { query } = router
+  const { device = 'desktop' } = query
 
   return (
     <>
@@ -203,9 +203,9 @@ function NavItems() {
           <a
             className="dropdown-item"
             href={
-              device === "desktop"
-                ? "https://drive.google.com/drive/folders/1drejXFUS5JIKP2WgqqdM0wSa0kY60cuI"
-                : "https://drive.google.com/drive/folders/1d4FLAlJ1Thn3lx3M-PFOrDCbebNAbAGB"
+              device === 'desktop'
+                ? 'https://drive.google.com/drive/folders/1drejXFUS5JIKP2WgqqdM0wSa0kY60cuI'
+                : 'https://drive.google.com/drive/folders/1d4FLAlJ1Thn3lx3M-PFOrDCbebNAbAGB'
             }
             rel="noopener noreferrer"
             target="_blank"
@@ -245,9 +245,9 @@ function NavItems() {
           <a
             className="dropdown-item"
             href={
-              device === "desktop"
-                ? "https://drive.google.com/drive/folders/1__8jBXGy14tL12ciEoqBepwxWeqJaD_7"
-                : "https://drive.google.com/drive/folders/1ZG-3BjxfRiEMq8so0h8G5B2bqXeFx1oK"
+              device === 'desktop'
+                ? 'https://drive.google.com/drive/folders/1__8jBXGy14tL12ciEoqBepwxWeqJaD_7'
+                : 'https://drive.google.com/drive/folders/1ZG-3BjxfRiEMq8so0h8G5B2bqXeFx1oK'
             }
             rel="noopener noreferrer"
             target="_blank"
@@ -269,5 +269,5 @@ function NavItems() {
         </Link>
       </div>
     </>
-  );
+  )
 }

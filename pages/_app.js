@@ -1,21 +1,21 @@
-import { useEffect, useState } from "react";
-import Head from "next/head";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { useEffect, useState } from 'react'
+import Head from 'next/head'
+import { GoogleTagManager } from '@next/third-parties/google'
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../styles/globals.scss";
+import 'bootstrap/dist/css/bootstrap.min.css'
+import '../styles/globals.scss'
 
-import Navbar from "../components/Navbar";
+import Navbar from '../components/Navbar'
 
-export default function App({ Component, pageProps }) {
-  const [sort, setSort] = useState("new");
-  const [search, setSearch] = useState("");
+export default function App ({ Component, pageProps }) {
+  const [sort, setSort] = useState('new')
+  const [search, setSearch] = useState('')
 
   useEffect(() => {
-    require("bootstrap/dist/js/bootstrap.bundle.min.js");
-  }, []);
+    require('bootstrap/dist/js/bootstrap.bundle.min.js')
+  }, [])
 
-  const props = { sort, setSort };
+  const props = { sort, setSort }
 
   return (
     <>
@@ -45,5 +45,5 @@ export default function App({ Component, pageProps }) {
       <Component {...pageProps} sort={sort} search={search} />
       <GoogleTagManager gtmId="G-3Z2HM7FKC8" />
     </>
-  );
+  )
 }

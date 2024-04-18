@@ -1,23 +1,23 @@
-import classNames from "classnames";
+import classNames from 'classnames'
 
-import styles from "../styles/Footer.module.scss";
-import Script from "next/script";
+import styles from '../styles/Footer.module.scss'
+import Script from 'next/script'
 
-function Element(props) {
-  const { className } = props;
+function Element (props) {
+  const { className } = props
 
   return (
-    <div className={classNames(className, "p-4")}>
+    <div className={classNames(className, 'p-4')}>
       <div className="d-flex">
         <div
           className="align-self-center me-2 d-none d-md-block"
-          style={{ height: "fit-content" }}
+          style={{ height: 'fit-content' }}
         >
           Show your support!
         </div>
         <button
           type="button"
-          className={classNames("btn donate me-2", styles["btn-primary"])}
+          className={classNames('btn donate me-2', styles['btn-primary'])}
           href="https://paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WH26ZAAT9WRYU"
         >
           Paypal
@@ -55,14 +55,14 @@ function Element(props) {
         my best work.
       </div>
     </div>
-  );
+  )
 }
 
-export default function Footer() {
+export default function Footer () {
   return (
     <>
       <Element className={styles.stub} />
       <Element className={styles.footer} />
     </>
-  );
+  )
 }
