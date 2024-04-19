@@ -19,7 +19,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title,
-  metadataBase: new URL('https://jorgev259.github.io'),
+  metadataBase: new URL('https://destinyemblemwallpapers.com'),
   openGraph: {
     title,
     type: 'website',
