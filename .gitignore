@@ -32,3 +32,6 @@ npm-debug.log*
 # vercel
 .vercel
 .env
+
+# Typescript
+next-env.d.ts

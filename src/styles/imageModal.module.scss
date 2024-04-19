@@ -1,0 +1,32 @@
+.modal {
+  pointer-events: none;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  :global(.modal-btn) {
+    color: #282828;
+    border-color: #282828;
+  }
+
+  :global(.modal-btn):hover {
+    color: #fff;
+    background-color: #282828;
+    border-color: #282828;
+  }
+
+  :global(.modal-body) {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.modal:global(.show) {
+  pointer-events: all;
+  opacity: 1;
+}

@@ -1,0 +1,73 @@
+@font-face {
+  font-family: FuturaMedium;
+  src:
+    url('../font/Futura LT Medium.woff') format('woff'),
+    url('../font/Futura LT Medium.ttf') format('truetype');
+}
+
+header {
+  height: 60px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  font-family: 'FuturaMedium';
+  letter-spacing: 0.18em;
+  background-color: #282828;
+}
+
+main {
+  flex: 1 1 auto;
+  width: 100%;
+  height: 0px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+footer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  background-color: #282828;
+  color: #cdcaca;
+}
+
+.donate {
+  background-color: #fbfd1d;
+  border-color: #fbfd1d;
+  color: #3c3c3c;
+  font-weight: bold;
+}
+
+.motw {
+  color: #ededed;
+  border-color: #ededed;
+}
+
+.motw:hover {
+  background-color: #ededed;
+  border-color: #ededed;
+  color: #282828;
+}
+
+.donate:hover {
+  background-color: #ededed;
+  border-color: #ededed;
+  color: #282828;
+}
+
+.donate,
+.motw {
+  border-radius: 1em;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+@media (min-width: 768px) {
+  #navbarToggle {
+    display: none !important;
+  }
+}

@@ -1,0 +1,42 @@
+.navbar {
+  z-index: 3;
+  height: 60px;
+  background-image: url('../img/assets/bar_bg.png');
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.72);
+  background-color: #9b9a9a;
+  text-transform: uppercase;
+
+  :global(.container-fluid) {
+    @media (max-width: 767.98px) {
+      background-image: url('../img/assets/bar_bg.png');
+    }
+  }
+
+  :global(.dropdown-menu) {
+    background-image: url('../img/assets/bar_bg.png');
+    background-position: center;
+    background-size: cover;
+
+    :global(.dropdown-item) {
+      color: rgba(255, 255, 255, 0.55) !important;
+    }
+
+    :global(.dropdown-item):hover {
+      color: rgba(255, 255, 255, 1) !important;
+    }
+
+    :global(.dropdown-item),
+    :global(.dropdown-item):hover {
+      background-color: none !important;
+    }
+
+    :global(.dropdown-item).active {
+      background-color: #5b5b5b !important;
+    }
+  }
+
+  :global(.nav-link) {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
