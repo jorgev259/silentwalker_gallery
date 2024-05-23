@@ -17,28 +17,35 @@ const urlify = (text) =>
   text.replaceAll(' ', '').toLowerCase().split('.').slice(0, -1).join('.')
 
 export async function getFileList(folderId: string): Promise<DriveImage[]> {
-  const { data = {} } = await gdriveClient.files.list({
-    q: `'${folderId}' in parents`,
-    fields:
-      'files(id, name, modifiedTime, webContentLink, webViewLink, thumbnailLink)'
-  })
-  const { files = [] } = data
-  const result = files.reduce<DriveImage[]>((acc, file) => {
-    if (!file.id) return acc
+  let nextPageToken: string | null | undefined = ''
+  const result: DriveImage[] = []
 
-    const { id, name, modifiedTime, webContentLink } = file
-
-    acc.push({
-      id,
-      name: name ?? 'Unknown Name',
-      urlName: urlify(name),
-      thumbnailLink: getThumbnail(id, 500),
-      modalLink: getThumbnail(id, 1500),
-      webContentLink: webContentLink ?? '',
-      modifiedTime: modifiedTime ? Date.parse(modifiedTime) : 0
+  do {
+    const { data = {} } = await gdriveClient.files.list({
+      q: `'${folderId}' in parents`,
+      pageToken: nextPageToken,
+      fields:
+        'nextPageToken, files(id, name, modifiedTime, webContentLink, webViewLink, thumbnailLink)'
     })
-    return acc
-  }, [])
+    const { files = [] } = data
+
+    files.forEach((file) => {
+      if (!file.id) return
+
+      const { id, name, modifiedTime, webContentLink } = file
+      result.push({
+        id,
+        name: name ?? 'Unknown Name',
+        urlName: urlify(name),
+        thumbnailLink: getThumbnail(id, 500),
+        modalLink: getThumbnail(id, 1500),
+        webContentLink: webContentLink ?? '',
+        modifiedTime: modifiedTime ? Date.parse(modifiedTime) : 0
+      })
+    }, [])
+
+    nextPageToken = data.nextPageToken
+  } while (nextPageToken)
 
   return result
 }
