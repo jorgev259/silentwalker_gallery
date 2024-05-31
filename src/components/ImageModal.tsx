@@ -1,5 +1,5 @@
 'use client'
-import { useEffect } from 'react'
+import { useCallback, useEffect } from 'react'
 import Link from 'next/link'
 import classNames from 'classnames'
 import Image from 'next/image'
@@ -18,17 +18,19 @@ export default function ImageModal({
 }) {
   const { name, webContentLink, modalLink } = image
   const router = useRouter()
-
-  const onClose = () => router.push(parentUrl)
+  const onClose = useCallback(
+    () => router.push(parentUrl, { scroll: false }),
+    [parentUrl, router]
+  )
 
   useEffect(() => {
     const checkKey = (e) => {
-      if (e.key === 'Escape') router.push(parentUrl)
+      if (e.key === 'Escape') onClose()
     }
 
     window.addEventListener('keydown', checkKey)
     return () => window.removeEventListener('keydown', checkKey)
-  }, [parentUrl, router])
+  }, [parentUrl, router, onClose])
 
   return (
     <div
